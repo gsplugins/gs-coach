@@ -4146,14 +4146,56 @@ li.gridder-list {
 }
 
 .gs-coach-load-more-btn{
-	min-width: 200px;
-	padding: 20px;
-	font-size: 20px;
-	font-weight: 700;
 	cursor: pointer;
-	border: none;
-	background: lightcoral;
-	color: #272829;
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 400;
+	line-height: 1.5;
+    color: #fff;
+    background: linear-gradient(135deg, #ff6a6a, #f08080);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(255, 61, 61, 0.25);
+
+	&:hover {
+		transform: translateY(-3px);
+		box-shadow: 0 12px 25px rgba(255, 61, 61, 0.35);
+
+		&::before {
+			left: 130%;
+		}
+
+		&::after {
+			margin-left: 12px;
+		}
+	}
+
+	&:active {
+		transform: scale(0.96);
+	}
+
+	&:before {
+    	content: '';
+		position: absolute;
+		top: 0;
+		left: -75%;
+		width: 50%;
+		height: 100%;
+		background: rgba(255,255,255,0.25);
+		transform: skewX(-25deg);
+		transition: 0.5s;
+	}
+
+	&::after {
+		content: " →";
+		margin-left: 6px;
+		transition: 0.3s;
+	}
 }
 .gs-coach-load-more-wrapper{
 	text-align: center;

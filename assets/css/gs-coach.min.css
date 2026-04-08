@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body .gs_coach_area.gs_coach_loading, body .gs_coach_area.gs_coach_loading * {
   -webkit-transition: none !important;
   transition: none !important;
@@ -4387,14 +4388,61 @@ li.gridder-list {
 }
 
 .gs-coach-load-more-btn {
-  min-width: 200px;
-  padding: 20px;
-  font-size: 20px;
-  font-weight: 700;
   cursor: pointer;
+  display: inline-block;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  background: linear-gradient(135deg, #ff6a6a, #f08080);
   border: none;
-  background: lightcoral;
-  color: #272829;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0 8px 20px rgba(255, 61, 61, 0.25);
+          box-shadow: 0 8px 20px rgba(255, 61, 61, 0.25);
+}
+.gs-coach-load-more-btn:hover {
+  -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 12px 25px rgba(255, 61, 61, 0.35);
+          box-shadow: 0 12px 25px rgba(255, 61, 61, 0.35);
+}
+.gs-coach-load-more-btn:hover::before {
+  left: 130%;
+}
+.gs-coach-load-more-btn:hover::after {
+  margin-left: 12px;
+}
+.gs-coach-load-more-btn:active {
+  -webkit-transform: scale(0.96);
+      -ms-transform: scale(0.96);
+          transform: scale(0.96);
+}
+.gs-coach-load-more-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-transform: skewX(-25deg);
+      -ms-transform: skewX(-25deg);
+          transform: skewX(-25deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.gs-coach-load-more-btn::after {
+  content: " →";
+  margin-left: 6px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .gs-coach-load-more-wrapper {
