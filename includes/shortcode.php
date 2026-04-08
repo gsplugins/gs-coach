@@ -485,7 +485,7 @@ class Shortcode {
 
 				} elseif ( 'on' === $enable_pagination ) {
 
-					if ( wp_doing_ajax() ) {
+					if ( wp_doing_ajax() && ! empty($ajax_datas) ) {
 
 						if ( 'ajax-pagination' === $pagination_type || 'normal-pagination' === $pagination_type ) {
 							$args["paged"] = (int) $ajax_datas['paged'];
