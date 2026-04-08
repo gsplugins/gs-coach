@@ -20,23 +20,23 @@ if ( $gs_coach_loop->have_posts() ) : ?>
 
             switch ( $panel_style ) {
                 case 'style-one': {
-                    include Template_Loader::locate_template( 'pro/panels/gs-coach-panel-style-one.php' );
+                    include Template_Loader::locate_template( 'panels/gs-coach-panel-style-one.php' );
                     break;
                 }
                 case 'style-two': {
-                    include Template_Loader::locate_template( 'pro/panels/gs-coach-panel-style-two.php' );
+                    include Template_Loader::locate_template( 'panels/gs-coach-panel-style-two.php' );
                     break;
                 }
                 case 'style-three': {
-                    include Template_Loader::locate_template( 'pro/panels/gs-coach-panel-style-three.php' );
+                    include Template_Loader::locate_template( 'panels/gs-coach-panel-style-three.php' );
                     break;
                 }
                 case 'style-four': {
-                    include Template_Loader::locate_template( 'pro/panels/gs-coach-panel-style-four.php' );
+                    include Template_Loader::locate_template( 'panels/gs-coach-panel-style-four.php' );
                     break;
                 }
                 case 'style-five': {
-                    include Template_Loader::locate_template( 'pro/panels/gs-coach-panel-style-five.php' );
+                    include Template_Loader::locate_template( 'panels/gs-coach-panel-style-five.php' );
                     break;
                 }
                 default: {
