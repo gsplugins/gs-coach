@@ -19,23 +19,23 @@ if ( $gs_coach_loop->have_posts() ) : while ( $gs_coach_loop->have_posts() ): $g
     switch ( $drawer_style ) {
         
         case 'style-one': {
-            include Template_Loader::locate_template( 'pro/drawers/gs-coach-drawer-style-one.php' );
+            include Template_Loader::locate_template( 'drawers/gs-coach-drawer-style-one.php' );
             break;
         }
         case 'style-two': {
-            include Template_Loader::locate_template( 'pro/drawers/gs-coach-drawer-style-two.php' );
+            include Template_Loader::locate_template( 'drawers/gs-coach-drawer-style-two.php' );
             break;
         }
         case 'style-three': {
-            include Template_Loader::locate_template( 'pro/drawers/gs-coach-drawer-style-three.php' );
+            include Template_Loader::locate_template( 'drawers/gs-coach-drawer-style-three.php' );
             break;
         }
         case 'style-four': {
-            include Template_Loader::locate_template( 'pro/drawers/gs-coach-drawer-style-four.php' );
+            include Template_Loader::locate_template( 'drawers/gs-coach-drawer-style-four.php' );
             break;
         }
         case 'style-five': {
-            include Template_Loader::locate_template( 'pro/drawers/gs-coach-drawer-style-five.php' );
+            include Template_Loader::locate_template( 'drawers/gs-coach-drawer-style-five.php' );
             break;
         }
         default: {
