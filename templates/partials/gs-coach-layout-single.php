@@ -28,27 +28,27 @@ if ( ! is_pro_active_and_valid() ) {
 			switch ( $single_page_style ) {
 
 				case 'style-one': {
-					include Template_Loader::locate_template( 'pro/singles/gs-coach-single-style-one.php' );
+					include Template_Loader::locate_template( 'singles/gs-coach-single-style-one.php' );
 					break;
 				}
 
 				case 'style-two': {
-					include Template_Loader::locate_template( 'pro/singles/gs-coach-single-style-two.php' );
+					include Template_Loader::locate_template( 'singles/gs-coach-single-style-two.php' );
 					break;
 				}
 
 				case 'style-three': {
-					include Template_Loader::locate_template( 'pro/singles/gs-coach-single-style-three.php' );
+					include Template_Loader::locate_template( 'singles/gs-coach-single-style-three.php' );
 					break;
 				}
 
 				case 'style-four': {
-					include Template_Loader::locate_template( 'pro/singles/gs-coach-single-style-four.php' );
+					include Template_Loader::locate_template( 'singles/gs-coach-single-style-four.php' );
 					break;
 				}
 
 				case 'style-five': {
-					include Template_Loader::locate_template( 'pro/singles/gs-coach-single-style-five.php' );
+					include Template_Loader::locate_template( 'singles/gs-coach-single-style-five.php' );
 					break;
 				}
 
