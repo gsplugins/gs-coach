@@ -415,7 +415,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['graphic-design', 'marketing-ninja']
                 ]),
                 'meta_input' => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-coach-1',
+                    '_thumbnail_id' => 'gscoach-image-1',
                     '_gscoach_profession' => "Web Developer",
                     '_gscoach_experience' => "3 Years",
                     '_gscoach_education' => "BBA",
@@ -461,7 +461,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['graphic-design']
                 ]),
                 'meta_input' => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-coach-2',
+                    '_thumbnail_id' => 'gscoach-image-2',
                     '_gscoach_profession' => "Web Developer",
                     '_gscoach_experience' => "3 Years",
                     '_gscoach_education' => "BBA",
@@ -507,7 +507,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['graphic-design', 'marketing-ninja']
                 ]),
                 'meta_input' => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-coach-3',
+                    '_thumbnail_id' => 'gscoach-image-3',
                     '_gscoach_profession' => "Web Developer",
                     '_gscoach_experience' => "3 Years",
                     '_gscoach_education' => "BBA",
@@ -553,7 +553,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['4g-expert', 'health-and-aging']
                 ]),
                 'meta_input' => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-coach-4',
+                    '_thumbnail_id' => 'gscoach-image-4',
                     '_gscoach_profession' => "Web Developer",
                     '_gscoach_experience' => "3 Years",
                     '_gscoach_education' => "BBA",
@@ -599,7 +599,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['4g-expert', 'graphic-design', 'transmission']
                 ]),
                 'meta_input' => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-coach-5',
+                    '_thumbnail_id' => 'gscoach-image-5',
                     '_gscoach_profession' => "Web Developer",
                     '_gscoach_experience' => "3 Years",
                     '_gscoach_education' => "BBA",
@@ -645,7 +645,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['executive-recruiter', 'networking', 'transmission', 'web-development']
                 ]),
                 'meta_input' => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-coach-6',
+                    '_thumbnail_id' => 'gscoach-image-6',
                     '_gscoach_profession' => "Web Developer",
                     '_gscoach_experience' => "3 Years",
                     '_gscoach_education' => "BBA",
@@ -741,18 +741,12 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
             require_once( ABSPATH . 'wp-admin/includes/image.php' );
 
             $attachment_files = [
-                'gscoach-coach-1.jpg',
-                'gscoach-coach-2.jpg',
-                'gscoach-coach-3.jpg',
-                'gscoach-coach-4.jpg',
-                'gscoach-coach-5.jpg',
-                'gscoach-coach-6.jpg',
-                'gscoach-coach-flip-1.jpg',
-                'gscoach-coach-flip-2.jpg',
-                'gscoach-coach-flip-3.jpg',
-                'gscoach-coach-flip-4.jpg',
-                'gscoach-coach-flip-5.jpg',
-                'gscoach-coach-flip-6.jpg'
+                'gscoach-image-1.jpg',
+                'gscoach-image-2.jpg',
+                'gscoach-image-3.jpg',
+                'gscoach-image-4.jpg',
+                'gscoach-image-5.jpg',
+                'gscoach-image-6.jpg',
             ];
 
             add_filter( 'http_request_args', [ $this, 'http_request_args' ] );
