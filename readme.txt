@@ -1,7 +1,7 @@
 === GS Coaches ===
 Contributors: gsplugins, itszaman, samdani
 Donate link: https://www.paypal.com/donate/?hosted_button_id=K7K8YF4U3SCNQ
-Tags: responsive coach, coaching staffs, responsive coach showcase, wp coach pro, wordpress coaching plugin, staff, coach plugin wordpress, consultant, lifestyle coach, Diet consultant, Personal Development coach, mentor, trainer, Business coach, Nutrition consultant, Fitness specialist
+Tags: staff, coach, consultant, our team, team
 Requires at least: 4.3
 Tested up to: 6.9
 Requires PHP: 5.6
@@ -17,9 +17,7 @@ Best Responsive WordPress Coach Plugin to display Coaches elegantly. Using the G
 
 GS Coaches plugin is simple, flexible & powerful.
 
-### GS Coach Showcase by [GS Plugins](https://www.gsplugins.com)
-
->[ Live Demo](https://coach.gsplugins.com/) | [Upgrade to PRO](https://www.gsplugins.com/product/wordpress-coaches-plugin/) | [Documentation](https://docs.gsplugins.com/gs-coach/) | [Support](https://www.gsplugins.com/contact/)  
+🎬 [ Live Demo](https://coach.gsplugins.com/)  ⬆️ [Upgrade to PRO](https://www.gsplugins.com/product/wordpress-coaches-plugin/)  📚 [Documentation](https://docs.gsplugins.com/gs-coach/)  🙋‍♂️ [Support](https://www.gsplugins.com/contact/) 
 
 ### Plugin Features
 * Responsive Coach plugin.
@@ -81,7 +79,7 @@ GS Coaches plugin is simple, flexible & powerful.
 * Auto update from dashboard.
 * Well documentation and support.
 * And many more..
-* [View live Demos &raquo;](https://www.gsplugins.com/)
+* [View live Demos &raquo;](https://coach.gsplugins.com/)
 * [Upgrade to PRO &raquo;](https://www.gsplugins.com/product/wordpress-coaches-plugin/)
 
 ### Available fields to add info (Lite)
@@ -142,10 +140,10 @@ Basic Usage -
 
 ### Confused?
 
-*  [View live Demos &raquo;](https://www.gsplugins.com/)
+*  [View live Demos &raquo;](https://coach.gsplugins.com/)
 *  [Upgrade to PRO &raquo;](https://www.gsplugins.com/product/wordpress-coaches-plugin/)
 
-### 🔥 You may like other plugins from [GS Plugins](https://www.gsplugins.com)
+### 🔥 You may like other plugins from [GS Plugins](https://www.gsplugins.com/)
 
 **[Testimonial Slider](https://wordpress.org/plugins/gs-testimonial)** - Testimonials slider displays rotating customer endorsements and recommendations, helping to build trust and credibility for a business or product.
 
@@ -181,13 +179,9 @@ Basic Usage -
 
 **[Pinterest Portfolio](https://wordpress.org/plugins/gs-pinterest-portfolio)** - Pinterest plugin for WordPress allows you to display your Pinterest pins on your website, giving your audience a chance to view and interact with your boards, and potentially drive more traffic to your Pinterest profile.
 
-**[Instagram Portfolio](https://wordpress.org/plugins/gs-instagram-portfolio/)** - Instagram plugin for WordPress allows you to display your Instagram posts on your website, making it easy for visitors to view and interact with your content and also to increase engagement on your website.
-
 **[Portfolio - Envato](https://wordpress.org/plugins/gs-envato-portfolio)** - Envato Portfolio Plugin allows you to display your Themeforest and Codecanyon items on your website, showcasing your digital products and making them easily accessible for potential customers.
 
 **[Youtube Gallery](https://wordpress.org/plugins/gs-youtube-gallery)** - YouTube Gallery plugin allows you to display videos from a YouTube channel or playlist on your website, creating a visually appealing gallery and making it easy for visitors to access and watch your videos.
-
-**[Twitter Feeds](https://wordpress.org/plugins/feeds-of-twitter)** - Twitter Feeds plugin displays Twitter feeds, hashtags, user cards, and collections on a website, making it easy for visitors to view and interact with your Twitter content.
 
 ### 🏆 Branding Plugin
 
