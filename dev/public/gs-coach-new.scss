@@ -8497,6 +8497,18 @@ body {
 .gs-single-style-five,
 .gs-single-default {
 
+    .gs-breadcumb-container {
+        margin-bottom: 10px !important;
+
+        .gs-roow {
+            margin: 0 !important;
+        
+            .gs-coach-breadcumb-list {
+
+            }
+        }
+    }
+
     .gs-coach-single-content {
 
         p,
@@ -8694,10 +8706,27 @@ body {
 }
 
 .gs-single-default {
+    // background-color: #084eca;
 
     .gs-coach-single-content {
         padding: 24px;
         box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+
+        .gscs-content-top {
+            display: flex;
+            width: 100%;
+            gap: 32px;
+
+            .gscs-content-top-left {
+                width: 30%;
+                max-width: 300px;
+            }
+
+            .gscs-content-top-right {
+                width: 70%;
+            }
+
+        }
 
         .gs-sin-mem-desig {
             margin-bottom: 0;
@@ -12784,6 +12813,25 @@ body {
         margin-bottom: 20px !important;
     }
 
+    .gs-single-style-one,
+    .gs-single-style-two,
+    .gs-single-style-three,
+    .gs-single-style-four,
+    .gs-single-style-five,
+    .gs-single-default {
+
+        .gs-breadcumb-container {
+
+            .gs-roow {
+                margin: 0 10px !important;
+            
+                .gs-coach-breadcumb-list {
+
+                }
+            }
+        }
+    }
+
     .gs-single-default {
 
         .gs-coach-single-content {
@@ -12791,6 +12839,20 @@ body {
             padding: 12px;
             margin: 10px;
             box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+
+            .gscs-content-top {
+                flex-direction: column;
+
+                .gscs-content-top-left {
+                    width: 100%;
+                    max-width: 100%;
+                }
+
+                .gscs-content-top-right {
+                    width: 100%;
+                }
+
+            }
         }
     }
 
@@ -14145,6 +14207,25 @@ body {
         margin-bottom: 20px !important;
     }
 
+    .gs-single-style-one,
+    .gs-single-style-two,
+    .gs-single-style-three,
+    .gs-single-style-four,
+    .gs-single-style-five,
+    .gs-single-default {
+
+        .gs-breadcumb-container {
+
+            .gs-roow {
+                margin: 0 10px !important;
+            
+                .gs-coach-breadcumb-list {
+
+                }
+            }
+        }
+    }
+
     .gs-single-default {
 
         .gs-coach-single-content {
@@ -14152,6 +14233,19 @@ body {
             padding: 12px;
             margin: 10px;
             box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+
+            .gscs-content-top {
+                flex-direction: column;
+
+                .gscs-content-top-left {
+                    width: 100%;
+                    max-width: 100%;
+                }
+
+                .gscs-content-top-right {
+                    width: 100%;
+                }
+            }
         }
     }
 

@@ -23,37 +23,56 @@ $designation = get_post_meta( get_the_id(), '_gscoach_profession', true );
 
 <div class="gs-coach-single-content" itemscope="" itemtype="http://schema.org/Person">
 
-    <div class="gs_coach_img">
-        
-        <div class="gs_ribon_wrapper">
-            
-            <!-- Coach Image -->
-            <?php coach_thumbnail( 'full', true ); ?>
-            <?php do_action( 'gs_coach_after_coach_thumbnail' ); ?>
+    <div class="gscs-content-top">
 
-            <!-- Ribbon -->
-            <?php include Template_Loader::locate_template( 'partials/gs-coach-layout-ribon.php' ); ?>
-            
+        <div class="gscs-content-top-left">
+
+            <div class="gs_coach_img">
+                
+                <div class="gs_ribon_wrapper">
+                    
+                    <!-- Coach Image -->
+                    <?php coach_thumbnail( 'full', true ); ?>
+                    <?php do_action( 'gs_coach_after_coach_thumbnail' ); ?>
+
+                    <!-- Ribbon -->
+                    <?php include Template_Loader::locate_template( 'partials/gs-coach-layout-ribon.php' ); ?>
+                    
+                </div>
+
+            </div>
+
         </div>
 
-        <!-- Meta Details -->
-        <?php include Template_Loader::locate_template( 'partials/gs-coach-layout-meta-details.php' ); ?>
+        <div class="gscs-content-top-right">
+
+            <!-- coach Name -->
+            <h1 class="gs-sin-mem-name" itemprop="name"><?php the_title(); ?></h1>
+            <?php do_action( 'gs_coach_after_coach_name' ); ?>
+
+            <!-- coach Designation -->
+            <div class="gs-sin-mem-desig" itemprop="jobtitle"><?php echo esc_html( $designation ); ?></div>
+            <?php do_action( 'gs_coach_after_coach_designation' ); ?>
+
+            <!-- Meta Details -->
+            <?php include Template_Loader::locate_template( 'partials/gs-coach-layout-meta-details.php' ); ?>
+
+
+            <div class="gs-tm-sicons">
+
+                <!-- Social Links -->
+                <?php $gs_coach_connect = 'on'; ?>
+                <?php include Template_Loader::locate_template( 'partials/gs-coach-layout-social-links.php' ); ?>
+                
+            </div>
+
+
+        </div>
 
     </div>
 
-    <div class="gs_coach_details gs-tm-sicons">
 
-        <!-- coach Name -->
-        <h1 class="gs-sin-mem-name" itemprop="name"><?php the_title(); ?></h1>
-        <?php do_action( 'gs_coach_after_coach_name' ); ?>
-
-        <!-- coach Designation -->
-        <div class="gs-sin-mem-desig" itemprop="jobtitle"><?php echo esc_html( $designation ); ?></div>
-        <?php do_action( 'gs_coach_after_coach_designation' ); ?>
-
-        <!-- Social Links -->
-        <?php $gs_coach_connect = 'on'; ?>
-        <?php include Template_Loader::locate_template( 'partials/gs-coach-layout-social-links.php' ); ?>
+    <div class="gs_coach_details">
 
         <!-- Description -->
         <div class="gs-coach-desc" itemprop="description"><?php echo wpautop( do_shortcode( get_the_content() ) ); ?></div>
