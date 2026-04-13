@@ -5,16 +5,16 @@
  * @package   GS_Coach
  * @author    GS Plugins <hello@gsplugins.com>
  * @license   GPL-2.0+
- * @link      https://www.gsplugins.com
+ * @link      https://www.gsplugins.com/
  * @copyright 2016 GS Plugins
  *
  * @wordpress-plugin
  * Plugin Name:		GS Coach
- * Plugin URI:		https://www.gsplugins.com/wordpress-plugins
- * Description:     Best Responsive Coach plugin for Wordpress to showcase coach Image, Name, Designation, Social connectivity links. Display anywhere at your site using generated shortcode like [gscoach id=1] & widgets. Check more shortcode examples and documentation at <a href="https://coach.gsplugins.com">GS Coach PRO Demos & Docs</a>
+ * Plugin URI:		https://www.gsplugins.com/product/wordpress-coaches-plugin/
+ * Description:     The easiest way to display coach profiles on WordPress — photos, names, designations & social links included. Use shortcodes like [gscoach id=1] or widgets to embed anywhere. Check out <a href="https://coach.gsplugins.com/">GS Coach PRO Demo</a> & <a href="https://docs.gsplugins.com/gs-coach/">Documentation</a>!
  * Version:         3.0.0
  * Author:       	GS Plugins
- * Author URI:      https://www.gsplugins.com
+ * Author URI:      https://www.gsplugins.com/
  * Text Domain:     gscoach
  * Domain Path:     /languages
  * License:         GPL-2.0+
