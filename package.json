@@ -22,7 +22,7 @@
   "author": "gsplugins",
   "license": "ISC",
   "devDependencies": {
-    "@wordpress/scripts": "^19.2.4",
+    "@wordpress/scripts": "^31.8.0",
     "babel-plugin-transform-class-properties": "^6.10.2",
     "cross-env": "^7.0.3",
     "laravel-mix": "^6.0.49",
