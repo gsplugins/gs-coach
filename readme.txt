@@ -280,23 +280,22 @@ WordPress has a great function, do_shortcode(), that will allow you to use short
 12. GS Coach output by [Coaches Archive Demo](https://coach.gsplugins.com/coach) <br /> **coach** is reserved for Archive
 
 == Screenshots ==
-1. GS Coach output by <strong>THEME 01 : GRID – FULL OVERLAY</strong> after adding shortcode [gs_coaches theme="gs_coach_grid_1" cols="4" num="6"]
-2. GS Coach output by <strong>THEME 02 : GRID – HALF OVERLAY</strong> after adding shortcode [gs_coaches theme="gs_coach_grid_2" cols="4" num="6"]
-3. GS Coach output by <strong>THEME 03 : GRID – BOTTOM INFO</strong> after adding shortcode [gs_coaches theme="gs_coach_grid_3" cols="4" num="6"]
-4. GS Coach output by <strong>THEME 04 : CIRCLE – ZOOM</strong> after adding shortcode [gs_coaches theme="gs_coach_circle_1" cols="3" num="6"]
-5. GS Coach output by <strong>THEME 05 : CIRCLE – OVERLAY</strong> after adding shortcode [gs_coaches theme="gs_coach_circle_2" cols="3"]
-6. GS Coach output by <strong>THEME 06 : CIRCLE – HOVER 1</strong> after adding shortcode [gs_coaches theme="gs_coach_circle_3" cols="3" num="6"]
-7. GS Coach output by <strong>THEME 07 : CIRCLE – HOVER 2</strong> after adding shortcode [gs_coaches theme="gs_coach_circle_4" cols="3"]
-8. GS Coach output by <strong>THEME 08 : HORIZONTAL – SQUARE RIGHT INFO</strong> after adding shortcode [gs_coaches theme="gs_coach_horizontal_1" cols="6"]
-9. GS Coach output by <strong>THEME 09 : HORIZONTAL – SQUARE LEFT INFO</strong> after adding shortcode [gs_coaches theme="gs_coach_horizontal_2" cols="6"]
-10. GS Coach output by <strong>THEME 10 : HORIZONTAL – CIRCLE RIGHT INFO</strong> after adding shortcode [gs_coaches theme="gs_coach_horizontal_3" cols="6"]
-11. GS Coach output by <strong>THEME 11 : HORIZONTAL – CIRCLE LEFT INFO</strong> after adding shortcode [gs_coaches theme="gs_coach_horizontal_4" cols="6"]
-12. GS Coach output by <strong>THEME 12 : HORIZONTAL – BOX SQUARE RIGHT INFO</strong> after adding shortcode [gs_coaches theme="gs_coach_horizontal_5" cols="6"]
-13. GS Coach output by <strong>THEME 13 : HORIZONTAL – BOX CIRCLE RIGHT INFO</strong> after adding shortcode [gs_coaches theme="gs_coach_horizontal_6" cols="6"]
-14. GS Coach output by <strong>Single Coach</strong> Demo - https://goo.gl/OpFW8F
-15. GS Coach Widget
-16. GS Coach Shortcode Generator
-
+1. Grid View - Style 07: GS Coach
+2. Grid View - Style 14: GS Coach
+3. Circle View - Style 02: GS Coach
+4. Horizontal View - Style 03: GS Coach
+5. Slider View - Style 03: GS Coach
+6. Filter View - Style 04: GS Coach
+7. List View - Style 02: GS Coach
+8. Flip View - Style 03: GS Coach
+9. Drawer View - Style 03: GS Coach
+10. Panel View - Style 05: GS Coach
+11. All created Shortcodes for the GS Coach Plugin
+12. General Settings.
+13. Style Settings.
+14. Query Settings - GS Coach
+15. Preference [Global Settings]
+16. Drag & Drop Custom Order for GS Coach
 
 == Changelog ==
 = Version 3.0.0 [13th Apr 2026] =
