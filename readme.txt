@@ -143,6 +143,18 @@ For filter navigation, **Filter Order By** and **Filter Order** help control how
 
 You can also refine the results using **Exclude/Include** options for **Coach Category** and **Coach Tag**, allowing you to display only specific groups of coaches or hide selected ones from the layout.
 
+### Preferences
+
+Global Settings for *GS Coach*
+
+Navigate to **GS Coach > Coach Shortcode** and select *Preferences*.
+
+The **Preferences** section lets you manage the global settings of **GS Coach** from one place. You can customize coach profile URLs, archive page details, single profile layout, breadcrumbs, next/previous navigation, clickable phone and email links, search behavior, frontend labels, multilingual support, font loading, lazy loading, and custom styling.
+
+This section also allows you to rename many frontend text labels, such as address, email, profession, experience, education, location, schedule, availability, fee, review, rating, skills, social links, filter text, search text, and button text. These options help you make the coach showcase feel more natural for your website and audience.
+
+For advanced control, you can use the performance options to disable Google Fonts or lazy loading, enable multilingual support for translated websites, and add custom CSS to fine-tune the design.
+
 ### Page Builder Support
 * Gutenberg.
 * Elementor.
