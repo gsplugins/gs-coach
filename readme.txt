@@ -1,4 +1,4 @@
-=== GS Coaches ===
+=== GS Coach – Professional Team Showcase for Coaches & Consultants ===
 Contributors: gsplugins, itszaman, samdani
 Donate link: https://www.paypal.com/donate/?hosted_button_id=K7K8YF4U3SCNQ
 Tags: staff, coach, consultant, our team, team
@@ -9,122 +9,155 @@ Stable tag: 3.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Best Responsive Coaches with Experience, Skills, Review & Ratings, Certification.
+GS Coach – Team, Staff, and Consultant Showcase with Skills and Reviews.
 
 == Description ==
 
-Best Responsive WordPress Coach Plugin to display Coaches elegantly. Using the GS Coach plugin you can present Health coaches, Medical consultant, Lifestyle coach, Diet consultant, Personal Development coach, Personal mentor / Trainer & Therapist, Psychologist, Business coach, Nutrition consultant, Fitness specialist & many more. Display anywhere at your site using the shortcode like [gscoach id=1] & widgets. GS Coach plugin packed with necessary controlling options & 29 different themes to present coaches elegantly with eye catching effects.
+**GS Coach** is a flexible WordPress plugin that helps you showcase your coaches in clean, professional layouts that build trust and drive engagement. Create structured coach profiles without writing any code and make it easy for visitors to explore, connect, and take action.
 
-GS Coaches plugin is simple, flexible & powerful.
+Built to work smoothly with most WordPress themes and popular page builders, *GS Coach* gives you full control over how your coaches appear and perform. Choose from multiple layouts, highlight key details, and present your coaches in a way that turns profile views into real client opportunities, all while maintaining fast performance across all devices.
 
 🎬 [ Live Demo](https://coach.gsplugins.com/)  ⬆️ [Upgrade to PRO](https://www.gsplugins.com/product/wordpress-coaches-plugin/)  📚 [Documentation](https://docs.gsplugins.com/gs-coach/)  🙋‍♂️ [Support](https://www.gsplugins.com/contact/) 
 
-### Plugin Features
-* Responsive Coach plugin.
-* Different Column options.
-* Works with any standard WordPress Theme.
-* Add Unlimited Coaches.
-* Developer friendly & easy to customize.
-* All modern browsers supported.
-* W3C valid markup.
-* Display Coaches anywhere with the shortcode like [gscoach id=1] & widgets.
-* Widgets Available.
-* Custom CSS.
-* Coach info, certification & social links.
-* Easy to set up.
-* It’s easy to use interface allows you to manage, edit, create and delete coaches with no new knowledge.
+== Why do well-structured coach profiles make a difference? ==
 
-### [Pro Features](https://www.gsplugins.com/product/wordpress-coaches-plugin/)
-* 29 different themes
-    * Theme 01 – Grid 1 (Full Overlay)
-    * Theme 02 – Grid 2 (Half Overlay)
-    * Theme 03 – Grid 3 (Bottom Info)
-    * Theme 04 – Circle 1 (Zoom)
-    * Theme 05 – Circle 2 (Overlay)
-    * Theme 05 – Circle 3 (Hover 1)
-    * Theme 07 – Circle 4 (Hover 2)
-    * Theme 08 – Horizontal 1 (Square Right Info)
-    * Theme 09 – Horizontal 2 (Square Left Info)
-    * Theme 10 – Horizontal 3 (Round Right Info)
-    * Theme 11 – Horizontal 4 (Round Left Info)
-    * Theme 12 – Horizontal 5 (Box Square Right Info)
-    * Theme 13 – Horizontal 6 (Box Round Right Info)
-    * Theme 14 – List 1 (Square Right Info)
-    * Theme 15 – List 2 (Square Left Info)
-    * Theme 16 – List 3 (Circle Right Info)
-    * Theme 17 – List 4 (Circle Left Info)
-    * Theme 18 – Card 1 (Square Bottom Info)
-    * Theme 19 – Card 2 (Circle Bottom Info)
-    * Theme 20 – Table 1 (Underline)
-    * Theme 21 – Table 2 (Box Border)
-    * Theme 22 – Table 3 (Odd Even)
-    * Theme 23 – Gray 1 (Square) ( Greyscale supported on IE 6-11, Edge 12+, Firefox 10+, Chrome 19+, Safari 6+, Safari iOS 6+, Opera 15+ )
-    * Theme 24 – Gray 2 (Round)
-    * Theme 25 – Slider 1 (Zoom)
-    * Theme 26 – Slider 2 (Hover)
-    * Theme 27 – Slider 3 (Hover 2)
-    * Theme 28 – Popup (Popup)
-    * Theme 29 – Filter (Square Popup)
-* Single Coach Template included
-* Archive Coach Template included
-* GS Coach Widget available
-* GS Coach Shortcode generator available at page / post
-* Display coaches by Group / Department wise (category)
-* Limit number of Coaches to display.
-* Custom CSS – Add Custom CSS to GS Coach themes
-* Priority Email Support.
-* Free Installation ( If needed ).
-* Free updates for one year.
-* Auto update notification.
-* Auto update from dashboard.
-* Well documentation and support.
-* And many more..
-* [View live Demos &raquo;](https://coach.gsplugins.com/)
-* [Upgrade to PRO &raquo;](https://www.gsplugins.com/product/wordpress-coaches-plugin/)
+As your coaching business grows, presenting your coaches clearly becomes more important. A structured profile layout helps visitors understand each coach’s expertise and choose the right one with confidence.
 
-### Available fields to add info (Lite)
-* Coach Name
-* Coach Details
-* Profession
-* Coach Image
-* Linkedin
-* Twitter
-* Facebook
-* Google+
-* Youtube
-* Personal Site
+* Help visitors explore coaches quickly and find the right fit.
+* Keep multiple coach profiles clean and well organized.
+* Highlight featured or top coaches effectively.
+* Improve consistency across desktop and mobile devices.
+* Reduce confusion compared to unstructured profile listings.
 
-### Available fields to add info (Pro)
-* Experience
-* Education
-* Skills
-* Address
-* State/City
-* Country
-* Contact Number
-* Schedule Time
-* Availability
-* Fee
-* Review
-* Student’s Rating
-* Course Link
-* Coach Group/Category
-* Topics Speciality
-* Certified On
-* Coach’s Certificate (Multiple Certificates)
+== What makes GS Coach practical to use? ==
 
-### Coach Settings (Pro)
-* Columns ( 2 Columns, 3 Columns, 4 Columns )
-* Style & Theming (Select from 29 themes)
-* Link Target ( New Tab, Same Window )
-* Set the limit to max number of characters in Coach details
-* On / off controls for – Coach Name, Coach Details, Coach Profession, Experience, Education, Skills, Address, State/City, Country, Contact, Schedule, Availability, Fee, Review, Rating, Linkedin, Twitter, Facebook, Google Plus, Youtube, Portfolio, Course Link, Category, Speciality, Certification, Coach Image, Certificate Image
-* Style Coach Name by – Font Size, Weight, Style, Color
-* Style Label by – Font Size, Color
-* Set Filter Category Position to – Left, Center or Right
-* Replace ‘All’ to your desired word for filter theme
-* Coach Custom CSS (write your own custom css )
-* Set Coaches Slug, default slug coach
+* **Quick setup, no learning curve**: GS Coach fits right into your existing WordPress workflow, so you can start creating coach profiles immediately. No complex setup, no coding, just simple controls that save time and effort.
+* **Flexible coach display options**: Showcase coaches anywhere on your site using layouts that adapt to different use cases. Whether you want to highlight top coaches or display full teams, everything stays clean and easy to manage.
+* **Designed for real user experience**: Coach profiles are structured for clarity and readability, helping visitors quickly understand expertise, compare options, and take action without confusion.
+* **Smarter organization, better results**: Organize coaches in a way that feels natural and simple to navigate. A clear structure reduces friction, keeps visitors engaged longer, and increases the chances of conversion.
+
+*GS Coach* gives you a practical, scalable way to present your coaches, helping you build trust, improve engagement, and turn visitors into real clients.
+
+== Core Features of GS Coach ==
+
+GS Coach provides everything you need to create, organize, and display professional coach profiles in a clean, structured, and conversion-friendly way.
+
+* Coach profile display for individuals and teams.
+* Multiple layout styles (Grid, Slider, List, Popup).
+* Category-based coach organization.
+* Filterable coach layouts for easy navigation.
+* Custom coach ordering and sorting options.
+* Featured coach highlight support.
+* Profile image and media support.
+* Video introduction integration (YouTube/Vimeo).
+* Skills and expertise showcase section.
+* Short and full description control.
+* Dedicated single coach profile pages.
+* Popup profile view for quick details.
+* Call-to-action button support (contact, book, etc.).
+* Social media links integration.
+* Fully responsive and mobile-friendly layouts.
+* Shortcode-based display anywhere.
+* Widget and page builder compatibility.
+* SEO-friendly and clean HTML structure.
+* Custom CSS support for styling control.
+* Lightweight and optimized performance.
+
+Plenty of extra features are available to adapt to your growing needs.
+
+== Who is GS Coach best suited for? ==
+
+GS Coach is ideal for anyone looking to showcase coaches professionally, build trust, and turn visitors into clients without complex setup or custom development.
+
+* *Coaching businesses* and *consulting services* showcasing coach profiles.
+* *Life coaches*, *business coaches*, and *fitness trainers* building personal brands.
+* *Training platforms* and *online programs* featuring multiple *coaches* or *mentors*.
+* *Agencies* creating high-converting coach profile sections for clients.
+* *Website owners* who want SEO-friendly and structured coach displays.
+
+*GS Coach* works best when trust, visibility, and conversions matter, helping visitors quickly find the right coach and take action with confidence.
+
+== Available fields to add Coch info ==
+**Coach Details**
+
+* **Title**: Enter the coach’s name or title.
+* **Media**: Upload profile image or media file.
+* **Description**: Provide a detailed coach bio or overview.
+
+**Coach’s Additional Info**
+
+* **Profession**: Specify the coach’s profession or role.
+* **Experience**: Enter years or details of experience.
+* **Education**: Add educational background or qualifications.
+* **Ribbon**: Highlight special status or achievements.
+* **Address**: Enter the coach’s address.
+* **State/City**: Specify location details.
+* **Country**: Select the country.
+* **Contact**: Add phone or contact number.
+* **Email**: Enter the coach’s email address.
+* **Schedule**: Define available schedule or timing.
+* **Availability**: Set availability status.
+* **Personal Site**: Add a personal website link.
+* **Course Link**: Link to courses or programs.
+* **Fee**: Specify coaching fees or pricing.
+* **Review**: Add client feedback or comments.
+* **Rating**: Provide a rating score.
+* **Custom Page Link**: Link to a custom profile or landing page.
+* **Coach’s Social Link**: Add social media profile links.
+* **Coach’s Skill**: List key skills or areas of expertise.
+* **Coach’s Certificates**: Add certifications or achievements.
+* **Coach’s CV**: Upload or link to the coach’s CV.
+* **Excerpt**: Add a short summary for preview display.
+
+### General Settings
+
+Go to **GS Coach → Shortcode** to create or edit a shortcode. The **General Settings** tab allows you to control the basic layout, structure, and content display of your coach showcase.
+
+Set a **Shortcode Name** to identify your shortcode easily. Choose a **Theme Effect** and **View Type** to define how your coaches will appear on the frontend.
+
+Control how coach items behave using the **Link Type** and **Link Target** options. Select appropriate **Image Sizes** to keep coach thumbnails consistent across your layout.
+
+You can enable or disable elements such as **Coach Title, Coach Subtitle**, and **Coach Details**, while **Title Limit** helps control the length of coach titles for cleaner layouts.
+
+The **Control Details** option allows you to decide which coach information should be displayed within each coach item.
+
+These settings help you configure how coaches are structured and displayed while keeping the setup simple and flexible.
+
+*Carousel Note*: When the carousel is enabled, the filter and pagination are disabled.
+
+### Style Settings
+
+The **Style Settings** tab allows you to control the visual layout and typography of your coach's showcase.
+
+Adjust the number of coaches displayed per row using **Desktop Items, Tablet Items, Portrait Mobile Items**, and **Mobile Items** to ensure the layout adapts properly across different screen sizes.
+
+Typography options such as **Title Typography, Subtitle Typography**, and **Details Typography** lets you customize the appearance of coach titles, subtitles, and coach details for better readability and visual consistency.
+
+### Query Settings
+
+The **Query Settings** tab allows you to control which coaches are displayed and how they are organized in the showcase.
+
+Set the number of coaches to display using the **Coaches** option. Use **Order By** and **Order** to define how coaches are sorted, such as by date, title, or custom order.
+
+For filter navigation, **Filter Order By** and **Filter Order** help control how coach filters are arranged.
+
+You can also refine the results using **Exclude/Include** options for **Coach Category** and **Coach Tag**, allowing you to display only specific groups of coaches or hide selected ones from the layout.
+
+### Page Builder Support
+* Gutenberg.
+* Elementor.
+* WPBakery.
+* Divi Builders.
+* Beaver Builder.
+* Oxygen Builder.
+* UX Builder.
+* TagDiv.
+* Genesis.
+
+### Multilingual Support
+* WPML
+* Loco Translate 
+
 
 ### GS Coach's shortcode usage
 
@@ -138,10 +171,24 @@ Basic Usage -
 <?php echo do_shortcode( '[gscoach id=1]' ); ?>
 `
 
+### Documentation
+If you have any questions regarding the **GS Coach** plugin and how to work with it, We recommend referring to our comprehensive online documentation. It provides detailed information and instructions to assist you in navigating and utilizing the plugin effectively. You can find the [Documentation](https://docs.gsplugins.com/gs-coach/) here.
+
+### Quick Support & Bug Reporting
+If you encounter any problems or discover bugs, please post them in our [Support](https://www.gsplugins.com/contact/) channel. We aim to respond as soon as possible (excluding holidays). 
+
+***Pro users are requested to contact our support channel for dedicated assistance.***
+
+🙋‍♂️ Alternatively, you can reach out to us through our [Support](https://www.gsplugins.com/contact/) or [WordPress.org](https://wordpress.org/support/plugin/gs-coach/) support forum.
+
+### Development Team
+Crafted and Developed with Passion by [GS Plugins](https://www.gsplugins.com/)
+
 ### Confused?
 
-*  [View live Demos &raquo;](https://coach.gsplugins.com/)
-*  [Upgrade to PRO &raquo;](https://www.gsplugins.com/product/wordpress-coaches-plugin/)
+🎬 [View live Demos &raquo;](https://coach.gsplugins.com/)
+📚 [Documentation &raquo;](https://docs.gsplugins.com/gs-coach/)
+
 
 ### 🔥 You may like other plugins from [GS Plugins](https://www.gsplugins.com/)
 
@@ -220,64 +267,35 @@ Install GS Coach plugin as a regular WordPress plugin. Here is different ways to
 
 == Frequently Asked Questions ==
 
-= How do I add a new Coach? =
-Here are the steps to add a new Coach to the GS Coach post type:
+= How do I showcase coaches on a WordPress website? =
+To showcase coaches on a WordPress website, you can use a dedicated plugin like GS Coach. It allows you to create structured coach profiles with images, experience, skills, and contact details, then display them using layouts like grid, slider, or list without coding.
 
-1. Go to GS Coach > Add New Coach.
-2. Fill in the following details:
-    - Coach Name
-    - Coach Details
-    - Profession
-    - Experience
-    - Education
-    - Skills
-    - Address
-    - State/City
-    - Country
-    - Contact Number
-    - Schedule Time
-    - Availability
-    - Fee
-    - Review
-    - Students Rating
-    - Linkedin
-    - Twitter
-    - Facebook
-    - Google+
-    - Youtube
-    - Personal Site
-    - Course Link
-    - Coach Group/Category
-    - Topics Speciality
-    - Certified On
-    - Coach Image
-    - Coach’s Certificate (Multiple Certificates)
-3. If there is no data available for any field, leave it blank.
-4. Make sure to add social links' URL with **http://** or **https://** before the link.
-5. Finally, click on Publish to add the new Coach.
+= What is the best WordPress plugin to display coach profiles? =
+GS Coach is one of the best WordPress plugins for displaying coach profiles. It offers multiple layouts, filtering options, and customizable profile fields, making it easy to showcase coaches professionally and improve user engagement.
 
-= What will be Coach image dimension? =
-Recommended image size 400px X 400px for perfect view of various devices.
+= How can I create a coach profile page in WordPress? =
+You can create a coach profile page in WordPress by adding a new coach entry using GS Coach, filling in details like name, experience, and skills, and enabling a single profile page or popup view for each coach.
 
-= How to use shortcode inside page templates? =
-WordPress has a great function, do_shortcode(), that will allow you to use shortcodes inside your theme files. For example, to output Coach in a Theme file, you would do this: 
-`
-<?php echo do_shortcode('[gscoach id=1]'); ?>
-`
+= How do I add multiple coaches to my WordPress site? =
+With GS Coach, you can add unlimited coaches by creating individual profiles from the dashboard. Each coach can have unique details, categories, and layouts, allowing you to manage large coaching teams easily.
 
-= Demos =
-1. GS Coach output by [Grid View](https://www.gsplugins.com/)
-2. GS Coach output by [Circle View](https://coach.gsplugins.com/gs-coach-with-circle-view/)
-3. GS Coach output by [Horizontal View](https://coach.gsplugins.com/gs-coach-with-horizontal-view/)
-4. GS Coach output by [List View](https://coach.gsplugins.com/gs-coach-with-list-view/)
-5. GS Coach output by [Card View](https://coach.gsplugins.com/gs-coach-with-card-view/)
-6. GS Coach output by [Table View](https://coach.gsplugins.com/gs-coach-with-table-view/)
-7. GS Coach output by [Gray View](https://coach.gsplugins.com/gs-coach-with-gray-view/)
-8. GS Coach output by [Slider View](https://coach.gsplugins.com/gs-coach-with-slider-view/)
-9. GS Coach output by [Popup View](https://coach.gsplugins.com/gs-coach-with-popup-view/)
-10. GS Coach output by [Filter](https://coach.gsplugins.com/gs-coach-with-filter-view/)
-11. GS Coach output by [Single Coach](https://coach.gsplugins.com/coach/joseph-c-roush/)
-12. GS Coach output by [Coaches Archive Demo](https://coach.gsplugins.com/coach) <br /> **coach** is reserved for Archive
+= Can I filter coaches by category or expertise in WordPress? =
+Yes, GS Coach allows you to filter coaches by category, expertise, or specialization. This helps visitors quickly find the right coach based on their needs, improving user experience and conversions.
+
+= How do I make my coaching website more professional? =
+To make your coaching website more professional, you should use structured coach profiles, high-quality images, clear descriptions, and trust elements like reviews and ratings. GS Coach helps you implement all of these in one place.
+
+= Is GS Coach plugin SEO-friendly for coach profiles? =
+Yes, GS Coach is built with an SEO-friendly structure, clean HTML markup, and optimized layouts. This helps search engines understand your coach profiles better and improves your chances of ranking in search results.
+
+= Can I add booking or contact links to coach profiles? =
+Yes, GS Coach lets you add call-to-action links like booking pages, contact forms, or external links to each coach profile, making it easier for visitors to take action directly.
+
+= How do I improve conversions on my coaching website? =
+Improving conversions involves building trust and making it easy for visitors to take action. GS Coach helps by organizing coach profiles clearly, adding CTAs, displaying reviews, and providing a smooth browsing experience.
+
+= Can I customize the design of coach profiles in WordPress? =
+Yes, GS Coach provides multiple layout styles, color controls, and custom CSS options, allowing you to fully customize how your coach profiles look and match your website design.
 
 == Screenshots ==
 1. Grid View - Style 07: GS Coach
