@@ -3,7 +3,7 @@ Contributors: gsplugins, itszaman, samdani
 Donate link: https://www.paypal.com/donate/?hosted_button_id=K7K8YF4U3SCNQ
 Tags: staff, coach, consultant, our team, team
 Requires at least: 4.3
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.6
 Stable tag: 3.0.0
 License: GPLv2 or later
