@@ -1,3 +1,30 @@
+// ─── Monkey-patch webpack ProgressPlugin ────────────────────────────────────
+// Laravel Mix passes options like `name`, `color`, `reporters`, and `reporter`
+// to ProgressPlugin, but webpack 5.106+ removed those from its schema, causing
+// a "Invalid options object" warning. Patch the constructor BEFORE Mix loads so
+// those unknown keys are silently stripped and the warning never fires.
+const webpack = require('webpack');
+const _OriginalProgressPlugin = webpack.ProgressPlugin;
+const _VALID_PROGRESS_KEYS = new Set([
+	'activeModules', 'dependencies', 'dependenciesCount',
+	'entries', 'handler', 'modules', 'modulesCount',
+	'percentBy', 'profile',
+]);
+webpack.ProgressPlugin = function PatchedProgressPlugin(options) {
+	if (options && typeof options === 'object' && !Array.isArray(options)) {
+		const cleaned = {};
+		for (const [k, v] of Object.entries(options)) {
+			if (_VALID_PROGRESS_KEYS.has(k)) cleaned[k] = v;
+		}
+		return new _OriginalProgressPlugin(cleaned);
+	}
+	return new _OriginalProgressPlugin(options);
+};
+// Preserve static members (e.g. ProgressPlugin.defaultOptions)
+Object.assign(webpack.ProgressPlugin, _OriginalProgressPlugin);
+webpack.ProgressPlugin.prototype = _OriginalProgressPlugin.prototype;
+// ─────────────────────────────────────────────────────────────────────────────
+
 const mix = require('laravel-mix');
 
 const wpPot = require('wp-pot');
