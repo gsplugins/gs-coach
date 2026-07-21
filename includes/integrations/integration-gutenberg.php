@@ -53,6 +53,7 @@ class Integration_Gutenberg {
             'create_link_text' => __( 'Create', 'gscoach' ),
             'edit_link' => admin_url( "edit.php?post_type=gs_coaches&page=gs-coach-shortcode#/shortcode/" ),
             'create_link' => admin_url( 'edit.php?post_type=gs_coaches&page=gs-coach-shortcode#/shortcode' ),
+            'plugin_icon' => GSCOACH_PLUGIN_URI . '/assets/img/icon.svg',
             'gs_coach_shortcodes' => $this->get_shortcode_list()
 		);
 		wp_localize_script( 'gs-coach-block', 'gs_coach_block', $gs_coach_block );
@@ -96,7 +97,7 @@ class Integration_Gutenberg {
         if ( empty($post) ) {
             ?>
             <div class="container gs-single-container" style="padding:3em 2em;background: rgba(126, 126, 126, 0.35);">
-                <h4><?php echo __( 'GS Single Coach coach Page', 'gscoach' ) ?></h4>
+                <h4><?php echo __( 'GS Single Coach Page', 'gscoach' ) ?></h4>
             </div>
             <?php
         } else {

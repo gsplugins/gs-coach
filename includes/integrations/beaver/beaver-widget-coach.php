@@ -28,7 +28,11 @@ class Beaver extends FLBuilderModule {
         // check if $icon is referencing an included icon.
         if ( '' != $icon && file_exists( $path ) ) {
             $icon = file_get_contents( $path );
-            return str_replace( ['width="32"', 'height="32"'], ['width="20"', 'height="20"'], $icon );
+            return str_replace(
+                ['width="32"', 'height="32"', 'width="21"', 'height="20"'],
+                ['width="20"', 'height="20"', 'width="20"', 'height="20"'],
+                $icon
+            );
         }
 
         return '';
