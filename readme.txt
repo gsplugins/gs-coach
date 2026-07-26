@@ -5,7 +5,7 @@ Tags: staff, coach, consultant, our team, team
 Requires at least: 4.3
 Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 3.0.0
+Stable tag: 3.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,7 +77,7 @@ GS Coach is ideal for anyone looking to showcase coaches professionally, build t
 
 *GS Coach* works best when trust, visibility, and conversions matter, helping visitors quickly find the right coach and take action with confidence.
 
-== Available fields to add Coch info ==
+== Available fields to add Coach info ==
 **Coach Details**
 
 * **Title**: Enter the coach’s name or title.
@@ -328,6 +328,10 @@ Yes, GS Coach provides multiple layout styles, color controls, and custom CSS op
 16. Drag & Drop Custom Order for GS Coach
 
 == Changelog ==
+= Version 3.0.1 [21st Jul 2026] =
+* [Fixed]: The Block name.
+* [Updated]: Gutenberg Icon.
+
 = Version 3.0.0 [13th Apr 2026] =
 * [Updated]: Rewritten the plugin.
 
@@ -372,6 +376,10 @@ Yes, GS Coach provides multiple layout styles, color controls, and custom CSS op
 * Initial release
 
 == Upgrade Notice ==
+= Version 3.0.1 [21st Jul 2026] =
+* [Fixed]: The Block name.
+* [Updated]: Gutenberg Icon.
+
 = Version 3.0.0 [13th Apr 2026] =
 * [Updated]: Rewritten the plugin.
 

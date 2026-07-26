@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-04-13 07:11+0000\n"
+"POT-Creation-Date: 2026-07-21 10:33+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -14,2508 +14,2512 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../includes/column.php:51, ../includes/shortcode-builder/builder.php:880, ../includes/shortcode-builder/builder.php:1929
+#: ../build/gs-coach/includes/column.php:51, ../build/gs-coach/includes/shortcode-builder/builder.php:880, ../build/gs-coach/includes/shortcode-builder/builder.php:1929, ../includes/column.php:51, ../includes/shortcode-builder/builder.php:880, ../includes/shortcode-builder/builder.php:1929
 msgid "Coach Name"
 msgstr ""
 
-#: ../includes/column.php:52
+#: ../build/gs-coach/includes/column.php:52, ../includes/column.php:52
 msgid "Coach Image"
 msgstr ""
 
-#: ../includes/column.php:53, ../includes/shortcode-builder/builder.php:888
+#: ../build/gs-coach/includes/column.php:53, ../build/gs-coach/includes/shortcode-builder/builder.php:888, ../includes/column.php:53, ../includes/shortcode-builder/builder.php:888
 msgid "Designation"
 msgstr ""
 
-#: ../includes/column.php:67, ../includes/shortcode-builder/builder.php:1933
+#: ../build/gs-coach/includes/column.php:67, ../build/gs-coach/includes/shortcode-builder/builder.php:1933, ../includes/column.php:67, ../includes/shortcode-builder/builder.php:1933
 msgid "Date"
 msgstr ""
 
-#: ../includes/cpt.php:29, ../includes/integrations/beaver/beaver-widget-coach.php:10
+#: ../build/gs-coach/includes/cpt.php:29, ../build/gs-coach/includes/integrations/beaver/beaver-widget-coach.php:10, ../includes/cpt.php:29, ../includes/integrations/beaver/beaver-widget-coach.php:10
 msgid "Coach"
 msgstr ""
 
-#: ../includes/cpt.php:30
+#: ../build/gs-coach/includes/cpt.php:30, ../includes/cpt.php:30
 msgctxt "admin menu"
 msgid "GS Coach"
 msgstr ""
 
-#: ../includes/cpt.php:31
+#: ../build/gs-coach/includes/cpt.php:31, ../includes/cpt.php:31
 msgctxt "add new on admin bar"
 msgid "GS Coach"
 msgstr ""
 
-#: ../includes/cpt.php:32, ../includes/cpt.php:33
+#: ../build/gs-coach/includes/cpt.php:32, ../build/gs-coach/includes/cpt.php:33, ../includes/cpt.php:32, ../includes/cpt.php:33
 msgid "Add New Coach"
 msgstr ""
 
-#: ../includes/cpt.php:34
+#: ../build/gs-coach/includes/cpt.php:34, ../includes/cpt.php:34
 msgid "New Coach"
 msgstr ""
 
-#: ../includes/cpt.php:35
+#: ../build/gs-coach/includes/cpt.php:35, ../includes/cpt.php:35
 msgid "Edit Coach"
 msgstr ""
 
-#: ../includes/cpt.php:36
+#: ../build/gs-coach/includes/cpt.php:36, ../includes/cpt.php:36
 msgid "View Coach"
 msgstr ""
 
-#: ../includes/cpt.php:37
+#: ../build/gs-coach/includes/cpt.php:37, ../includes/cpt.php:37
 msgid "All Coaches"
 msgstr ""
 
-#: ../includes/cpt.php:38
+#: ../build/gs-coach/includes/cpt.php:38, ../includes/cpt.php:38
 msgid "Search Coaches"
 msgstr ""
 
-#: ../includes/cpt.php:39
+#: ../build/gs-coach/includes/cpt.php:39, ../includes/cpt.php:39
 msgid "Parent Coaches:"
 msgstr ""
 
-#: ../includes/cpt.php:40
+#: ../build/gs-coach/includes/cpt.php:40, ../includes/cpt.php:40
 msgid "No Coaches found."
 msgstr ""
 
-#: ../includes/cpt.php:41
+#: ../build/gs-coach/includes/cpt.php:41, ../includes/cpt.php:41
 msgid "No Coaches found in Trash."
 msgstr ""
 
-#: ../includes/cpt.php:109, ../includes/cpt.php:152, ../includes/cpt.php:195, ../includes/cpt.php:238, ../includes/cpt.php:281, ../includes/cpt.php:324, ../includes/cpt.php:367, ../includes/cpt.php:410, ../includes/cpt.php:453, ../includes/cpt.php:496, ../includes/cpt.php:539
+#: ../build/gs-coach/includes/cpt.php:109, ../build/gs-coach/includes/cpt.php:152, ../build/gs-coach/includes/cpt.php:195, ../build/gs-coach/includes/cpt.php:238, ../build/gs-coach/includes/cpt.php:281, ../build/gs-coach/includes/cpt.php:324, ../build/gs-coach/includes/cpt.php:367, ../build/gs-coach/includes/cpt.php:410, ../build/gs-coach/includes/cpt.php:453, ../build/gs-coach/includes/cpt.php:496, ../build/gs-coach/includes/cpt.php:539, ../includes/cpt.php:109, ../includes/cpt.php:152, ../includes/cpt.php:195, ../includes/cpt.php:238, ../includes/cpt.php:281, ../includes/cpt.php:324, ../includes/cpt.php:367, ../includes/cpt.php:410, ../includes/cpt.php:453, ../includes/cpt.php:496, ../includes/cpt.php:539
 msgid "Not Found"
 msgstr ""
 
-#: ../includes/functions.php:47
+#: ../build/gs-coach/includes/functions.php:47, ../includes/functions.php:47
 msgid "GS Coach is not working because you need to upgrade the GS Coach Pro plugin to latest version."
 msgstr ""
 
-#: ../includes/functions.php:48
+#: ../build/gs-coach/includes/functions.php:48, ../includes/functions.php:48
 msgid "Upgrade GS Coach Pro Now"
 msgstr ""
 
-#: ../includes/functions.php:931, ../includes/shortcode-builder/builder.php:948, ../includes/integrations/beaver/beaver-widget-coach.php:11
+#: ../build/gs-coach/includes/functions.php:931, ../build/gs-coach/includes/shortcode-builder/builder.php:948, ../build/gs-coach/includes/integrations/beaver/beaver-widget-coach.php:11, ../includes/functions.php:931, ../includes/shortcode-builder/builder.php:948, ../includes/integrations/beaver/beaver-widget-coach.php:11
 msgid "Coaches"
 msgstr ""
 
-#: ../includes/hooks.php:67
+#: ../build/gs-coach/includes/hooks.php:67, ../includes/hooks.php:67
 msgid "Recommended image size 400px X 400px for perfect view on various devices."
 msgstr ""
 
-#: ../includes/import-export.php:28, ../includes/import-export.php:36
+#: ../build/gs-coach/includes/import-export.php:28, ../build/gs-coach/includes/import-export.php:36, ../includes/import-export.php:28, ../includes/import-export.php:36
 msgid "No export data provided"
 msgstr ""
 
-#: ../includes/import-export.php:86
+#: ../build/gs-coach/includes/import-export.php:86, ../includes/import-export.php:86
 msgid "Invalid file type"
 msgstr ""
 
-#: ../includes/import-export.php:106, ../includes/import-export.php:103
+#: ../build/gs-coach/includes/import-export.php:106, ../build/gs-coach/includes/import-export.php:103, ../includes/import-export.php:106, ../includes/import-export.php:103
 msgid "File upload failed"
 msgstr ""
 
-#: ../includes/import-export.php:118
+#: ../build/gs-coach/includes/import-export.php:118, ../includes/import-export.php:118
 msgid "No import file provided"
 msgstr ""
 
-#: ../includes/import-export.php:125
+#: ../build/gs-coach/includes/import-export.php:125, ../includes/import-export.php:125
 msgid "Invalid file"
 msgstr ""
 
-#: ../includes/import-export.php:132
+#: ../build/gs-coach/includes/import-export.php:132, ../includes/import-export.php:132
 msgid "Invalid file content"
 msgstr ""
 
-#: ../includes/import-export.php:141
+#: ../build/gs-coach/includes/import-export.php:141, ../includes/import-export.php:141
 msgid "Data imported successfully"
 msgstr ""
 
-#: ../includes/meta-fields.php:280
+#: ../build/gs-coach/includes/meta-fields.php:280, ../includes/meta-fields.php:280
 msgid "Icon"
 msgstr ""
 
-#: ../includes/meta-fields.php:281
+#: ../build/gs-coach/includes/meta-fields.php:281, ../includes/meta-fields.php:281
 msgid "Link"
 msgstr ""
 
-#: ../includes/meta-fields.php:304, ../includes/meta-fields.php:292, ../includes/meta-fields.php:315
+#: ../build/gs-coach/includes/meta-fields.php:304, ../build/gs-coach/includes/meta-fields.php:292, ../build/gs-coach/includes/meta-fields.php:315, ../includes/meta-fields.php:304, ../includes/meta-fields.php:292, ../includes/meta-fields.php:315
 msgid "Select icon"
 msgstr ""
 
-#: ../includes/meta-fields.php:306, ../includes/meta-fields.php:294, ../includes/meta-fields.php:317
+#: ../build/gs-coach/includes/meta-fields.php:306, ../build/gs-coach/includes/meta-fields.php:294, ../build/gs-coach/includes/meta-fields.php:317, ../includes/meta-fields.php:306, ../includes/meta-fields.php:294, ../includes/meta-fields.php:317
 msgid "ex: https://twitter.com/gsplugins"
 msgstr ""
 
-#: ../includes/meta-fields.php:307, ../includes/meta-fields.php:295, ../includes/meta-fields.php:318, ../includes/meta-fields.php:387, ../includes/meta-fields.php:375, ../includes/meta-fields.php:398, ../includes/meta-fields.php:461
+#: ../build/gs-coach/includes/meta-fields.php:307, ../build/gs-coach/includes/meta-fields.php:295, ../build/gs-coach/includes/meta-fields.php:318, ../build/gs-coach/includes/meta-fields.php:387, ../build/gs-coach/includes/meta-fields.php:375, ../build/gs-coach/includes/meta-fields.php:398, ../build/gs-coach/includes/meta-fields.php:461, ../includes/meta-fields.php:307, ../includes/meta-fields.php:295, ../includes/meta-fields.php:318, ../includes/meta-fields.php:387, ../includes/meta-fields.php:375, ../includes/meta-fields.php:398, ../includes/meta-fields.php:461
 msgid "Remove"
 msgstr ""
 
-#: ../includes/meta-fields.php:324, ../includes/meta-fields.php:404
+#: ../build/gs-coach/includes/meta-fields.php:324, ../build/gs-coach/includes/meta-fields.php:404, ../includes/meta-fields.php:324, ../includes/meta-fields.php:404
 msgid "Add Row"
 msgstr ""
 
-#: ../includes/meta-fields.php:360
+#: ../build/gs-coach/includes/meta-fields.php:360, ../includes/meta-fields.php:360
 msgid "Title"
 msgstr ""
 
-#: ../includes/meta-fields.php:361
+#: ../build/gs-coach/includes/meta-fields.php:361, ../includes/meta-fields.php:361
 msgid "Percent"
 msgstr ""
 
-#: ../includes/meta-fields.php:395
+#: ../build/gs-coach/includes/meta-fields.php:395, ../includes/meta-fields.php:395
 msgid "ex: Wordpress"
 msgstr ""
 
-#: ../includes/meta-fields.php:397
+#: ../build/gs-coach/includes/meta-fields.php:397, ../includes/meta-fields.php:397
 msgid "ex: 90"
 msgstr ""
 
-#: ../includes/meta-fields.php:460
+#: ../build/gs-coach/includes/meta-fields.php:460, ../includes/meta-fields.php:460
 msgid "Upload CV"
 msgstr ""
 
-#: ../includes/meta-fields.php:463
+#: ../build/gs-coach/includes/meta-fields.php:463, ../includes/meta-fields.php:463
 msgid "View CV"
 msgstr ""
 
-#: ../includes/restrict-template.php:15
+#: ../build/gs-coach/includes/restrict-template.php:15, ../includes/restrict-template.php:15
 msgid "Sorry!"
 msgstr ""
 
-#: ../includes/restrict-template.php:17
+#: ../build/gs-coach/includes/restrict-template.php:17, ../includes/restrict-template.php:17
 msgid "This theme is not available in free version.<br>Please upgrade the plan to use this theme. Thanks!"
 msgstr ""
 
-#: ../includes/restrict-template.php:19
+#: ../build/gs-coach/includes/restrict-template.php:19, ../includes/restrict-template.php:19
 msgid "Learn more details"
 msgstr ""
 
-#: ../includes/restrict-template.php:21
+#: ../build/gs-coach/includes/restrict-template.php:21, ../includes/restrict-template.php:21
 msgid "Only Admin & Editor will see this message, visitor will see <strong>Grid 1 (Hover)</strong> template."
 msgstr ""
 
-#: ../includes/restrict-template.php:23
+#: ../build/gs-coach/includes/restrict-template.php:23, ../includes/restrict-template.php:23
 msgid "This message is generated by <strong>GS Coach</strong> plugin."
 msgstr ""
 
-#: ../includes/shortcode.php:35, ../includes/shortcode.php:54, ../includes/shortcode.php:72, ../includes/sortable.php:44, ../includes/sortable.php:61, ../includes/sortable.php:126, ../includes/demo-data/dummy-data.php:159, ../includes/demo-data/dummy-data.php:175, ../includes/demo-data/dummy-data.php:191, ../includes/demo-data/dummy-data.php:201, ../includes/demo-data/dummy-data.php:211, ../includes/demo-data/dummy-data.php:221, ../includes/shortcode-builder/builder.php:336, ../includes/shortcode-builder/builder.php:429, ../includes/shortcode-builder/builder.php:470, ../includes/shortcode-builder/builder.php:538, ../includes/shortcode-builder/builder.php:576
+#: ../build/gs-coach/includes/shortcode.php:35, ../build/gs-coach/includes/shortcode.php:54, ../build/gs-coach/includes/shortcode.php:72, ../build/gs-coach/includes/sortable.php:44, ../build/gs-coach/includes/sortable.php:61, ../build/gs-coach/includes/sortable.php:126, ../build/gs-coach/includes/demo-data/dummy-data.php:159, ../build/gs-coach/includes/demo-data/dummy-data.php:175, ../build/gs-coach/includes/demo-data/dummy-data.php:191, ../build/gs-coach/includes/demo-data/dummy-data.php:201, ../build/gs-coach/includes/demo-data/dummy-data.php:211, ../build/gs-coach/includes/demo-data/dummy-data.php:221, ../build/gs-coach/includes/shortcode-builder/builder.php:336, ../build/gs-coach/includes/shortcode-builder/builder.php:429, ../build/gs-coach/includes/shortcode-builder/builder.php:470, ../build/gs-coach/includes/shortcode-builder/builder.php:538, ../build/gs-coach/includes/shortcode-builder/builder.php:576, ../includes/shortcode.php:35, ../includes/shortcode.php:54, ../includes/shortcode.php:72, ../includes/sortable.php:44, ../includes/sortable.php:61, ../includes/sortable.php:126, ../includes/demo-data/dummy-data.php:159, ../includes/demo-data/dummy-data.php:175, ../includes/demo-data/dummy-data.php:191, ../includes/demo-data/dummy-data.php:201, ../includes/demo-data/dummy-data.php:211, ../includes/demo-data/dummy-data.php:221, ../includes/shortcode-builder/builder.php:336, ../includes/shortcode-builder/builder.php:429, ../includes/shortcode-builder/builder.php:470, ../includes/shortcode-builder/builder.php:538, ../includes/shortcode-builder/builder.php:576
 msgid "Unauthorised Request"
 msgstr ""
 
-#: ../includes/shortcode.php:116
+#: ../build/gs-coach/includes/shortcode.php:116, ../includes/shortcode.php:116
 msgid "No shortcode ID found"
 msgstr ""
 
-#: ../includes/sortable.php:261
+#: ../build/gs-coach/includes/sortable.php:261, ../includes/sortable.php:261
 msgid "Step 1: Drag & Drop to rearrangees"
 msgstr ""
 
-#: ../includes/sortable.php:293
+#: ../build/gs-coach/includes/sortable.php:293, ../includes/sortable.php:293
 msgid "No Coach coach Found!"
 msgstr ""
 
-#: ../includes/sortable.php:294
+#: ../build/gs-coach/includes/sortable.php:294, ../includes/sortable.php:294
 msgid "We didn't find any coach.</br>Please add some coaches to sort them."
 msgstr ""
 
-#: ../includes/sortable.php:295
+#: ../build/gs-coach/includes/sortable.php:295, ../includes/sortable.php:295
 msgid "Add coach"
 msgstr ""
 
-#: ../includes/sortable.php:304
+#: ../build/gs-coach/includes/sortable.php:304, ../includes/sortable.php:304
 msgid "Step 2: Query Settings for coaches"
 msgstr ""
 
-#: ../includes/sortable.php:392
+#: ../build/gs-coach/includes/sortable.php:392, ../includes/sortable.php:392
 msgid "Filter Orders"
 msgstr ""
 
-#: ../includes/sortable.php:434
+#: ../build/gs-coach/includes/sortable.php:434, ../includes/sortable.php:434
 msgid "Meta field Orders"
 msgstr ""
 
-#: ../includes/widgets.php:21, ../includes/integrations/integration-divi.php:101, ../includes/integrations/integration-elementor.php:140, ../includes/integrations/integration-tagdiv.php:61, ../includes/integrations/integration-wpb-vc.php:34
+#: ../build/gs-coach/includes/widgets.php:21, ../build/gs-coach/includes/integrations/integration-divi.php:101, ../build/gs-coach/includes/integrations/integration-elementor.php:140, ../build/gs-coach/includes/integrations/integration-tagdiv.php:61, ../build/gs-coach/includes/integrations/integration-wpb-vc.php:34, ../includes/widgets.php:21, ../includes/integrations/integration-divi.php:101, ../includes/integrations/integration-elementor.php:140, ../includes/integrations/integration-tagdiv.php:61, ../includes/integrations/integration-wpb-vc.php:34
 msgid "GS Coaches"
 msgstr ""
 
-#: ../includes/widgets.php:22
+#: ../build/gs-coach/includes/widgets.php:22, ../includes/widgets.php:22
 msgid "Display Coaches at widget area."
 msgstr ""
 
-#: ../includes/widgets.php:29
+#: ../build/gs-coach/includes/widgets.php:29, ../includes/widgets.php:29
 msgid "Meet Our Coach"
 msgstr ""
 
-#: ../includes/widgets.php:61
+#: ../build/gs-coach/includes/widgets.php:61, ../includes/widgets.php:61
 msgid "Totales to display"
 msgstr ""
 
-#: ../includes/widgets.php:72
+#: ../build/gs-coach/includes/widgets.php:72, ../includes/widgets.php:72
 msgid "All Groups"
 msgstr ""
 
-#: ../includes/demo-data/dummy-data.php:235
+#: ../build/gs-coach/includes/demo-data/dummy-data.php:235, ../includes/demo-data/dummy-data.php:235
 msgid "Dummy Coaches already imported"
 msgstr ""
 
-#: ../includes/demo-data/dummy-data.php:249
+#: ../build/gs-coach/includes/demo-data/dummy-data.php:249, ../includes/demo-data/dummy-data.php:249
 msgid "Dummy Coaches imported"
 msgstr ""
 
-#: ../includes/demo-data/dummy-data.php:271
+#: ../build/gs-coach/includes/demo-data/dummy-data.php:271, ../includes/demo-data/dummy-data.php:271
 msgid "Dummy Coaches deleted"
 msgstr ""
 
-#: ../includes/demo-data/dummy-data.php:289
+#: ../build/gs-coach/includes/demo-data/dummy-data.php:289, ../includes/demo-data/dummy-data.php:289
 msgid "Dummy Shortcodes already imported"
 msgstr ""
 
-#: ../includes/demo-data/dummy-data.php:303
+#: ../build/gs-coach/includes/demo-data/dummy-data.php:303, ../includes/demo-data/dummy-data.php:303
 msgid "Dummy Shortcodes imported"
 msgstr ""
 
-#: ../includes/demo-data/dummy-data.php:323
+#: ../build/gs-coach/includes/demo-data/dummy-data.php:323, ../includes/demo-data/dummy-data.php:323
 msgid "Dummy Shortcodes deleted"
 msgstr ""
 
 #. translators: 1: The rating
-#: ../includes/gs-common-pages/gs-plugins-common-pages.php:106
+#: ../build/gs-coach/includes/gs-common-pages/gs-plugins-common-pages.php:106, ../includes/gs-common-pages/gs-plugins-common-pages.php:106
 msgid "%s rating"
 msgstr ""
 
-#: ../includes/gs-common-pages/gs-plugins-common-pages.php:102
+#: ../build/gs-coach/includes/gs-common-pages/gs-plugins-common-pages.php:102, ../includes/gs-common-pages/gs-plugins-common-pages.php:102
 msgid "%1$s rating based on %2$s rating"
 msgid_plural "%1$s rating based on %2$s ratings"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: Plugin name and version.
-#: ../includes/gs-common-pages/gs-plugins-common-pages.php:139
+#: ../build/gs-coach/includes/gs-common-pages/gs-plugins-common-pages.php:139, ../includes/gs-common-pages/gs-plugins-common-pages.php:139
 msgid "Install Now"
 msgstr ""
 
 #. translators: 1: Plugin name and version
-#: ../includes/gs-common-pages/gs-plugins-common-pages.php:145
+#: ../build/gs-coach/includes/gs-common-pages/gs-plugins-common-pages.php:145, ../includes/gs-common-pages/gs-plugins-common-pages.php:145
 msgid "Update Now"
 msgstr ""
 
-#: ../includes/gs-common-pages/gs-plugins-common-pages.php:150
+#: ../build/gs-coach/includes/gs-common-pages/gs-plugins-common-pages.php:150, ../includes/gs-common-pages/gs-plugins-common-pages.php:150
 msgctxt "plugin"
 msgid "Installed"
 msgstr ""
 
-#: ../includes/integrations/integration-beaver.php:33
+#: ../build/gs-coach/includes/integrations/integration-beaver.php:33, ../includes/integrations/integration-beaver.php:33
 msgid "Tab 1"
 msgstr ""
 
-#: ../includes/integrations/integration-beaver.php:36, ../includes/shortcode-builder/builder.php:848
+#: ../build/gs-coach/includes/integrations/integration-beaver.php:36, ../build/gs-coach/includes/shortcode-builder/builder.php:848, ../includes/integrations/integration-beaver.php:36, ../includes/shortcode-builder/builder.php:848
 msgid "Shortcode"
 msgstr ""
 
-#: ../includes/integrations/integration-beaver.php:40, ../includes/integrations/integration-divi.php:108, ../includes/integrations/integration-wpb-vc.php:42
+#: ../build/gs-coach/includes/integrations/integration-beaver.php:40, ../build/gs-coach/includes/integrations/integration-divi.php:108, ../build/gs-coach/includes/integrations/integration-wpb-vc.php:42, ../includes/integrations/integration-beaver.php:40, ../includes/integrations/integration-divi.php:108, ../includes/integrations/integration-wpb-vc.php:42
 msgid "Select Shortcode"
 msgstr ""
 
-#: ../includes/integrations/integration-divi.php:111
+#: ../build/gs-coach/includes/integrations/integration-divi.php:111, ../includes/integrations/integration-divi.php:111
 msgid "Show Coaches by GS Coach Plugin"
 msgstr ""
 
-#: ../includes/integrations/integration-elementor.php:156
+#: ../build/gs-coach/includes/integrations/integration-elementor.php:156, ../includes/integrations/integration-elementor.php:156
 msgid "Content"
 msgstr ""
 
-#: ../includes/integrations/integration-elementor.php:164, ../includes/integrations/integration-tagdiv.php:74
+#: ../build/gs-coach/includes/integrations/integration-elementor.php:164, ../build/gs-coach/includes/integrations/integration-tagdiv.php:74, ../includes/integrations/integration-elementor.php:164, ../includes/integrations/integration-tagdiv.php:74
 msgid "Coach Shortcode"
 msgstr ""
 
-#: ../includes/integrations/integration-elementor.php:179, ../includes/integrations/integration-gutenberg.php:50, ../includes/integrations/integration-wpb-vc.php:112
+#: ../build/gs-coach/includes/integrations/integration-elementor.php:179, ../build/gs-coach/includes/integrations/integration-gutenberg.php:50, ../build/gs-coach/includes/integrations/integration-wpb-vc.php:112, ../includes/integrations/integration-elementor.php:179, ../includes/integrations/integration-gutenberg.php:50, ../includes/integrations/integration-wpb-vc.php:112
 msgid "Edit this shortcode"
 msgstr ""
 
-#: ../includes/integrations/integration-elementor.php:181, ../includes/integrations/integration-gutenberg.php:51, ../includes/integrations/integration-wpb-vc.php:114, ../includes/shortcode-builder/builder.php:856
+#: ../build/gs-coach/includes/integrations/integration-elementor.php:181, ../build/gs-coach/includes/integrations/integration-gutenberg.php:51, ../build/gs-coach/includes/integrations/integration-wpb-vc.php:114, ../build/gs-coach/includes/shortcode-builder/builder.php:856, ../includes/integrations/integration-elementor.php:181, ../includes/integrations/integration-gutenberg.php:51, ../includes/integrations/integration-wpb-vc.php:114, ../includes/shortcode-builder/builder.php:856
 msgid "Edit"
 msgstr ""
 
-#: ../includes/integrations/integration-elementor.php:185, ../includes/integrations/integration-gutenberg.php:52, ../includes/integrations/integration-wpb-vc.php:118
+#: ../build/gs-coach/includes/integrations/integration-elementor.php:185, ../build/gs-coach/includes/integrations/integration-gutenberg.php:52, ../build/gs-coach/includes/integrations/integration-wpb-vc.php:118, ../includes/integrations/integration-elementor.php:185, ../includes/integrations/integration-gutenberg.php:52, ../includes/integrations/integration-wpb-vc.php:118
 msgid "Create new shortcode"
 msgstr ""
 
-#: ../includes/integrations/integration-elementor.php:187, ../includes/integrations/integration-gutenberg.php:53, ../includes/integrations/integration-wpb-vc.php:120
+#: ../build/gs-coach/includes/integrations/integration-elementor.php:187, ../build/gs-coach/includes/integrations/integration-gutenberg.php:53, ../build/gs-coach/includes/integrations/integration-wpb-vc.php:120, ../includes/integrations/integration-elementor.php:187, ../includes/integrations/integration-gutenberg.php:53, ../includes/integrations/integration-wpb-vc.php:120
 msgid "Create"
 msgstr ""
 
-#: ../includes/integrations/integration-elementor.php:224
+#: ../build/gs-coach/includes/integrations/integration-elementor.php:224, ../includes/integrations/integration-elementor.php:224
 msgid "GS Coaches: Please select a shortcode"
 msgstr ""
 
-#: ../includes/integrations/integration-gutenberg.php:49
+#: ../build/gs-coach/includes/integrations/integration-gutenberg.php:49, ../includes/integrations/integration-gutenberg.php:49
 msgid "GS Coach Shortcode"
 msgstr ""
 
-#: ../includes/integrations/integration-gutenberg.php:99
+#: ../build/gs-coach/includes/integrations/integration-gutenberg.php:99
 msgid "GS Single Coach coach Page"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:71
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:71, ../includes/shortcode-builder/builder.php:71
 msgid "Shortcode Preview"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:298, ../includes/shortcode-builder/builder.php:341
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:298, ../build/gs-coach/includes/shortcode-builder/builder.php:341, ../includes/shortcode-builder/builder.php:298, ../includes/shortcode-builder/builder.php:341
 msgid "Shortcode ID missing"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:327
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:327, ../includes/shortcode-builder/builder.php:327
 msgid "No shortcode found"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:348
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:348, ../includes/shortcode-builder/builder.php:348
 msgid "No shortcode found to update"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:371
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:371, ../includes/shortcode-builder/builder.php:371
 msgid "Database Error: %1$s"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:383
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:383, ../includes/shortcode-builder/builder.php:383
 msgid "Shortcode updated"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:432
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:432, ../includes/shortcode-builder/builder.php:432
 msgid "Undefined"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:435
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:435, ../includes/shortcode-builder/builder.php:435
 msgid "Please configure the settings properly"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:462
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:462, ../includes/shortcode-builder/builder.php:462
 msgid "Shortcode created successfully"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:474
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:474, ../includes/shortcode-builder/builder.php:474
 msgid "Clone Id not provided"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:478
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:478, ../includes/shortcode-builder/builder.php:478
 msgid "Clone shortcode not found"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:482
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:482, ../includes/shortcode-builder/builder.php:482
 msgid "- Cloned"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:508
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:508, ../includes/shortcode-builder/builder.php:508
 msgid "Shortcode cloned successfully"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:543
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:543, ../includes/shortcode-builder/builder.php:543
 msgid "No shortcode ids provided"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:561
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:561, ../includes/shortcode-builder/builder.php:561
 msgid "Shortcode has been deleted"
 msgid_plural "Shortcodes have been deleted"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../includes/shortcode-builder/builder.php:581
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:581, ../includes/shortcode-builder/builder.php:581
 msgid "No temp key provided"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:582
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:582, ../includes/shortcode-builder/builder.php:582
 msgid "No temp settings provided"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:590
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:590, ../includes/shortcode-builder/builder.php:590
 msgid "Temp data saved"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:598
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:598, ../includes/shortcode-builder/builder.php:598
 msgid "Image Filter"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:599
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:599, ../includes/shortcode-builder/builder.php:599
 msgid "Image Filter on Hover"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:601, ../includes/shortcode-builder/builder.php:710, ../includes/shortcode-builder/builder.php:965, ../includes/shortcode-builder/builder.php:2317
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:601, ../build/gs-coach/includes/shortcode-builder/builder.php:710, ../build/gs-coach/includes/shortcode-builder/builder.php:965, ../build/gs-coach/includes/shortcode-builder/builder.php:2317, ../includes/shortcode-builder/builder.php:601, ../includes/shortcode-builder/builder.php:710, ../includes/shortcode-builder/builder.php:965, ../includes/shortcode-builder/builder.php:2317
 msgid "Location"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:602
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:602, ../includes/shortcode-builder/builder.php:602
 msgid "Select specific coach location to show that specific location coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:604, ../includes/shortcode-builder/builder.php:712, ../includes/shortcode-builder/builder.php:967, ../includes/shortcode-builder/builder.php:2331
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:604, ../build/gs-coach/includes/shortcode-builder/builder.php:712, ../build/gs-coach/includes/shortcode-builder/builder.php:967, ../build/gs-coach/includes/shortcode-builder/builder.php:2331, ../includes/shortcode-builder/builder.php:604, ../includes/shortcode-builder/builder.php:712, ../includes/shortcode-builder/builder.php:967, ../includes/shortcode-builder/builder.php:2331
 msgid "Specialty"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:605
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:605, ../includes/shortcode-builder/builder.php:605
 msgid "Select specific coach specialty to show that specific specialty coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:607, ../includes/shortcode-builder/builder.php:711, ../includes/shortcode-builder/builder.php:963, ../includes/shortcode-builder/builder.php:2310
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:607, ../build/gs-coach/includes/shortcode-builder/builder.php:711, ../build/gs-coach/includes/shortcode-builder/builder.php:963, ../build/gs-coach/includes/shortcode-builder/builder.php:2310, ../includes/shortcode-builder/builder.php:607, ../includes/shortcode-builder/builder.php:711, ../includes/shortcode-builder/builder.php:963, ../includes/shortcode-builder/builder.php:2310
 msgid "Language"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:608
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:608, ../includes/shortcode-builder/builder.php:608
 msgid "Select specific coach language to show that specific language coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:610, ../includes/shortcode-builder/builder.php:713, ../includes/shortcode-builder/builder.php:969, ../includes/shortcode-builder/builder.php:2324
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:610, ../build/gs-coach/includes/shortcode-builder/builder.php:713, ../build/gs-coach/includes/shortcode-builder/builder.php:969, ../build/gs-coach/includes/shortcode-builder/builder.php:2324, ../includes/shortcode-builder/builder.php:610, ../includes/shortcode-builder/builder.php:713, ../includes/shortcode-builder/builder.php:969, ../includes/shortcode-builder/builder.php:2324
 msgid "Gender"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:611
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:611, ../includes/shortcode-builder/builder.php:611
 msgid "Select specific coach gender to show that specific gender coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:613, ../includes/shortcode-builder/builder.php:971
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:613, ../build/gs-coach/includes/shortcode-builder/builder.php:971, ../includes/shortcode-builder/builder.php:613, ../includes/shortcode-builder/builder.php:971
 msgid "Extra One"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:614
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:614, ../includes/shortcode-builder/builder.php:614
 msgid "Select specific coach extra one to show that specific extra one coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:616, ../includes/shortcode-builder/builder.php:973
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:616, ../build/gs-coach/includes/shortcode-builder/builder.php:973, ../includes/shortcode-builder/builder.php:616, ../includes/shortcode-builder/builder.php:973
 msgid "Extra Two"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:617
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:617, ../includes/shortcode-builder/builder.php:617
 msgid "Select specific coach extra two to show that specific extra two coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:619, ../includes/shortcode-builder/builder.php:975
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:619, ../build/gs-coach/includes/shortcode-builder/builder.php:975, ../includes/shortcode-builder/builder.php:619, ../includes/shortcode-builder/builder.php:975
 msgid "Extra Three"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:620
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:620, ../includes/shortcode-builder/builder.php:620
 msgid "Select specific coach extra three to show that specific extra three coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:622, ../includes/shortcode-builder/builder.php:977
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:622, ../build/gs-coach/includes/shortcode-builder/builder.php:977, ../includes/shortcode-builder/builder.php:622, ../includes/shortcode-builder/builder.php:977
 msgid "Extra Four"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:623
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:623, ../includes/shortcode-builder/builder.php:623
 msgid "Select specific coach extra four to show that specific extra four coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:625, ../includes/shortcode-builder/builder.php:979
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:625, ../build/gs-coach/includes/shortcode-builder/builder.php:979, ../includes/shortcode-builder/builder.php:625, ../includes/shortcode-builder/builder.php:979
 msgid "Extra Five"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:626
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:626, ../includes/shortcode-builder/builder.php:626
 msgid "Select specific coach extra five to show that specific extra five coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:628
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:628, ../includes/shortcode-builder/builder.php:628
 msgid "Install Demo Data"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:629
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:629, ../includes/shortcode-builder/builder.php:629
 msgid "Quick start with GS Plugins by installing the demo data"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:631
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:631, ../includes/shortcode-builder/builder.php:631
 msgid "Export Data"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:632
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:632, ../includes/shortcode-builder/builder.php:632
 msgid "Export GS Coach Plugins data"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:634
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:634, ../includes/shortcode-builder/builder.php:634
 msgid "Import Data"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:635
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:635, ../includes/shortcode-builder/builder.php:635
 msgid "Import GS Coach Plugins data"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:637, ../includes/shortcode-builder/page.php:22
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:637, ../build/gs-coach/includes/shortcode-builder/page.php:22, ../includes/shortcode-builder/builder.php:637, ../includes/shortcode-builder/page.php:22
 msgid "Bulk Import"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:638
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:638, ../includes/shortcode-builder/builder.php:638
 msgid "Add Coaches faster by GS Bulk Import feature"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:640
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:640, ../includes/shortcode-builder/builder.php:640
 msgid "Preference"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:641
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:641, ../includes/shortcode-builder/builder.php:641
 msgid "Save Preference"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:642
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:642, ../includes/shortcode-builder/builder.php:642
 msgid "Save Settings"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:643
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:643, ../includes/shortcode-builder/builder.php:643
 msgid "Coaches Slug"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:644
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:644, ../includes/shortcode-builder/builder.php:644
 msgid "Customize Coaches Post Type Slug, by default it is set to coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:645
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:645, ../includes/shortcode-builder/builder.php:645
 msgid "Ignore Base Permalink Prefix"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:646
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:646, ../includes/shortcode-builder/builder.php:646
 msgid "Enable this option to use a custom structure without the base prefix."
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:648
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:648, ../includes/shortcode-builder/builder.php:648
 msgid "Archive Page Slug"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:649
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:649, ../includes/shortcode-builder/builder.php:649
 msgid "Set Custom Archive Page Slug, now it is set to"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:651
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:651, ../includes/shortcode-builder/builder.php:651
 msgid "Archive Page Title"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:652
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:652, ../includes/shortcode-builder/builder.php:652
 msgid "Set Custom Archive Page Title, now it is set to"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:654, ../includes/shortcode-builder/page.php:18
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:654, ../build/gs-coach/includes/shortcode-builder/page.php:18, ../includes/shortcode-builder/builder.php:654, ../includes/shortcode-builder/page.php:18
 msgid "Taxonomies"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:655
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:655, ../includes/shortcode-builder/builder.php:655
 msgid "Global settings for Taxonomies"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:670
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:670, ../includes/shortcode-builder/builder.php:670
 msgid "Enable Taxonomy"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:671
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:671, ../includes/shortcode-builder/builder.php:671
 msgid "Enable Taxonomy for coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:672
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:672, ../includes/shortcode-builder/builder.php:672
 msgid "Taxonomy Label"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:673
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:673, ../includes/shortcode-builder/builder.php:673
 msgid "Set Taxonomy Label"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:674
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:674, ../includes/shortcode-builder/builder.php:674
 msgid "Taxonomy Plural Label"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:675
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:675, ../includes/shortcode-builder/builder.php:675
 msgid "Set Taxonomy Plural Label"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:676, ../includes/shortcode-builder/builder.php:677
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:676, ../build/gs-coach/includes/shortcode-builder/builder.php:677, ../includes/shortcode-builder/builder.php:676, ../includes/shortcode-builder/builder.php:677
 msgid "Enable Taxonomy Archive"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:678
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:678, ../includes/shortcode-builder/builder.php:678
 msgid "Taxonomy Archive Slug"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:679
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:679, ../includes/shortcode-builder/builder.php:679
 msgid "Set Taxonomy Archive Slug"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:681
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:681, ../includes/shortcode-builder/builder.php:681
 msgid "Disable Google Fonts"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:682
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:682, ../includes/shortcode-builder/builder.php:682
 msgid "Disable Google Fonts Loading"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:684
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:684, ../includes/shortcode-builder/builder.php:684
 msgid "Display ACF Fields"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:685
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:685, ../includes/shortcode-builder/builder.php:685
 msgid "Display ACF fields in the single pages"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:687
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:687, ../includes/shortcode-builder/builder.php:687
 msgid "Disable Lazy Load"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:688
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:688, ../includes/shortcode-builder/builder.php:688
 msgid "Disable Lazy Load for coach images"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:690
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:690, ../includes/shortcode-builder/builder.php:690
 msgid "Lazy Load Class"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:691
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:691, ../includes/shortcode-builder/builder.php:691
 msgid "Add class to disable lazy loading, multiple classes should be separated by space"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:693
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:693, ../includes/shortcode-builder/builder.php:693
 msgid "ACF Fields Position"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:694
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:694, ../includes/shortcode-builder/builder.php:694
 msgid "Position to display ACF fields"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:696
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:696, ../includes/shortcode-builder/builder.php:696
 msgid "Enable Multilingual"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:697
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:697, ../includes/shortcode-builder/builder.php:697
 msgid "Enable Multilingual mode to translate below strings using any Multilingual plugin like wpml or loco translate."
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:699
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:699, ../includes/shortcode-builder/builder.php:699
 msgid "Filter Designation Text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:700
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:700, ../includes/shortcode-builder/builder.php:700
 msgid "Search Text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:701
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:701, ../includes/shortcode-builder/builder.php:701
 msgid "Zip Search Text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:702
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:702, ../includes/shortcode-builder/builder.php:702
 msgid "Tag Search Text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:703, ../includes/shortcode-builder/builder.php:2224
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:703, ../build/gs-coach/includes/shortcode-builder/builder.php:2224, ../includes/shortcode-builder/builder.php:703, ../includes/shortcode-builder/builder.php:2224
 msgid "Zip Code"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:704, ../includes/shortcode-builder/builder.php:2225
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:704, ../build/gs-coach/includes/shortcode-builder/builder.php:2225, ../includes/shortcode-builder/builder.php:704, ../includes/shortcode-builder/builder.php:2225
 msgid "Follow Me On"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:705, ../includes/shortcode-builder/builder.php:2226
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:705, ../build/gs-coach/includes/shortcode-builder/builder.php:2226, ../includes/shortcode-builder/builder.php:705, ../includes/shortcode-builder/builder.php:2226
 msgid "Skills"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:706
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:706, ../includes/shortcode-builder/builder.php:706
 msgid "Include fields when search"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:707, ../includes/shortcode-builder/builder.php:2221, ../includes/shortcode-builder/builder.php:2232
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:707, ../build/gs-coach/includes/shortcode-builder/builder.php:2221, ../build/gs-coach/includes/shortcode-builder/builder.php:2232, ../includes/shortcode-builder/builder.php:707, ../includes/shortcode-builder/builder.php:2221, ../includes/shortcode-builder/builder.php:2232
 msgid "Address"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:708, ../includes/shortcode-builder/builder.php:2222
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:708, ../build/gs-coach/includes/shortcode-builder/builder.php:2222, ../includes/shortcode-builder/builder.php:708, ../includes/shortcode-builder/builder.php:2222
 msgid "Cell Phone"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:709, ../includes/shortcode-builder/builder.php:2223, ../includes/shortcode-builder/builder.php:2236
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:709, ../build/gs-coach/includes/shortcode-builder/builder.php:2223, ../build/gs-coach/includes/shortcode-builder/builder.php:2236, ../includes/shortcode-builder/builder.php:709, ../includes/shortcode-builder/builder.php:2223, ../includes/shortcode-builder/builder.php:2236
 msgid "Email"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:714, ../includes/shortcode-builder/builder.php:2227
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:714, ../build/gs-coach/includes/shortcode-builder/builder.php:2227, ../includes/shortcode-builder/builder.php:714, ../includes/shortcode-builder/builder.php:2227
 msgid "More"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:715
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:715, ../includes/shortcode-builder/builder.php:715
 msgid "Custom CSS"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:717, ../includes/shortcode-builder/builder.php:2228
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:717, ../build/gs-coach/includes/shortcode-builder/builder.php:2228, ../includes/shortcode-builder/builder.php:717, ../includes/shortcode-builder/builder.php:2228
 msgid "Profession"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:718, ../includes/shortcode-builder/builder.php:2229
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:718, ../build/gs-coach/includes/shortcode-builder/builder.php:2229, ../includes/shortcode-builder/builder.php:718, ../includes/shortcode-builder/builder.php:2229
 msgid "Experience"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:719, ../includes/shortcode-builder/builder.php:2230
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:719, ../build/gs-coach/includes/shortcode-builder/builder.php:2230, ../includes/shortcode-builder/builder.php:719, ../includes/shortcode-builder/builder.php:2230
 msgid "Education"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:720, ../includes/shortcode-builder/builder.php:2233
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:720, ../build/gs-coach/includes/shortcode-builder/builder.php:2233, ../includes/shortcode-builder/builder.php:720, ../includes/shortcode-builder/builder.php:2233
 msgid "State/ City"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:721, ../includes/shortcode-builder/builder.php:2234
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:721, ../build/gs-coach/includes/shortcode-builder/builder.php:2234, ../includes/shortcode-builder/builder.php:721, ../includes/shortcode-builder/builder.php:2234
 msgid "Country"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:722, ../includes/shortcode-builder/builder.php:2237
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:722, ../build/gs-coach/includes/shortcode-builder/builder.php:2237, ../includes/shortcode-builder/builder.php:722, ../includes/shortcode-builder/builder.php:2237
 msgid "Schedule"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:723, ../includes/shortcode-builder/builder.php:2238
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:723, ../build/gs-coach/includes/shortcode-builder/builder.php:2238, ../includes/shortcode-builder/builder.php:723, ../includes/shortcode-builder/builder.php:2238
 msgid "Availablity"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:724, ../includes/shortcode-builder/builder.php:2239
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:724, ../build/gs-coach/includes/shortcode-builder/builder.php:2239, ../includes/shortcode-builder/builder.php:724, ../includes/shortcode-builder/builder.php:2239
 msgid "Personal Site"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:725, ../includes/shortcode-builder/builder.php:2243
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:725, ../build/gs-coach/includes/shortcode-builder/builder.php:2243, ../includes/shortcode-builder/builder.php:725, ../includes/shortcode-builder/builder.php:2243
 msgid "Course Link"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:726, ../includes/shortcode-builder/builder.php:2247
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:726, ../build/gs-coach/includes/shortcode-builder/builder.php:2247, ../includes/shortcode-builder/builder.php:726, ../includes/shortcode-builder/builder.php:2247
 msgid "Fee"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:727, ../includes/shortcode-builder/builder.php:2248
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:727, ../build/gs-coach/includes/shortcode-builder/builder.php:2248, ../includes/shortcode-builder/builder.php:727, ../includes/shortcode-builder/builder.php:2248
 msgid "Review"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:728, ../includes/shortcode-builder/builder.php:2249
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:728, ../build/gs-coach/includes/shortcode-builder/builder.php:2249, ../includes/shortcode-builder/builder.php:728, ../includes/shortcode-builder/builder.php:2249
 msgid "Rating"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:730
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:730, ../includes/shortcode-builder/builder.php:730
 msgid "Replace with preferred text for Designation"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:731
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:731, ../includes/shortcode-builder/builder.php:731
 msgid "Replace with preferred text for Search"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:732
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:732, ../includes/shortcode-builder/builder.php:732
 msgid "Replace with preferred text for Zip Search"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:733
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:733, ../includes/shortcode-builder/builder.php:733
 msgid "Replace with preferred text for Tag Search"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:734
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:734, ../includes/shortcode-builder/builder.php:734
 msgid "Replace with preferred text for Address"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:735
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:735, ../includes/shortcode-builder/builder.php:735
 msgid "Replace with preferred text for Cell Phone"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:736
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:736, ../includes/shortcode-builder/builder.php:736
 msgid "Replace with preferred text for Email"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:737
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:737, ../includes/shortcode-builder/builder.php:737
 msgid "Replace with preferred text for Location"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:738
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:738, ../includes/shortcode-builder/builder.php:738
 msgid "Replace with preferred text for Language"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:739
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:739, ../includes/shortcode-builder/builder.php:739
 msgid "Replace with preferred text for Specialty"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:740
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:740, ../includes/shortcode-builder/builder.php:740
 msgid "Replace with preferred text for Gender"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:741
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:741, ../includes/shortcode-builder/builder.php:741
 msgid "Replace with preferred text for Zip Code"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:742
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:742, ../includes/shortcode-builder/builder.php:742
 msgid "Replace with preferred text for Follow Me On"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:743
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:743, ../includes/shortcode-builder/builder.php:743
 msgid "Replace with preferred text for Skills"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:744
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:744, ../includes/shortcode-builder/builder.php:744
 msgid "Replace with preferred text for More"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:745
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:745, ../includes/shortcode-builder/builder.php:745
 msgid "Enable searching through all fields"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:747
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:747, ../includes/shortcode-builder/builder.php:747
 msgid "Replace with preferred text for Profession"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:748
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:748, ../includes/shortcode-builder/builder.php:748
 msgid "Replace with preferred text for Experience"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:749
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:749, ../includes/shortcode-builder/builder.php:749
 msgid "Replace with preferred text for Education"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:750
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:750, ../includes/shortcode-builder/builder.php:750
 msgid "Replace with preferred text for State/ City"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:751
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:751, ../includes/shortcode-builder/builder.php:751
 msgid "Replace with preferred text for Country"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:752
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:752, ../includes/shortcode-builder/builder.php:752
 msgid "Replace with preferred text for Schedule"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:753
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:753, ../includes/shortcode-builder/builder.php:753
 msgid "Replace with preferred text for Availablity"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:754
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:754, ../includes/shortcode-builder/builder.php:754
 msgid "Replace with preferred text for Personal Site"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:755
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:755, ../includes/shortcode-builder/builder.php:755
 msgid "Replace with preferred text for Course Link"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:756
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:756, ../includes/shortcode-builder/builder.php:756
 msgid "Replace with preferred text for Fee"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:757
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:757, ../includes/shortcode-builder/builder.php:757
 msgid "Replace with preferred text for Review"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:758
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:758, ../includes/shortcode-builder/builder.php:758
 msgid "Replace with preferred text for Rating"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:760, ../includes/shortcode-builder/builder.php:761
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:760, ../build/gs-coach/includes/shortcode-builder/builder.php:761, ../includes/shortcode-builder/builder.php:760, ../includes/shortcode-builder/builder.php:761
 msgid "Enable Breadcumb for Single page"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:763
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:763, ../includes/shortcode-builder/builder.php:763
 msgid "Link Cell Phone"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:764
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:764, ../includes/shortcode-builder/builder.php:764
 msgid "Enable link for cell phone number"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:766
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:766, ../includes/shortcode-builder/builder.php:766
 msgid "Link Email"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:767
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:767, ../includes/shortcode-builder/builder.php:767
 msgid "Enable link for Email"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:769
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:769, ../includes/shortcode-builder/builder.php:769
 msgid "Reset Filters Text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:770
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:770, ../includes/shortcode-builder/builder.php:770
 msgid "Replace with preferred text for Reset Filters button text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:772
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:772, ../includes/shortcode-builder/builder.php:772
 msgid "Prev Text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:773
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:773, ../includes/shortcode-builder/builder.php:773
 msgid "Replace with preferred text for carousel Prev text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:775
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:775, ../includes/shortcode-builder/builder.php:775
 msgid "Next Text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:776
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:776, ../includes/shortcode-builder/builder.php:776
 msgid "Replace with preferred text for carousel Next text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:778
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:778, ../includes/shortcode-builder/builder.php:778
 msgid "Enable Filter"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:779
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:779, ../includes/shortcode-builder/builder.php:779
 msgid "Enable filter for this theme, it may not available for certain theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:781
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:781, ../includes/shortcode-builder/builder.php:781
 msgid "Filter Type"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:782
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:782, ../includes/shortcode-builder/builder.php:782
 msgid "Select filter type"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:784
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:784, ../includes/shortcode-builder/builder.php:784
 msgid "Enable Pagination"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:785
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:785, ../includes/shortcode-builder/builder.php:785
 msgid "Enable paginations like number pagination, load more button, On scroll load etc."
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:787
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:787, ../includes/shortcode-builder/builder.php:787
 msgid "Pagination Type"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:788
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:788, ../includes/shortcode-builder/builder.php:788
 msgid "Select pagination type."
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:790
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:790, ../includes/shortcode-builder/builder.php:790
 msgid "Initial Items"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:791
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:791, ../includes/shortcode-builder/builder.php:791
 msgid "Set initial number of items that shows on page load (before users interaction)"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:793
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:793, ../includes/shortcode-builder/builder.php:793
 msgid "Per Click"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:794
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:794, ../includes/shortcode-builder/builder.php:794
 msgid "Load coaches per button click"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:796
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:796, ../includes/shortcode-builder/builder.php:796
 msgid "Per Page"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:797
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:797, ../includes/shortcode-builder/builder.php:797
 msgid "Display coaches per page"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:799
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:799, ../includes/shortcode-builder/builder.php:799
 msgid "Per Load"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:800
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:800, ../includes/shortcode-builder/builder.php:800
 msgid "Display coaches per load"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:802, ../includes/shortcode-builder/builder.php:2241, ../includes/shortcode-builder/builder.php:2245
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:802, ../build/gs-coach/includes/shortcode-builder/builder.php:2241, ../build/gs-coach/includes/shortcode-builder/builder.php:2245, ../includes/shortcode-builder/builder.php:802, ../includes/shortcode-builder/builder.php:2241, ../includes/shortcode-builder/builder.php:2245
 msgid "Button Text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:803
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:803, ../includes/shortcode-builder/builder.php:803
 msgid "Load more button text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:805
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:805, ../includes/shortcode-builder/builder.php:805
 msgid "Enable Carousel"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:806
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:806, ../includes/shortcode-builder/builder.php:806
 msgid "Enable carousel for this theme, it may not available for certain theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:808
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:808, ../includes/shortcode-builder/builder.php:808
 msgid "Enable Carousel Navs"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:809
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:809, ../includes/shortcode-builder/builder.php:809
 msgid "Enable carousel navs for this theme, it may not available for certain theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:811
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:811, ../includes/shortcode-builder/builder.php:811
 msgid "Nav BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:812
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:812, ../includes/shortcode-builder/builder.php:812
 msgid "Nav Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:813
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:813, ../includes/shortcode-builder/builder.php:813
 msgid "Nav Hover BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:814
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:814, ../includes/shortcode-builder/builder.php:814
 msgid "Nav Hover Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:815
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:815, ../includes/shortcode-builder/builder.php:815
 msgid "Dots Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:816
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:816, ../includes/shortcode-builder/builder.php:816
 msgid "Dots Active Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:818
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:818, ../includes/shortcode-builder/builder.php:818
 msgid "Enable Carousel Dots"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:819
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:819, ../includes/shortcode-builder/builder.php:819
 msgid "Enable carousel dots for this theme, it may not available for certain theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:821, ../includes/shortcode-builder/builder.php:827
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:821, ../build/gs-coach/includes/shortcode-builder/builder.php:827, ../includes/shortcode-builder/builder.php:821, ../includes/shortcode-builder/builder.php:827
 msgid "Carousel Navs Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:822, ../includes/shortcode-builder/builder.php:828
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:822, ../build/gs-coach/includes/shortcode-builder/builder.php:828, ../includes/shortcode-builder/builder.php:822, ../includes/shortcode-builder/builder.php:828
 msgid "Select carousel navs style, this is available for certain theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:824
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:824, ../includes/shortcode-builder/builder.php:824
 msgid "Carousel Dots Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:825
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:825, ../includes/shortcode-builder/builder.php:825
 msgid "Select carousel dots style, this is available for certain theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:830
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:830, ../includes/shortcode-builder/builder.php:830
 msgid "Drawer Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:831
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:831, ../includes/shortcode-builder/builder.php:831
 msgid "Select drawer style, this is available for certain theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:833
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:833, ../includes/shortcode-builder/builder.php:833
 msgid "Panel Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:834
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:834, ../includes/shortcode-builder/builder.php:834
 msgid "Select panel style, this is available for certain theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:836
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:836, ../includes/shortcode-builder/builder.php:836
 msgid "Popup Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:837
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:837, ../includes/shortcode-builder/builder.php:837
 msgid "Select popup style, this is available for certain theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:839
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:839, ../includes/shortcode-builder/builder.php:839
 msgid "Filter Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:840
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:840, ../includes/shortcode-builder/builder.php:840
 msgid "Filter Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:841
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:841, ../includes/shortcode-builder/builder.php:841
 msgid "Filter BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:842
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:842, ../includes/shortcode-builder/builder.php:842
 msgid "Filter Border Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:843
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:843, ../includes/shortcode-builder/builder.php:843
 msgid "Filter Active Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:844
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:844, ../includes/shortcode-builder/builder.php:844
 msgid "Filter Active BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:845
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:845, ../includes/shortcode-builder/builder.php:845
 msgid "Filter Active Border Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:847, ../includes/shortcode-builder/page.php:6
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:847, ../build/gs-coach/includes/shortcode-builder/page.php:6, ../includes/shortcode-builder/builder.php:847, ../includes/shortcode-builder/page.php:6
 msgid "Shortcodes"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:849
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:849, ../includes/shortcode-builder/builder.php:849
 msgid "Global Settings for GS Coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:850
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:850, ../includes/shortcode-builder/builder.php:850
 msgid "All shortcodes for GS Coach"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:851
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:851, ../includes/shortcode-builder/builder.php:851
 msgid "Create Shortcode"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:852
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:852, ../includes/shortcode-builder/builder.php:852
 msgid "Create New Shortcode"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:853
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:853, ../includes/shortcode-builder/builder.php:853
 msgid "Name"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:854
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:854, ../includes/shortcode-builder/builder.php:854
 msgid "Action"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:855
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:855, ../includes/shortcode-builder/builder.php:855
 msgid "Actions"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:857
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:857, ../includes/shortcode-builder/builder.php:857
 msgid "Clone"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:858
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:858, ../includes/shortcode-builder/builder.php:858
 msgid "Delete"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:859
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:859, ../includes/shortcode-builder/builder.php:859
 msgid "Delete All"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:860
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:860, ../includes/shortcode-builder/builder.php:860
 msgid "Create a new shortcode & save it to use globally in anywhere"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:861
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:861, ../includes/shortcode-builder/builder.php:861
 msgid "Edit Shortcode"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:862
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:862, ../includes/shortcode-builder/builder.php:862
 msgid "General Settings"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:863
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:863, ../includes/shortcode-builder/builder.php:863
 msgid "Style Settings"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:864
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:864, ../includes/shortcode-builder/builder.php:864
 msgid "Query Settings"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:865
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:865, ../includes/shortcode-builder/builder.php:865
 msgid "General"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:866
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:866, ../includes/shortcode-builder/builder.php:866
 msgid "Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:867
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:867, ../includes/shortcode-builder/builder.php:867
 msgid "Query"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:868, ../includes/shortcode-builder/builder.php:869
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:868, ../build/gs-coach/includes/shortcode-builder/builder.php:869, ../includes/shortcode-builder/builder.php:868, ../includes/shortcode-builder/builder.php:869
 msgid "Link Image"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:870
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:870, ../includes/shortcode-builder/builder.php:870
 msgid "Columns"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:871
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:871, ../includes/shortcode-builder/builder.php:871
 msgid "Desktop Slides"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:872
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:872, ../includes/shortcode-builder/builder.php:872
 msgid "Enter the slides number for desktop"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:873
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:873, ../includes/shortcode-builder/builder.php:873
 msgid "Tablet Slides"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:874
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:874, ../includes/shortcode-builder/builder.php:874
 msgid "Enter the slides number for tablet"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:875
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:875, ../includes/shortcode-builder/builder.php:875
 msgid "Portrait Mobile"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:876
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:876, ../includes/shortcode-builder/builder.php:876
 msgid "Enter the slides number for portrait or large display mobile"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:877
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:877, ../includes/shortcode-builder/builder.php:877
 msgid "Mobile Slides"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:878
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:878, ../includes/shortcode-builder/builder.php:878
 msgid "Enter the slides number for mobile"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:879
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:879, ../includes/shortcode-builder/builder.php:879
 msgid "Style & Theming"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:881
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:881, ../includes/shortcode-builder/builder.php:881
 msgid "Link Coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:882
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:882, ../includes/shortcode-builder/builder.php:882
 msgid "Add links to the Coaches name, description & image to display popup or to single coach page"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:883
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:883, ../includes/shortcode-builder/builder.php:883
 msgid "Thumbnail Sizes"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:884
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:884, ../includes/shortcode-builder/builder.php:884
 msgid "Select a thumbnail size"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:885
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:885, ../includes/shortcode-builder/builder.php:885
 msgid "Link Type"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:886
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:886, ../includes/shortcode-builder/builder.php:886
 msgid "Choose the link type of coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:889
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:889, ../includes/shortcode-builder/builder.php:889
 msgid "Details"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:890
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:890, ../includes/shortcode-builder/builder.php:890
 msgid "Social Connection"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:891
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:891, ../includes/shortcode-builder/builder.php:891
 msgid "Display Ribbon"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:892
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:892, ../includes/shortcode-builder/builder.php:892
 msgid "Show or Hide Ribbon"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:893
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:893, ../includes/shortcode-builder/builder.php:893
 msgid "Ribbon Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:894
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:894, ../includes/shortcode-builder/builder.php:894
 msgid "Select Preferred Ribbon Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:895
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:895, ../includes/shortcode-builder/builder.php:895
 msgid "Pagination"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:896
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:896, ../includes/shortcode-builder/builder.php:896
 msgid "Single Page Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:897
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:897, ../includes/shortcode-builder/builder.php:897
 msgid "Single Link Type"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:898
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:898, ../includes/shortcode-builder/builder.php:898
 msgid "Style for all single page"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:899
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:899, ../includes/shortcode-builder/builder.php:899
 msgid "Set the default link type for link behaviour"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:900
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:900, ../includes/shortcode-builder/builder.php:900
 msgid "Next / Prev Coach"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:901
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:901, ../includes/shortcode-builder/builder.php:901
 msgid "Search by Name"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:902
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:902, ../includes/shortcode-builder/builder.php:902
 msgid "Search by Company"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:903
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:903, ../includes/shortcode-builder/builder.php:903
 msgid "Show or Hide by Company"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:904
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:904, ../includes/shortcode-builder/builder.php:904
 msgid "Search by Zip"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:905
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:905, ../includes/shortcode-builder/builder.php:905
 msgid "Search by Tag"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:906
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:906, ../includes/shortcode-builder/builder.php:906
 msgid "Filter by Designation"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:907
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:907, ../includes/shortcode-builder/builder.php:907
 msgid "Filter by Location"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:908
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:908, ../includes/shortcode-builder/builder.php:908
 msgid "Filter by Language"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:909
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:909, ../includes/shortcode-builder/builder.php:909
 msgid "Filter by Gender"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:910
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:910, ../includes/shortcode-builder/builder.php:910
 msgid "Filter by Specialty"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:911
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:911, ../includes/shortcode-builder/builder.php:911
 msgid "Filter by Extra One"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:912
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:912, ../includes/shortcode-builder/builder.php:912
 msgid "Filter by Extra Two"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:913
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:913, ../includes/shortcode-builder/builder.php:913
 msgid "Filter by Extra Three"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:914
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:914, ../includes/shortcode-builder/builder.php:914
 msgid "Filter by Extra Four"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:915
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:915, ../includes/shortcode-builder/builder.php:915
 msgid "Filter by Extra Five"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:916
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:916, ../includes/shortcode-builder/builder.php:916
 msgid "Filter Columns"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:917
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:917, ../includes/shortcode-builder/builder.php:917
 msgid "Social Link Target"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:918
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:918, ../includes/shortcode-builder/builder.php:918
 msgid "Allow HTML for Details"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:919
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:919, ../includes/shortcode-builder/builder.php:919
 msgid "Enable/Disable HTML content for the single coach descript, this will load whole content from the post type."
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:920
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:920, ../includes/shortcode-builder/builder.php:920
 msgid "Details Control"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:921
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:921, ../includes/shortcode-builder/builder.php:921
 msgid "Description Scroll Control"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:922
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:922, ../includes/shortcode-builder/builder.php:922
 msgid "Enable/Disable scrollbar for description on popup, drawer & panel, useful when description has large content."
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:923
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:923, ../includes/shortcode-builder/builder.php:923
 msgid "Scroll Height"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:924
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:924, ../includes/shortcode-builder/builder.php:924
 msgid "Set the maximum height of the description, if content exceds the height, scrollbar will appear."
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:925
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:925, ../includes/shortcode-builder/builder.php:925
 msgid "Popup Column"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:926
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:926, ../includes/shortcode-builder/builder.php:926
 msgid "Filter Category Position"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:927, ../includes/shortcode-builder/builder.php:1585
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:927, ../build/gs-coach/includes/shortcode-builder/builder.php:1585, ../includes/shortcode-builder/builder.php:927, ../includes/shortcode-builder/builder.php:1585
 msgid "Panel"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:928
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:928, ../includes/shortcode-builder/builder.php:928
 msgid "Name Font Size"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:929
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:929, ../includes/shortcode-builder/builder.php:929
 msgid "Name Font Weight"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:930
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:930, ../includes/shortcode-builder/builder.php:930
 msgid "Name Font Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:931
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:931, ../includes/shortcode-builder/builder.php:931
 msgid "Name Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:932
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:932, ../includes/shortcode-builder/builder.php:932
 msgid "Name BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:933
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:933, ../includes/shortcode-builder/builder.php:933
 msgid "Item BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:934
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:934, ../includes/shortcode-builder/builder.php:934
 msgid "Item Hover BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:935
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:935, ../includes/shortcode-builder/builder.php:935
 msgid "Description Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:936
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:936, ../includes/shortcode-builder/builder.php:936
 msgid "Description Link Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:937
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:937, ../includes/shortcode-builder/builder.php:937
 msgid "Info Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:938
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:938, ../includes/shortcode-builder/builder.php:938
 msgid "Info Icon Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:939
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:939, ../includes/shortcode-builder/builder.php:939
 msgid "Tooltip BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:940
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:940, ../includes/shortcode-builder/builder.php:940
 msgid "Info BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:941
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:941, ../includes/shortcode-builder/builder.php:941
 msgid "Hover Icon BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:942
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:942, ../includes/shortcode-builder/builder.php:942
 msgid "Ribbon BG Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:943
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:943, ../includes/shortcode-builder/builder.php:943
 msgid "Role Font Size"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:944
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:944, ../includes/shortcode-builder/builder.php:944
 msgid "Role Font Weight"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:945
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:945, ../includes/shortcode-builder/builder.php:945
 msgid "Role Font Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:946
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:946, ../includes/shortcode-builder/builder.php:946
 msgid "Role Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:947
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:947, ../includes/shortcode-builder/builder.php:947
 msgid "Popup Arrow Color"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:949, ../includes/term-order/term-order.php:397, ../includes/term-order/term-order.php:623, ../includes/term-order/term-order.php:661, ../includes/term-order/term-order.php:709
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:949, ../build/gs-coach/includes/term-order/term-order.php:397, ../build/gs-coach/includes/term-order/term-order.php:623, ../build/gs-coach/includes/term-order/term-order.php:661, ../build/gs-coach/includes/term-order/term-order.php:709, ../includes/shortcode-builder/builder.php:949, ../includes/term-order/term-order.php:397, ../includes/term-order/term-order.php:623, ../includes/term-order/term-order.php:661, ../includes/term-order/term-order.php:709
 msgid "Order"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:950
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:950, ../includes/shortcode-builder/builder.php:950
 msgid "Order By"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:951
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:951, ../includes/shortcode-builder/builder.php:951
 msgid "Taxonomy Order"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:952
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:952, ../includes/shortcode-builder/builder.php:952
 msgid "Taxonomy Order By"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:953
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:953, ../includes/shortcode-builder/builder.php:953
 msgid "Hide Empty Filters"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:954
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:954, ../includes/shortcode-builder/builder.php:954
 msgid "Enable to hide the empty filters"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:955, ../includes/shortcode-builder/builder.php:959, ../includes/shortcode-builder/builder.php:2296
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:955, ../build/gs-coach/includes/shortcode-builder/builder.php:959, ../build/gs-coach/includes/shortcode-builder/builder.php:2296, ../includes/shortcode-builder/builder.php:955, ../includes/shortcode-builder/builder.php:959, ../includes/shortcode-builder/builder.php:2296
 msgid "Group"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:956
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:956, ../includes/shortcode-builder/builder.php:956
 msgid "Select specific group to show that specific group coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:957, ../includes/shortcode-builder/builder.php:961, ../includes/shortcode-builder/builder.php:2304
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:957, ../build/gs-coach/includes/shortcode-builder/builder.php:961, ../build/gs-coach/includes/shortcode-builder/builder.php:2304, ../includes/shortcode-builder/builder.php:957, ../includes/shortcode-builder/builder.php:961, ../includes/shortcode-builder/builder.php:2304
 msgid "Tags"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:958
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:958, ../includes/shortcode-builder/builder.php:958
 msgid "Select specific tag to show that specific tagged coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:960
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:960, ../includes/shortcode-builder/builder.php:960
 msgid "Select a specific coach group to hide that specific group coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:962
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:962, ../includes/shortcode-builder/builder.php:962
 msgid "Select a specific tag to hide that specific tagged coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:964
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:964, ../includes/shortcode-builder/builder.php:964
 msgid "Select a specific language to hide that specific language coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:966
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:966, ../includes/shortcode-builder/builder.php:966
 msgid "Select a specific location to hide that specific location coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:968
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:968, ../includes/shortcode-builder/builder.php:968
 msgid "Select a specific specialty to hide that specific specialty coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:970
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:970, ../includes/shortcode-builder/builder.php:970
 msgid "Select a specific gender to hide that specific gender coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:972
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:972, ../includes/shortcode-builder/builder.php:972
 msgid "Select a specific extra one to hide that specific extra one coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:974
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:974, ../includes/shortcode-builder/builder.php:974
 msgid "Select a specific extra two to hide that specific extra two coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:976
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:976, ../includes/shortcode-builder/builder.php:976
 msgid "Select a specific extra three to hide that specific extra three coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:978
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:978, ../includes/shortcode-builder/builder.php:978
 msgid "Select a specific extra four to hide that specific extra four coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:980
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:980, ../includes/shortcode-builder/builder.php:980
 msgid "Select a specific extra five to hide that specific extra five coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:982
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:982, ../includes/shortcode-builder/builder.php:982
 msgid "Theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:983
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:983, ../includes/shortcode-builder/builder.php:983
 msgid "Font Size"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:984
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:984, ../includes/shortcode-builder/builder.php:984
 msgid "Font Weight"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:985
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:985, ../includes/shortcode-builder/builder.php:985
 msgid "Font Style"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:987
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:987, ../includes/shortcode-builder/builder.php:987
 msgid "Select the number of Coach columns"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:988
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:988, ../includes/shortcode-builder/builder.php:988
 msgid "Select the preferred Style & Theme"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:989
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:989, ../includes/shortcode-builder/builder.php:989
 msgid "Show or Hide Coach Name"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:990
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:990, ../includes/shortcode-builder/builder.php:990
 msgid "Show or Hide Coach Designation"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:991
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:991, ../includes/shortcode-builder/builder.php:991
 msgid "Show or Hide Coach Details"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:992
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:992, ../includes/shortcode-builder/builder.php:992
 msgid "Show or Hide Coach Social Connections"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:993
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:993, ../includes/shortcode-builder/builder.php:993
 msgid "Show or Hide Coach Paginations"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:994
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:994, ../includes/shortcode-builder/builder.php:994
 msgid "Show or Hide Next / Prev link at Single Coach Template"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:995
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:995, ../includes/shortcode-builder/builder.php:995
 msgid "Show or Hide Instant Search"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:996
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:996, ../includes/shortcode-builder/builder.php:996
 msgid "Show or Hide by Instant Zip Search"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:997
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:997, ../includes/shortcode-builder/builder.php:997
 msgid "Show or Hide by Instant Tag Search"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:998
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:998, ../includes/shortcode-builder/builder.php:998
 msgid "Show or Hide Filter by Designation"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:999
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:999, ../includes/shortcode-builder/builder.php:999
 msgid "Show or Hide Filter by Location"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1000
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1000, ../includes/shortcode-builder/builder.php:1000
 msgid "Show or Hide Filter by Language"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1001
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1001, ../includes/shortcode-builder/builder.php:1001
 msgid "Show or Hide Filter by Gender"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1002
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1002, ../includes/shortcode-builder/builder.php:1002
 msgid "Show or Hide Filter by Specialty"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1003
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1003, ../includes/shortcode-builder/builder.php:1003
 msgid "Show or Hide Filter by Extra One"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1004
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1004, ../includes/shortcode-builder/builder.php:1004
 msgid "Show or Hide Filter by Extra Two"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1005
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1005, ../includes/shortcode-builder/builder.php:1005
 msgid "Show or Hide Filter by Extra Three"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1006
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1006, ../includes/shortcode-builder/builder.php:1006
 msgid "Show or Hide Filter by Extra Four"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1007
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1007, ../includes/shortcode-builder/builder.php:1007
 msgid "Show or Hide Filter by Extra Five"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1008
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1008, ../includes/shortcode-builder/builder.php:1008
 msgid "Specify the target to load the Links, Default New Tab"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1009
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1009, ../includes/shortcode-builder/builder.php:1009
 msgid "Define the maximum number of characters in details. Default 100"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1010
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1010, ../includes/shortcode-builder/builder.php:1010
 msgid "Set column for popup"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1011
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1011, ../includes/shortcode-builder/builder.php:1011
 msgid "Set max coach numbers you want to show, set -1 for all coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1013
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1013, ../includes/shortcode-builder/builder.php:1013
 msgid "Export Coaches"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1014
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1014, ../includes/shortcode-builder/builder.php:1014
 msgid "Export Shortcodes"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1015
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1015, ../includes/shortcode-builder/builder.php:1015
 msgid "Export Settings"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1017
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1017, ../includes/shortcode-builder/builder.php:1017
 msgid "Enable Multi Select"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1018
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1018, ../includes/shortcode-builder/builder.php:1018
 msgid "Enable multi-selection on the filters, Default is Off"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1019
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1019, ../includes/shortcode-builder/builder.php:1019
 msgid "Multi Select Ellipsis"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1020
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1020, ../includes/shortcode-builder/builder.php:1020
 msgid "Show multi-selected values in ellipsis mode, Default is Off"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1022
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1022, ../includes/shortcode-builder/builder.php:1022
 msgid "Enable All Filter"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1023
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1023, ../includes/shortcode-builder/builder.php:1023
 msgid "Enable All filter in the filter templates, Default is On"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1025
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1025, ../includes/shortcode-builder/builder.php:1025
 msgid "Enable Child Filters"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1026
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1026, ../includes/shortcode-builder/builder.php:1026
 msgid "Enable child group filters, Default is Off"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1028
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1028, ../includes/shortcode-builder/builder.php:1028
 msgid "Enable Scroll Animation"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1029
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1029, ../includes/shortcode-builder/builder.php:1029
 msgid "Enable scroll animation, Default is On"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1031
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1031, ../includes/shortcode-builder/builder.php:1031
 msgid "All filter text"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1032
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1032, ../includes/shortcode-builder/builder.php:1032
 msgid "All filter text for filter templates, Default is All"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1034
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1034, ../includes/shortcode-builder/builder.php:1034
 msgid "Reset Filters Button"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1035
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1035, ../includes/shortcode-builder/builder.php:1035
 msgid "Enable Reset all filters button in filter themes, Default is Off "
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1037
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1037, ../includes/shortcode-builder/builder.php:1037
 msgid "Shortcode Name"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1038
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1038, ../includes/shortcode-builder/builder.php:1038
 msgid "Save Shortcode"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1039
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1039, ../includes/shortcode-builder/builder.php:1039
 msgid "Preview Shortcode"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1046
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1046, ../includes/shortcode-builder/builder.php:1046
 msgid "Grid 1"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1052
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1052, ../includes/shortcode-builder/builder.php:1052
 msgid "Grid 2"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1058
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1058, ../includes/shortcode-builder/builder.php:1058
 msgid "Grid 3"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1064
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1064, ../includes/shortcode-builder/builder.php:1064
 msgid "Grid 4"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1070
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1070, ../includes/shortcode-builder/builder.php:1070
 msgid "Grid 5"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1076
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1076, ../includes/shortcode-builder/builder.php:1076
 msgid "Grid 6"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1082
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1082, ../includes/shortcode-builder/builder.php:1082
 msgid "Grid 7"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1088
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1088, ../includes/shortcode-builder/builder.php:1088
 msgid "Grid 8"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1094
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1094, ../includes/shortcode-builder/builder.php:1094
 msgid "Grid 9"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1100
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1100, ../includes/shortcode-builder/builder.php:1100
 msgid "Grid 10"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1106
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1106, ../includes/shortcode-builder/builder.php:1106
 msgid "Grid 11"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1112
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1112, ../includes/shortcode-builder/builder.php:1112
 msgid "Grid 12"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1118
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1118, ../includes/shortcode-builder/builder.php:1118
 msgid "Grid 13"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1124
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1124, ../includes/shortcode-builder/builder.php:1124
 msgid "Grid 14"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1130
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1130, ../includes/shortcode-builder/builder.php:1130
 msgid "Grid Popup"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1136
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1136, ../includes/shortcode-builder/builder.php:1136
 msgid "Grid Single"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1142
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1142, ../includes/shortcode-builder/builder.php:1142
 msgid "Grid Filter Single"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1148
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1148, ../includes/shortcode-builder/builder.php:1148
 msgid "Grid Filter Popup"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1154
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1154, ../includes/shortcode-builder/builder.php:1154
 msgid "Grid Slider"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1160
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1160, ../includes/shortcode-builder/builder.php:1160
 msgid "Grid Filter - Selected Cats"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1166
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1166, ../includes/shortcode-builder/builder.php:1166
 msgid "Grid Filter with vcard"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1172
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1172, ../includes/shortcode-builder/builder.php:1172
 msgid "Grid Panel Slide"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1178
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1178, ../includes/shortcode-builder/builder.php:1178
 msgid "Grid Drawer 1"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1184
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1184, ../includes/shortcode-builder/builder.php:1184
 msgid "Grid Drawer 2"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1190
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1190, ../includes/shortcode-builder/builder.php:1190
 msgid "Circle 1"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1196
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1196, ../includes/shortcode-builder/builder.php:1196
 msgid "Circle 2"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1202
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1202, ../includes/shortcode-builder/builder.php:1202
 msgid "Circle 3"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1208
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1208, ../includes/shortcode-builder/builder.php:1208
 msgid "Circle 4"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1214
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1214, ../includes/shortcode-builder/builder.php:1214
 msgid "Circle 5"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1220
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1220, ../includes/shortcode-builder/builder.php:1220
 msgid "Circle 6"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1226
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1226, ../includes/shortcode-builder/builder.php:1226
 msgid "Circle 7"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1232
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1232, ../includes/shortcode-builder/builder.php:1232
 msgid "Circle 8"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1238
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1238, ../includes/shortcode-builder/builder.php:1238
 msgid "Circle 9"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1244
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1244, ../includes/shortcode-builder/builder.php:1244
 msgid "Circle 10"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1250
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1250, ../includes/shortcode-builder/builder.php:1250
 msgid "Horizontal 1"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1256
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1256, ../includes/shortcode-builder/builder.php:1256
 msgid "Horizontal 2"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1262
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1262, ../includes/shortcode-builder/builder.php:1262
 msgid "Horizontal 3"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1268
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1268, ../includes/shortcode-builder/builder.php:1268
 msgid "Horizontal 4"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1274
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1274, ../includes/shortcode-builder/builder.php:1274
 msgid "Horizontal 5"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1280
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1280, ../includes/shortcode-builder/builder.php:1280
 msgid "Horizontal 6"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1286
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1286, ../includes/shortcode-builder/builder.php:1286
 msgid "Horizontal 7"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1292
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1292, ../includes/shortcode-builder/builder.php:1292
 msgid "Horizontal 8"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1298
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1298, ../includes/shortcode-builder/builder.php:1298
 msgid "Horizontal 9"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1304
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1304, ../includes/shortcode-builder/builder.php:1304
 msgid "Horizontal 10"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1310
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1310, ../includes/shortcode-builder/builder.php:1310
 msgid "Flip 1"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1316
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1316, ../includes/shortcode-builder/builder.php:1316
 msgid "Flip 2"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1322
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1322, ../includes/shortcode-builder/builder.php:1322
 msgid "Flip 3"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1328
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1328, ../includes/shortcode-builder/builder.php:1328
 msgid "Flip 4"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1334
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1334, ../includes/shortcode-builder/builder.php:1334
 msgid "Flip 5"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1340
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1340, ../includes/shortcode-builder/builder.php:1340
 msgid "Table 1"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1346
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1346, ../includes/shortcode-builder/builder.php:1346
 msgid "Table 2"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1352
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1352, ../includes/shortcode-builder/builder.php:1352
 msgid "Table 3"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1358
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1358, ../includes/shortcode-builder/builder.php:1358
 msgid "Table 4"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1364
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1364, ../includes/shortcode-builder/builder.php:1364
 msgid "Table 5"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1370
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1370, ../includes/shortcode-builder/builder.php:1370
 msgid "List 1"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1376
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1376, ../includes/shortcode-builder/builder.php:1376
 msgid "List 2"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1382
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1382, ../includes/shortcode-builder/builder.php:1382
 msgid "List 3"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1388
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1388, ../includes/shortcode-builder/builder.php:1388
 msgid "List 4"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1394
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1394, ../includes/shortcode-builder/builder.php:1394
 msgid "List 5"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1400
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1400, ../includes/shortcode-builder/builder.php:1400
 msgid "List 6"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1406
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1406, ../includes/shortcode-builder/builder.php:1406
 msgid "List 7"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1412
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1412, ../includes/shortcode-builder/builder.php:1412
 msgid "List 8"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1418
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1418, ../includes/shortcode-builder/builder.php:1418
 msgid "List 9"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1424
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1424, ../includes/shortcode-builder/builder.php:1424
 msgid "Flip"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1430
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1430, ../includes/shortcode-builder/builder.php:1430
 msgid "Table 6 - Underline"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1436
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1436, ../includes/shortcode-builder/builder.php:1436
 msgid "Table 7 - Box Border"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1442
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1442, ../includes/shortcode-builder/builder.php:1442
 msgid "Table 8 - Odd Even"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1448
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1448, ../includes/shortcode-builder/builder.php:1448
 msgid "Table 9 Filter"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1454
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1454, ../includes/shortcode-builder/builder.php:1454
 msgid "Table 10 Filter Dense"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1460
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1460, ../includes/shortcode-builder/builder.php:1460
 msgid "Group Filter 1"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1503, ../includes/shortcode-builder/builder.php:1509
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1503, ../build/gs-coach/includes/shortcode-builder/builder.php:1509, ../includes/shortcode-builder/builder.php:1503, ../includes/shortcode-builder/builder.php:1509
 msgid " (Pro)"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1539
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1539, ../includes/shortcode-builder/builder.php:1539
 msgid "Normal Pagination"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1543
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1543, ../includes/shortcode-builder/builder.php:1543
 msgid "Ajax Pagination"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1547
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1547, ../includes/shortcode-builder/builder.php:1547
 msgid "Load More Button"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1551
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1551, ../includes/shortcode-builder/builder.php:1551
 msgid "Load More on Scroll"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1570, ../includes/shortcode-builder/builder.php:1610, ../includes/shortcode-builder/builder.php:1641, ../includes/shortcode-builder/builder.php:1672, ../includes/shortcode-builder/builder.php:1717, ../includes/shortcode-builder/builder.php:1755, ../includes/shortcode-builder/builder.php:1798, ../includes/shortcode-builder/builder.php:2499, ../includes/shortcode-builder/builder.php:2554
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1570, ../build/gs-coach/includes/shortcode-builder/builder.php:1610, ../build/gs-coach/includes/shortcode-builder/builder.php:1641, ../build/gs-coach/includes/shortcode-builder/builder.php:1672, ../build/gs-coach/includes/shortcode-builder/builder.php:1717, ../build/gs-coach/includes/shortcode-builder/builder.php:1755, ../build/gs-coach/includes/shortcode-builder/builder.php:1798, ../build/gs-coach/includes/shortcode-builder/builder.php:2499, ../build/gs-coach/includes/shortcode-builder/builder.php:2554, ../includes/shortcode-builder/builder.php:1570, ../includes/shortcode-builder/builder.php:1610, ../includes/shortcode-builder/builder.php:1641, ../includes/shortcode-builder/builder.php:1672, ../includes/shortcode-builder/builder.php:1717, ../includes/shortcode-builder/builder.php:1755, ../includes/shortcode-builder/builder.php:1798, ../includes/shortcode-builder/builder.php:2499, ../includes/shortcode-builder/builder.php:2554
 msgid "Default"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1574
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1574, ../includes/shortcode-builder/builder.php:1574
 msgid "Single Page"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1578
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1578, ../includes/shortcode-builder/builder.php:1578
 msgid "Popup"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1589
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1589, ../includes/shortcode-builder/builder.php:1589
 msgid "Drawer"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1593
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1593, ../includes/shortcode-builder/builder.php:1593
 msgid "Custom URL"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1614, ../includes/shortcode-builder/builder.php:1645, ../includes/shortcode-builder/builder.php:1676, ../includes/shortcode-builder/builder.php:1721, ../includes/shortcode-builder/builder.php:1759, ../includes/shortcode-builder/builder.php:1802, ../includes/shortcode-builder/builder.php:2503
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1614, ../build/gs-coach/includes/shortcode-builder/builder.php:1645, ../build/gs-coach/includes/shortcode-builder/builder.php:1676, ../build/gs-coach/includes/shortcode-builder/builder.php:1721, ../build/gs-coach/includes/shortcode-builder/builder.php:1759, ../build/gs-coach/includes/shortcode-builder/builder.php:1802, ../build/gs-coach/includes/shortcode-builder/builder.php:2503, ../includes/shortcode-builder/builder.php:1614, ../includes/shortcode-builder/builder.php:1645, ../includes/shortcode-builder/builder.php:1676, ../includes/shortcode-builder/builder.php:1721, ../includes/shortcode-builder/builder.php:1759, ../includes/shortcode-builder/builder.php:1802, ../includes/shortcode-builder/builder.php:2503
 msgid "Style One"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1618, ../includes/shortcode-builder/builder.php:1649, ../includes/shortcode-builder/builder.php:1680, ../includes/shortcode-builder/builder.php:1725, ../includes/shortcode-builder/builder.php:1763, ../includes/shortcode-builder/builder.php:1806, ../includes/shortcode-builder/builder.php:2507
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1618, ../build/gs-coach/includes/shortcode-builder/builder.php:1649, ../build/gs-coach/includes/shortcode-builder/builder.php:1680, ../build/gs-coach/includes/shortcode-builder/builder.php:1725, ../build/gs-coach/includes/shortcode-builder/builder.php:1763, ../build/gs-coach/includes/shortcode-builder/builder.php:1806, ../build/gs-coach/includes/shortcode-builder/builder.php:2507, ../includes/shortcode-builder/builder.php:1618, ../includes/shortcode-builder/builder.php:1649, ../includes/shortcode-builder/builder.php:1680, ../includes/shortcode-builder/builder.php:1725, ../includes/shortcode-builder/builder.php:1763, ../includes/shortcode-builder/builder.php:1806, ../includes/shortcode-builder/builder.php:2507
 msgid "Style Two"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1622, ../includes/shortcode-builder/builder.php:1653, ../includes/shortcode-builder/builder.php:1684, ../includes/shortcode-builder/builder.php:1729, ../includes/shortcode-builder/builder.php:1767, ../includes/shortcode-builder/builder.php:1810, ../includes/shortcode-builder/builder.php:2511
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1622, ../build/gs-coach/includes/shortcode-builder/builder.php:1653, ../build/gs-coach/includes/shortcode-builder/builder.php:1684, ../build/gs-coach/includes/shortcode-builder/builder.php:1729, ../build/gs-coach/includes/shortcode-builder/builder.php:1767, ../build/gs-coach/includes/shortcode-builder/builder.php:1810, ../build/gs-coach/includes/shortcode-builder/builder.php:2511, ../includes/shortcode-builder/builder.php:1622, ../includes/shortcode-builder/builder.php:1653, ../includes/shortcode-builder/builder.php:1684, ../includes/shortcode-builder/builder.php:1729, ../includes/shortcode-builder/builder.php:1767, ../includes/shortcode-builder/builder.php:1810, ../includes/shortcode-builder/builder.php:2511
 msgid "Style Three"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1688, ../includes/shortcode-builder/builder.php:1733, ../includes/shortcode-builder/builder.php:1771, ../includes/shortcode-builder/builder.php:1814, ../includes/shortcode-builder/builder.php:2515
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1688, ../build/gs-coach/includes/shortcode-builder/builder.php:1733, ../build/gs-coach/includes/shortcode-builder/builder.php:1771, ../build/gs-coach/includes/shortcode-builder/builder.php:1814, ../build/gs-coach/includes/shortcode-builder/builder.php:2515, ../includes/shortcode-builder/builder.php:1688, ../includes/shortcode-builder/builder.php:1733, ../includes/shortcode-builder/builder.php:1771, ../includes/shortcode-builder/builder.php:1814, ../includes/shortcode-builder/builder.php:2515
 msgid "Style Four"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1692, ../includes/shortcode-builder/builder.php:1737, ../includes/shortcode-builder/builder.php:1775, ../includes/shortcode-builder/builder.php:1818, ../includes/shortcode-builder/builder.php:2519
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1692, ../build/gs-coach/includes/shortcode-builder/builder.php:1737, ../build/gs-coach/includes/shortcode-builder/builder.php:1775, ../build/gs-coach/includes/shortcode-builder/builder.php:1818, ../build/gs-coach/includes/shortcode-builder/builder.php:2519, ../includes/shortcode-builder/builder.php:1692, ../includes/shortcode-builder/builder.php:1737, ../includes/shortcode-builder/builder.php:1775, ../includes/shortcode-builder/builder.php:1818, ../includes/shortcode-builder/builder.php:2519
 msgid "Style Five"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1779
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1779, ../includes/shortcode-builder/builder.php:1779
 msgid "Style Six"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1863
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1863, ../includes/shortcode-builder/builder.php:1863
 msgid "Normal Filter"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1867
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1867, ../includes/shortcode-builder/builder.php:1867
 msgid "Ajax Filter"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1873
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1873, ../includes/shortcode-builder/builder.php:1873
 msgid "One"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1877, ../includes/shortcode-builder/builder.php:1883
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1877, ../build/gs-coach/includes/shortcode-builder/builder.php:1883, ../includes/shortcode-builder/builder.php:1877, ../includes/shortcode-builder/builder.php:1883
 msgid "Two"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1887
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1887, ../includes/shortcode-builder/builder.php:1887
 msgid "Three"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1893, ../includes/shortcode-builder/builder.php:1907
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1893, ../build/gs-coach/includes/shortcode-builder/builder.php:1907, ../includes/shortcode-builder/builder.php:1893, ../includes/shortcode-builder/builder.php:1907
 msgid "Left"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1897, ../includes/shortcode-builder/builder.php:1911
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1897, ../build/gs-coach/includes/shortcode-builder/builder.php:1911, ../includes/shortcode-builder/builder.php:1897, ../includes/shortcode-builder/builder.php:1911
 msgid "Center"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1901, ../includes/shortcode-builder/builder.php:1915
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1901, ../build/gs-coach/includes/shortcode-builder/builder.php:1915, ../includes/shortcode-builder/builder.php:1901, ../includes/shortcode-builder/builder.php:1915
 msgid "Right"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1921, ../includes/shortcode-builder/builder.php:1943
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1921, ../build/gs-coach/includes/shortcode-builder/builder.php:1943, ../includes/shortcode-builder/builder.php:1921, ../includes/shortcode-builder/builder.php:1943
 msgid "Custom Order"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1925
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1925, ../includes/shortcode-builder/builder.php:1925
 msgid "Coach ID"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1937
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1937, ../includes/shortcode-builder/builder.php:1937
 msgid "Random"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1947
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1947, ../includes/shortcode-builder/builder.php:1947
 msgid "Taxonomy ID"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1951
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1951, ../includes/shortcode-builder/builder.php:1951
 msgid "Taxonomy Name"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1957
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1957, ../includes/shortcode-builder/builder.php:1957
 msgid "DESC"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1961
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1961, ../includes/shortcode-builder/builder.php:1961
 msgid "ASC"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1973, ../includes/shortcode-builder/builder.php:2021
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1973, ../build/gs-coach/includes/shortcode-builder/builder.php:2021, ../includes/shortcode-builder/builder.php:1973, ../includes/shortcode-builder/builder.php:2021
 msgid "100 - Thin"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1977, ../includes/shortcode-builder/builder.php:2025
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1977, ../build/gs-coach/includes/shortcode-builder/builder.php:2025, ../includes/shortcode-builder/builder.php:1977, ../includes/shortcode-builder/builder.php:2025
 msgid "200 - Extra Light"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1981, ../includes/shortcode-builder/builder.php:2029
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1981, ../build/gs-coach/includes/shortcode-builder/builder.php:2029, ../includes/shortcode-builder/builder.php:1981, ../includes/shortcode-builder/builder.php:2029
 msgid "300 - Light"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1985, ../includes/shortcode-builder/builder.php:2033
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1985, ../build/gs-coach/includes/shortcode-builder/builder.php:2033, ../includes/shortcode-builder/builder.php:1985, ../includes/shortcode-builder/builder.php:2033
 msgid "400 - Regular"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1989, ../includes/shortcode-builder/builder.php:2037
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1989, ../build/gs-coach/includes/shortcode-builder/builder.php:2037, ../includes/shortcode-builder/builder.php:1989, ../includes/shortcode-builder/builder.php:2037
 msgid "500 - Medium"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1993, ../includes/shortcode-builder/builder.php:2041
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1993, ../build/gs-coach/includes/shortcode-builder/builder.php:2041, ../includes/shortcode-builder/builder.php:1993, ../includes/shortcode-builder/builder.php:2041
 msgid "600 - Semi-Bold"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:1997, ../includes/shortcode-builder/builder.php:2045
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:1997, ../build/gs-coach/includes/shortcode-builder/builder.php:2045, ../includes/shortcode-builder/builder.php:1997, ../includes/shortcode-builder/builder.php:2045
 msgid "700 - Bold"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2001, ../includes/shortcode-builder/builder.php:2049
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2001, ../build/gs-coach/includes/shortcode-builder/builder.php:2049, ../includes/shortcode-builder/builder.php:2001, ../includes/shortcode-builder/builder.php:2049
 msgid "800 - Extra Bold"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2005, ../includes/shortcode-builder/builder.php:2053
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2005, ../build/gs-coach/includes/shortcode-builder/builder.php:2053, ../includes/shortcode-builder/builder.php:2005, ../includes/shortcode-builder/builder.php:2053
 msgid "900 - Black"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2011, ../includes/shortcode-builder/builder.php:2059
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2011, ../build/gs-coach/includes/shortcode-builder/builder.php:2059, ../includes/shortcode-builder/builder.php:2011, ../includes/shortcode-builder/builder.php:2059
 msgid "Normal"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2015, ../includes/shortcode-builder/builder.php:2063
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2015, ../build/gs-coach/includes/shortcode-builder/builder.php:2063, ../includes/shortcode-builder/builder.php:2015, ../includes/shortcode-builder/builder.php:2063
 msgid "Italic"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2216
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2216, ../includes/shortcode-builder/builder.php:2216
 msgid "Show All Designation"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2217
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2217, ../includes/shortcode-builder/builder.php:2217
 msgid "Search By Name"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2218
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2218, ../includes/shortcode-builder/builder.php:2218
 msgid "Search By Zip"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2219
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2219, ../includes/shortcode-builder/builder.php:2219
 msgid "Search By Tag"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2220
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2220, ../includes/shortcode-builder/builder.php:2220
 msgid "Company"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2231
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2231, ../includes/shortcode-builder/builder.php:2231
 msgid "Ribbon"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2235
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2235, ../includes/shortcode-builder/builder.php:2235
 msgid "Contact"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2240
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2240, ../includes/shortcode-builder/builder.php:2240
 msgid "Site URL"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2242, ../includes/shortcode-builder/builder.php:2246
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2242, ../build/gs-coach/includes/shortcode-builder/builder.php:2246, ../includes/shortcode-builder/builder.php:2242, ../includes/shortcode-builder/builder.php:2246
 msgid "Target"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2244
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2244, ../includes/shortcode-builder/builder.php:2244
 msgid "Course URL"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2250
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2250, ../includes/shortcode-builder/builder.php:2250
 msgid "Custom Page Link"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2251
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2251, ../includes/shortcode-builder/builder.php:2251
 msgid "Reset Filters"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2252
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2252, ../includes/shortcode-builder/builder.php:2252
 msgid "Prev"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2253
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2253, ../includes/shortcode-builder/builder.php:2253
 msgid "Next"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2297
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2297, ../includes/shortcode-builder/builder.php:2297
 msgid "Groups"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2303
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2303, ../includes/shortcode-builder/builder.php:2303
 msgid "Tag"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2311
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2311, ../includes/shortcode-builder/builder.php:2311
 msgid "Languages"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2318
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2318, ../includes/shortcode-builder/builder.php:2318
 msgid "Locations"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2325
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2325, ../includes/shortcode-builder/builder.php:2325
 msgid "Genders"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2332
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2332, ../includes/shortcode-builder/builder.php:2332
 msgid "Specialties"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2338, ../includes/shortcode-builder/builder.php:2339
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2338, ../build/gs-coach/includes/shortcode-builder/builder.php:2339, ../includes/shortcode-builder/builder.php:2338, ../includes/shortcode-builder/builder.php:2339
 msgid "Extra 1"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2345, ../includes/shortcode-builder/builder.php:2346
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2345, ../build/gs-coach/includes/shortcode-builder/builder.php:2346, ../includes/shortcode-builder/builder.php:2345, ../includes/shortcode-builder/builder.php:2346
 msgid "Extra 2"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2352, ../includes/shortcode-builder/builder.php:2353
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2352, ../build/gs-coach/includes/shortcode-builder/builder.php:2353, ../includes/shortcode-builder/builder.php:2352, ../includes/shortcode-builder/builder.php:2353
 msgid "Extra 3"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2359, ../includes/shortcode-builder/builder.php:2360
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2359, ../build/gs-coach/includes/shortcode-builder/builder.php:2360, ../includes/shortcode-builder/builder.php:2359, ../includes/shortcode-builder/builder.php:2360
 msgid "Extra 4"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2366, ../includes/shortcode-builder/builder.php:2367
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2366, ../build/gs-coach/includes/shortcode-builder/builder.php:2367, ../includes/shortcode-builder/builder.php:2366, ../includes/shortcode-builder/builder.php:2367
 msgid "Extra 5"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2396
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2396, ../includes/shortcode-builder/builder.php:2396
 msgid "1 Column"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2400
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2400, ../includes/shortcode-builder/builder.php:2400
 msgid "2 Columns"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2404
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2404, ../includes/shortcode-builder/builder.php:2404
 msgid "3 Columns"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2408
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2408, ../includes/shortcode-builder/builder.php:2408
 msgid "4 Columns"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2412
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2412, ../includes/shortcode-builder/builder.php:2412
 msgid "5 Columns"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2416
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2416, ../includes/shortcode-builder/builder.php:2416
 msgid "6 Columns"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2427
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2427, ../includes/shortcode-builder/builder.php:2427
 msgid "After Skills"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2431
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2431, ../includes/shortcode-builder/builder.php:2431
 msgid "After Description"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2435
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2435, ../includes/shortcode-builder/builder.php:2435
 msgid "After Meta Details"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2446, ../includes/shortcode-builder/builder.php:2616
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2446, ../build/gs-coach/includes/shortcode-builder/builder.php:2616, ../includes/shortcode-builder/builder.php:2446, ../includes/shortcode-builder/builder.php:2616
 msgid "None"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2450
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2450, ../includes/shortcode-builder/builder.php:2450
 msgid "Blur"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2454
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2454, ../includes/shortcode-builder/builder.php:2454
 msgid "Brightness"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2458
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2458, ../includes/shortcode-builder/builder.php:2458
 msgid "Contrast"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2462
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2462, ../includes/shortcode-builder/builder.php:2462
 msgid "Grayscale"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2466
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2466, ../includes/shortcode-builder/builder.php:2466
 msgid "Hue Rotate"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2470
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2470, ../includes/shortcode-builder/builder.php:2470
 msgid "Invert"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2474
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2474, ../includes/shortcode-builder/builder.php:2474
 msgid "Opacity"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2478
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2478, ../includes/shortcode-builder/builder.php:2478
 msgid "Saturate"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2482
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2482, ../includes/shortcode-builder/builder.php:2482
 msgid "Sepia"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2558
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2558, ../includes/shortcode-builder/builder.php:2558
 msgid "Style - 01"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2562
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2562, ../includes/shortcode-builder/builder.php:2562
 msgid "Style - 02"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2566
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2566, ../includes/shortcode-builder/builder.php:2566
 msgid "Style - 03"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2570
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2570, ../includes/shortcode-builder/builder.php:2570
 msgid "Style - 04"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2574
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2574, ../includes/shortcode-builder/builder.php:2574
 msgid "Style - 05"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2578
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2578, ../includes/shortcode-builder/builder.php:2578
 msgid "Style - 06"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2582
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2582, ../includes/shortcode-builder/builder.php:2582
 msgid "Style - 07"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2586
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2586, ../includes/shortcode-builder/builder.php:2586
 msgid "Style - 08"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2590
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2590, ../includes/shortcode-builder/builder.php:2590
 msgid "Style - 09"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2594
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2594, ../includes/shortcode-builder/builder.php:2594
 msgid "Style - 10"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2663
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2663, ../includes/shortcode-builder/builder.php:2663
 msgid "Preference saved"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2672
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2672, ../includes/shortcode-builder/builder.php:2672
 msgid "No preference provided"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2742
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2742, ../includes/shortcode-builder/builder.php:2742
 msgid "Taxonomy settings saved"
 msgstr ""
 
-#: ../includes/shortcode-builder/builder.php:2750
+#: ../build/gs-coach/includes/shortcode-builder/builder.php:2750, ../includes/shortcode-builder/builder.php:2750
 msgid "No settings provided"
 msgstr ""
 
-#: ../includes/shortcode-builder/page.php:10
+#: ../build/gs-coach/includes/shortcode-builder/page.php:10, ../includes/shortcode-builder/page.php:10
 msgid "Create New"
 msgstr ""
 
-#: ../includes/shortcode-builder/page.php:14
+#: ../build/gs-coach/includes/shortcode-builder/page.php:14, ../includes/shortcode-builder/page.php:14
 msgid "Preferences"
 msgstr ""
 
-#: ../includes/shortcode-builder/page.php:26
+#: ../build/gs-coach/includes/shortcode-builder/page.php:26, ../includes/shortcode-builder/page.php:26
 msgid "Demo Data"
 msgstr ""
 
-#: ../includes/shortcode-builder/page.php:30
+#: ../build/gs-coach/includes/shortcode-builder/page.php:30, ../includes/shortcode-builder/page.php:30
 msgid "Import Export"
 msgstr ""
 
-#: ../includes/shortcode-builder/preview.php:28
+#: ../build/gs-coach/includes/shortcode-builder/preview.php:28, ../includes/shortcode-builder/preview.php:28
 msgid "Something went wrong!"
 msgstr ""
 
-#: ../includes/shortcode-builder/preview.php:29
+#: ../build/gs-coach/includes/shortcode-builder/preview.php:29, ../includes/shortcode-builder/preview.php:29
 msgid "Data not found for preview, probably it's a bug, contact with plugin author"
 msgstr ""
 
-#: ../includes/term-order/term-order.php:147
+#: ../build/gs-coach/includes/term-order/term-order.php:147, ../includes/term-order/term-order.php:147
 msgid "Numeric order for terms, useful when sorting"
 msgstr ""
 
-#: ../includes/term-order/term-order.php:283, ../includes/term-order/term-order.php:275
+#: ../build/gs-coach/includes/term-order/term-order.php:283, ../build/gs-coach/includes/term-order/term-order.php:275, ../includes/term-order/term-order.php:283, ../includes/term-order/term-order.php:275
 msgid "Term Order"
 msgstr ""
 
-#: ../includes/term-order/term-order.php:284
+#: ../build/gs-coach/includes/term-order/term-order.php:284, ../includes/term-order/term-order.php:284
 msgid "To position an item, Quick Edit the row and change the order value to a more suitable number."
 msgstr ""
 
-#: ../includes/term-order/term-order.php:276
+#: ../build/gs-coach/includes/term-order/term-order.php:276, ../includes/term-order/term-order.php:276
 msgid "To reposition an item, drag and drop the row by \"clicking and holding\" it anywhere and moving it to its new position."
 msgstr ""
 
-#: ../includes/term-order/term-order.php:627
+#: ../build/gs-coach/includes/term-order/term-order.php:627, ../includes/term-order/term-order.php:627
 msgid "Set a specific order by entering a number (1 for first, etc.) in this field."
 msgstr ""
 
-#: ../includes/term-order/term-order.php:667
+#: ../build/gs-coach/includes/term-order/term-order.php:667, ../includes/term-order/term-order.php:667
 msgid "Terms are usually ordered alphabetically, but you can choose your own order by entering a number (1 for first, etc.) in this field."
 msgstr ""
 
-#: ../includes/integrations/beaver/beaver-widget-coach.php:12
+#: ../build/gs-coach/templates/partials/gs-coach-layout-no-coach.php:17, ../templates/partials/gs-coach-layout-no-coach.php:17
+msgid "No coach found"
+msgstr ""
+
+#: ../build/gs-coach/includes/integrations/beaver/beaver-widget-coach.php:12, ../includes/integrations/beaver/beaver-widget-coach.php:12
 msgid "GS Plugins"
 msgstr ""
 
-#: ../includes/integrations/beaver/beaver-widget-coach.php:13
+#: ../build/gs-coach/includes/integrations/beaver/beaver-widget-coach.php:13, ../includes/integrations/beaver/beaver-widget-coach.php:13
 msgid "Basic"
 msgstr ""
 
-#: ../templates/partials/gs-coach-layout-no-coach.php:17
-msgid "No coach found"
+#: ../includes/integrations/integration-gutenberg.php:100
+msgid "GS Single Coach Page"
 msgstr ""
