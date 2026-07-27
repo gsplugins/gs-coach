@@ -279,35 +279,67 @@ Install GS Coach plugin as a regular WordPress plugin. Here is different ways to
 
 == Frequently Asked Questions ==
 
-= How do I showcase coaches on a WordPress website? =
-To showcase coaches on a WordPress website, you can use a dedicated plugin like GS Coach. It allows you to create structured coach profiles with images, experience, skills, and contact details, then display them using layouts like grid, slider, or list without coding.
+= What does GS Coach help me do? =
+**GS Coach** helps you create structured coach profiles and display them in professional WordPress layouts. You can add profile information, organize coaches, and place coach showcases on pages or posts without building a custom directory from scratch.
 
-= What is the best WordPress plugin to display coach profiles? =
-GS Coach is one of the best WordPress plugins for displaying coach profiles. It offers multiple layouts, filtering options, and customizable profile fields, making it easy to showcase coaches professionally and improve user engagement.
+= How do I add a new coach profile? =
+After installing and activating *GS Coach*, go to **GS Coach → Add New Coach**. Add the coach’s name, description, profile image, and any available details, then publish the profile.
 
-= How can I create a coach profile page in WordPress? =
-You can create a coach profile page in WordPress by adding a new coach entry using GS Coach, filling in details like name, experience, and skills, and enabling a single profile page or popup view for each coach.
+You can check [Add New Coach section »](https://docs.gsplugins.com/gs-coach/manage-gs-coach/add-new-coach/) for a visual explanation.
 
-= How do I add multiple coaches to my WordPress site? =
-With GS Coach, you can add unlimited coaches by creating individual profiles from the dashboard. Each coach can have unique details, categories, and layouts, allowing you to manage large coaching teams easily.
+= What image size should I use for coach profile photos? =
+Use consistent square images for the cleanest grid and profile presentation. A 400 × 400 pixel image is the existing recommendation, although a larger optimized square image can appear sharper on high-density screens. Keep the same aspect ratio for all coaches and compress images before uploading.
 
-= Can I filter coaches by category or expertise in WordPress? =
-Yes, GS Coach allows you to filter coaches by category, expertise, or specialization. This helps visitors quickly find the right coach based on their needs, improving user experience and conversions.
+= How do I display coach profiles on a page or post? =
+Go to *GS Coach → Shortcode*, create or edit a showcase, and configure its layout and query settings. Copy the generated shortcode, such as it is, and paste it into a page, post, shortcode block, or compatible page-builder module.
 
-= How do I make my coaching website more professional? =
-To make your coaching website more professional, you should use structured coach profiles, high-quality images, clear descriptions, and trust elements like reviews and ratings. GS Coach helps you implement all of these in one place.
+Follow to [create a New Shortcode »](https://docs.gsplugins.com/gs-coach/manage-gs-coach/create-new-shortcode/) docs.
 
-= Is GS Coach plugin SEO-friendly for coach profiles? =
-Yes, GS Coach is built with an SEO-friendly structure, clean HTML markup, and optimized layouts. This helps search engines understand your coach profiles better and improves your chances of ranking in search results.
+= How do I use a GS Coach shortcode in a theme template file? =
 
-= Can I add booking or contact links to coach profiles? =
-Yes, GS Coach lets you add call-to-action links like booking pages, contact forms, or external links to each coach profile, making it easier for visitors to take action directly.
+Place the generated shortcode inside WordPress’s **do_shortcode()** function in the relevant template file:
 
-= How do I improve conversions on my coaching website? =
-Improving conversions involves building trust and making it easy for visitors to take action. GS Coach helps by organizing coach profiles clearly, adding CTAs, displaying reviews, and providing a smooth browsing experience.
+`
+<?php echo do_shortcode( '[gscoach id=1]' ); ?>
+`
 
-= Can I customize the design of coach profiles in WordPress? =
-Yes, GS Coach provides multiple layout styles, color controls, and custom CSS options, allowing you to fully customize how your coach profiles look and match your website design.
+Use a child theme or another update-safe customization method so a theme update does not overwrite the change.
+
+= Is there a limit to how many coach profiles I can add? =
+GS Coach does not impose a fixed limit on the number of coach profiles you can create. The number that can be displayed efficiently on one page depends on hosting resources, image optimization, layout choice, filters, and pagination settings.
+
+= What coach details can I display? =
+You can build profiles with information such as profession, experience, education, location, contact details, availability, fees, skills, certificates, websites, course links, social links, descriptions, reviews, and ratings. Available fields may vary by version.
+
+= Can I organize or filter coaches by category or expertise? =
+Yes. **GS Coach** supports organizing coaches through Coach Groups and additional taxonomies. Depending on the selected layout and version, you can include or exclude selected terms and create filterable coach displays.
+
+= Can I customize coach layouts and styling? =
+Yes. GS Coach provides layout, column, image, content visibility, color, typography, filter, and other display controls. Additional layouts and advanced customization options are available in GS Coach PRO.
+
+= Is GS Coach responsive and mobile-friendly? =
+Yes. GS Coach includes responsive controls for desktop, tablet, and mobile layouts. You can choose different column counts for different screen sizes to keep coach profiles readable and simple to use.
+
+= Does GS Coach work with page builders? =
+GS Coach supports popular page builders, including Gutenberg, Elementor, WPBakery, Divi, Beaver Builder, Oxygen, UX Builder for Flatsome, and TagDiv. Use a dedicated GS Coach element where available or insert the generated shortcode into a compatible module.
+
+Check [Page Builder Support »](https://docs.gsplugins.com/gs-coach/page-builder-support/) docs.
+
+= Why is my GS Coach shortcode not showing any coach profiles? =
+Confirm that the shortcode exists, at least one coach profile is published, and the shortcode ID is correct. Check Query Settings for restrictive Include or Exclude rules, confirm selected taxonomy terms contain coaches, and clear WordPress, builder, CDN, and browser caches after making changes.
+
+= Why does a single coach page show a 404 error? =
+Go to **WordPress Settings → Permalinks** and click Save Changes to refresh WordPress rewrite rules. Then review the coach slug and archive settings, clear all caches, and make sure the coach slug does not conflict with an existing page or post type.
+
+= How do I sort coaches by date, ID, name, or direction? =
+Open Query Settings for the shortcode. Select Coach Name, ID, Date, or another available option under Order By, then choose ASC or DESC under Order. Save the shortcode to apply the new order.
+
+Check [Query Settings »](https://docs.gsplugins.com/gs-coach/manage-gs-coach/query-settings/) docs.
+
+= How do I arrange coaches in a custom drag-and-drop order? =
+Go to **GS Coach → Sort Order** and drag the coaches into the preferred sequence. Then edit the shortcode, open Query Settings, set Order By to Custom Order, and set Order to ASC. Save the shortcode and verify the frontend display.
+
+Check [Sort Order »](https://docs.gsplugins.com/gs-coach/sort-order/) docs.
 
 == Screenshots ==
 1. Grid View - Style 07: GS Coach
