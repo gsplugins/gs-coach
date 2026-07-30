@@ -313,7 +313,7 @@ class Sortable {
 						</ol>
 	
 						<ul style="list-style: circle; padding-left: 20px; margin-top: 20px">
-							<li>Follow <a href="https://docs.gsplugins.com/gs-coach/manage-gs-coach/sort-order/" target="_blank">Documentation</a> to learn more.</li>
+							<li>Follow <a href="https://docs.gsplugins.com/gs-coach/sort-order/" target="_blank">Documentation</a> to learn more.</li>
 							<li><a href="https://www.gsplugins.com/contact/" target="_blank">Contact us</a> for support.</li>
 						</ul>
 
