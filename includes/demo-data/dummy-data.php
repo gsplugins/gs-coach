@@ -415,7 +415,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['leadership', 'growth-strategy']
                 ]),
                 'meta_input'    => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-image-1',
+                    '_thumbnail_id' => 'ethan-carter-business-coach',
                     '_gscoach_profession' => "Business Coach",
                     '_gscoach_experience' => "8 Years",
                     '_gscoach_education' => "MBA",
@@ -460,7 +460,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['self-development']
                 ]),
                 'meta_input'    => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-image-2',
+                    '_thumbnail_id' => 'sophia-martinez-life-coach',
                     '_gscoach_profession' => "Life Coach",
                     '_gscoach_experience' => "6 Years",
                     '_gscoach_education' => "Psychology",
@@ -505,7 +505,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['career-development']
                 ]),
                 'meta_input'    => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-image-3',
+                    '_thumbnail_id' => 'daniel-kim-career-coach',
                     '_gscoach_profession' => "Career Coach",
                     '_gscoach_experience' => "7 Years",
                     '_gscoach_education' => "Human Resources",
@@ -548,7 +548,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['fat-loss', 'strength-training']
                 ]),
                 'meta_input'    => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-image-4',
+                    '_thumbnail_id' => 'lucas-bennett-fitness-coach',
                     '_gscoach_profession' => "Fitness Coach",
                     '_gscoach_experience' => "5 Years",
                     '_gscoach_education' => "Sports Science",
@@ -591,7 +591,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['couples-coaching']
                 ]),
                 'meta_input'    => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-image-5',
+                    '_thumbnail_id' => 'emma-richardson-relationship-coach',
                     '_gscoach_profession' => "Relationship Coach",
                     '_gscoach_experience' => "9 Years",
                     '_gscoach_education' => "Psychology",
@@ -635,7 +635,7 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
                     "gs_coach_specialty" => ['mindset', 'self-development']
                 ]),
                 'meta_input'    => $this->get_meta_inputs([
-                    '_thumbnail_id' => 'gscoach-image-6',
+                    '_thumbnail_id' => 'noah-williams-mindset-coach',
                     '_gscoach_profession' => "Mindset Coach",
                     '_gscoach_experience' => "6 Years",
                     '_gscoach_education' => "Personal Development",
@@ -728,12 +728,12 @@ if ( ! class_exists( 'Dummy_Data' ) ) {
             require_once( ABSPATH . 'wp-admin/includes/image.php' );
 
             $attachment_files = [
-                'gscoach-image-1.jpg',
-                'gscoach-image-2.jpg',
-                'gscoach-image-3.jpg',
-                'gscoach-image-4.jpg',
-                'gscoach-image-5.jpg',
-                'gscoach-image-6.jpg',
+                'ethan-carter-business-coach.webp',
+                'sophia-martinez-life-coach.webp',
+                'daniel-kim-career-coach.webp',
+                'lucas-bennett-fitness-coach.webp',
+                'emma-richardson-relationship-coach.webp',
+                'noah-williams-mindset-coach.webp',
             ];
 
             add_filter( 'http_request_args', [ $this, 'http_request_args' ] );
