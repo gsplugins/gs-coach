@@ -503,21 +503,6 @@ if ( ! class_exists( 'GS_Plugins_Common_Pages' ) ) {
 									</div>
 								</div>
 							</div>
-							
-							<?php if ( ! empty( $this->data['links']['tutorial_link'] ) ) : ?>
-							<div class="gs-plugins--single_wrapper">
-								<div class="gs-plugins--single gs-plugin--color-four">
-									<div class="gs-plugins--single_top">
-										<div class="gs-plugins--single_icon"><svg xmlns="http://www.w3.org/2000/svg" width="36.5" height="21.38" viewBox="0 0 36.5 21.38"><path fill="#ed1c24" fill-rule="evenodd" d="M982.534,1383.57l-6.411-3.7a1.072,1.072,0,0,0-1.6.93v7.4a1.072,1.072,0,0,0,1.6.93l6.411-3.7a1.077,1.077,0,0,0,0-1.86h0Zm-5.877,2.78v-3.7l3.206,1.85Zm22.036-10.29-7.076,3.51v-4.69a1.07,1.07,0,0,0-1.069-1.07H964.832a1.07,1.07,0,0,0-1.068,1.07v19.24a1.07,1.07,0,0,0,1.068,1.07h25.716a1.07,1.07,0,0,0,1.069-1.07v-4.63l7.082,3.45a1.07,1.07,0,0,0,1.541-.96v-14.96a1.074,1.074,0,0,0-1.547-.96h0ZM965.9,1393.05v-17.1H989.48v17.1H965.9Zm32.2-2.78-6.482-3.16v-5.15l6.482-3.22v11.53Z" transform="translate(-963.75 -1373.81)"/></svg></div>
-										<h4 class="gs-plugins--single_name">Watch Video Tutorials</h4>
-										<div class="gs-plugins--single_details">
-											<div class="gs-plugins--single_desc">If you have any questions or need assistance, we have a series of video tutorials that can help you learn & understand how to use our plugin to its full potential.</div>
-											<a class="button button_color_six" href="<?php echo esc_url_raw( $this->data['links']['tutorial_link'] ); ?>" target="_blank">Watch Tutorials</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<?php endif; ?>
 
 						</div>
 					</div>
