@@ -488,6 +488,37 @@ body {
     }
 }
 
+/* Archive template ribbon (default style) */
+.gs-archive-container {
+
+    .gs_ribon_wrapper {
+
+        .gs_coach_ribbon {
+            --f: 1.3em;
+            --r: .8em;
+            position: absolute;
+            left: 0;
+            top: 16px;
+            padding: 5px 14px;
+            background: #f77674;
+            font-size: 15px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            line-height: 1.8;
+            color: #fff;
+            text-transform: uppercase;
+            z-index: 999;
+        }
+
+        .gs-coach-ribbon-default {
+            --r: .8em;
+            padding-right: calc(var(--r) + .25em);
+            clip-path: polygon(-100vw 0, calc(100% - var(--r)) 0, 100% 50%, calc(100% - var(--r)) 100%, -100vw 100%);
+            width: fit-content;
+        }
+    }
+}
+
 
 /* gs-grid-style-one 
 ========================*/

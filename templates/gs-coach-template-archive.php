@@ -18,6 +18,7 @@ if ( empty($gs_coach_thumbnail_sizes) ) {
 }
 
 $display_ribbon = 'on';
+$gs_coach_ribbon_style = 'default';
 
 get_header(); ?>
 
