@@ -43,7 +43,7 @@ class Integration_Gutenberg {
 
         wp_add_inline_style( 'wp-block-editor', $this->get_block_css() );
 
-        wp_register_script( 'gs-coach-block', GSCOACH_PLUGIN_URI . '/includes/integrations/assets/gutenberg/gutenberg-widget.min.js', ['wp-blocks', 'wp-editor'], GSCOACH_VERSION );
+        wp_register_script( 'gs-coach-block', GSCOACH_PLUGIN_URI . '/includes/integrations/assets/gutenberg/gutenberg-widget.min.js', ['wp-blocks', 'wp-editor', 'wp-server-side-render', 'wp-i18n', 'wp-data', 'wp-element'], GSCOACH_VERSION );
 
         $gs_coach_block = array(
             'select_shortcode' => __( 'GS Coach Shortcode', 'gscoach' ),
@@ -53,13 +53,11 @@ class Integration_Gutenberg {
             'create_link_text' => __( 'Create', 'gscoach' ),
             'edit_link' => admin_url( "edit.php?post_type=gs_coaches&page=gs-coach-shortcode#/shortcode/" ),
             'create_link' => admin_url( 'edit.php?post_type=gs_coaches&page=gs-coach-shortcode#/shortcode' ),
-            'plugin_icon' => GSCOACH_PLUGIN_URI . '/assets/img/icon.svg',
             'gs_coach_shortcodes' => $this->get_shortcode_list()
 		);
 		wp_localize_script( 'gs-coach-block', 'gs_coach_block', $gs_coach_block );
 
-        register_block_type( 'gscoach/shortcodes', array(
-            'editor_script' => 'gs-coach-block',
+        register_block_type( __DIR__ . '/assets/gutenberg', array(
             'attributes' => [
                 'shortcode' => [
                     'type'    => 'string',
@@ -73,11 +71,6 @@ class Integration_Gutenberg {
             'render_callback' => [$this, 'shortcodes_dynamic_render_callback']
         ));
 
-        register_block_type( 'gscoach/single-coach-block', array(
-            'editor_script' => 'gs-coach-single-block',
-            'render_callback' => [$this, 'single_page_render_callback']
-        ));
-
     }
 
     public function shortcodes_dynamic_render_callback( $block_attributes ) {
@@ -85,26 +78,6 @@ class Integration_Gutenberg {
         $shortcode_id = ( ! empty($block_attributes) && ! empty($block_attributes['shortcode']) ) ? absint( $block_attributes['shortcode'] ) : $this->get_default_item();
 
         return do_shortcode( sprintf( '[gscoach id="%u"]', esc_attr($shortcode_id) ) );
-
-    }
-
-    public function single_page_render_callback() {
-
-        global $post;
-        
-        ob_start();
-
-        if ( empty($post) ) {
-            ?>
-            <div class="container gs-single-container" style="padding:3em 2em;background: rgba(126, 126, 126, 0.35);">
-                <h4><?php echo __( 'GS Single Coach Page', 'gscoach' ) ?></h4>
-            </div>
-            <?php
-        } else {
-            include Template_Loader::locate_template( 'partials/gs-coach-layout-single.php' );
-        }
-
-        return ob_get_clean();
 
     }
 
