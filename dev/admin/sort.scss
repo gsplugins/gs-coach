@@ -128,7 +128,20 @@
 	padding: 0 10px;
 }
 
+.gscoach-sort--columns {
+	display: flex;
+	width: 100%;
+	max-width: 1280px;
+	gap: 40px;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
 .gscoach-sort--left-area {
+	flex: 1 1 670px;
+	min-width: 0;
+	max-width: 100%;
+
 	h3 {
 		line-height: 1.5;
 		display: flex;
@@ -139,6 +152,12 @@
 			height: 16px;
 		}
 	}
+}
+
+.gscoach-sort--right-area {
+	flex: 1 1 360px;
+	min-width: 0;
+	max-width: 480px;
 }
 
 .gs_coach_page_sort_gs_coach,
