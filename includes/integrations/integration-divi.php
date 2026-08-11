@@ -78,6 +78,12 @@ class Integration_Divi {
 	 * @return void
 	 */
 	public function register_rest_routes() {
+		// CoachesModule implements Divi 5 DependencyInterface — skip when
+		// the framework is not loaded (e.g. Gutenberg page edit / Divi 4).
+		if ( ! interface_exists( '\ET\Builder\Framework\DependencyManagement\Interfaces\DependencyInterface' ) ) {
+			return;
+		}
+
 		require_once GSCOACH_PLUGIN_DIR . 'includes/integrations/divi/CoachesModule.php';
 		require_once GSCOACH_PLUGIN_DIR . 'includes/integrations/divi/CoachesController.php';
 
