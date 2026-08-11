@@ -47,6 +47,21 @@ if ( ! class_exists( 'Builder' ) ) {
 
         }
 
+        /**
+         * Whether the Divi theme (or child) or Divi Builder plugin is active.
+         *
+         * @return bool
+         */
+        public function is_divi_active() {
+
+            if ( 'Divi' === get_template() ) {
+                return true;
+            }
+
+            return defined( 'ET_BUILDER_PLUGIN_ACTIVE' ) && ET_BUILDER_PLUGIN_ACTIVE;
+
+        }
+
         public function hide_admin_bar_from_preview( $visibility ) {
 
             if ( $this->is_preview() ) return false;
@@ -127,8 +142,15 @@ if ( ! class_exists( 'Builder' ) ) {
                 $GLOBALS['wp_query'] = $wp_query;
                 $wp->register_globals();
 
+                $preview_template = GSCOACH_PLUGIN_DIR . 'includes/shortcode-builder/preview.php';
 
-                include GSCOACH_PLUGIN_DIR . 'includes/shortcode-builder/preview.php';
+                // Divi's et_builder_wc_template_include() requires a string; returning null
+                // from this filter fatals under PHP 8+. Hand the preview path through instead.
+                if ( $this->is_divi_active() ) {
+                    return $preview_template;
+                }
+
+                include $preview_template;
 
                 return;
 
