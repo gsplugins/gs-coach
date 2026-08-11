@@ -110,6 +110,115 @@
 
 						</div>
 
+						<template v-if="( themes_v2_carousel().includes( shortcode_settings.gs_coach_theme ) && shortcode_settings.carousel_enabled ) || old_carousel_themes().includes( shortcode_settings.gs_coach_theme )">
+
+							<div class="shortcode-setting--row">
+
+								<div class="gs-roow row-20">
+
+									<div class="gs-col-xs-7">
+										<label class="m-t-10" for="carousel_autoplay">{{translation('carousel_autoplay')}}:</label>
+										<button class="gscoach-show--info"><i class="zmdi zmdi-help-outline"></i></button>
+									</div>
+
+									<div class="gs-col-xs-5">
+										<input-toggle class="m-t-6" name="carousel_autoplay" v-model="shortcode_settings.carousel_autoplay" offLabel="Off" onLabel="On"></input-toggle>
+									</div>
+
+									<div class="gs-col-xs-12 bi-text-help--area">
+										<p class="bi-text-help">{{translation('carousel_autoplay__details')}}</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="shortcode-setting--row" v-if="shortcode_settings.carousel_autoplay">
+
+								<div class="gs-roow row-20">
+
+									<div class="gs-col-xs-7">
+										<label class="m-t-10" for="carousel_autoplay_hover_pause">{{translation('carousel_autoplay_hover_pause')}}:</label>
+										<button class="gscoach-show--info"><i class="zmdi zmdi-help-outline"></i></button>
+									</div>
+
+									<div class="gs-col-xs-5">
+										<input-toggle class="m-t-6" name="carousel_autoplay_hover_pause" v-model="shortcode_settings.carousel_autoplay_hover_pause" offLabel="Off" onLabel="On"></input-toggle>
+									</div>
+
+									<div class="gs-col-xs-12 bi-text-help--area">
+										<p class="bi-text-help">{{translation('carousel_autoplay_hover_pause__details')}}</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="shortcode-setting--row">
+
+								<div class="gs-roow row-20">
+
+									<div class="gs-col-xs-7">
+										<label class="m-t-10" for="carousel_loop">{{translation('carousel_loop')}}:</label>
+										<button class="gscoach-show--info"><i class="zmdi zmdi-help-outline"></i></button>
+									</div>
+
+									<div class="gs-col-xs-5">
+										<input-toggle class="m-t-6" name="carousel_loop" v-model="shortcode_settings.carousel_loop" offLabel="Off" onLabel="On"></input-toggle>
+									</div>
+
+									<div class="gs-col-xs-12 bi-text-help--area">
+										<p class="bi-text-help">{{translation('carousel_loop__details')}}</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="shortcode-setting--row" v-if="shortcode_settings.carousel_autoplay">
+
+								<div class="gs-roow row-20">
+
+									<div class="gs-col-xs-5">
+										<label class="m-t-10" for="carousel_autoplay_speed">{{translation('carousel_autoplay_speed')}}:</label>
+										<button class="gscoach-show--info"><i class="zmdi zmdi-help-outline"></i></button>
+									</div>
+
+									<div class="gs-col-xs-7">
+										<input type="number" class="bi-input-control" id="carousel_autoplay_speed" v-model="shortcode_settings.carousel_autoplay_speed" placeholder="1000" min="0" step="100">
+									</div>
+
+									<div class="gs-col-xs-12 bi-text-help--area">
+										<p class="bi-text-help">{{translation('carousel_autoplay_speed__details')}}</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="shortcode-setting--row" v-if="shortcode_settings.carousel_autoplay">
+
+								<div class="gs-roow row-20">
+
+									<div class="gs-col-xs-5">
+										<label class="m-t-10" for="carousel_autoplay_timeout">{{translation('carousel_autoplay_timeout')}}:</label>
+										<button class="gscoach-show--info"><i class="zmdi zmdi-help-outline"></i></button>
+									</div>
+
+									<div class="gs-col-xs-7">
+										<input type="number" class="bi-input-control" id="carousel_autoplay_timeout" v-model="shortcode_settings.carousel_autoplay_timeout" placeholder="2500" min="0" step="100">
+									</div>
+
+									<div class="gs-col-xs-12 bi-text-help--area">
+										<p class="bi-text-help">{{translation('carousel_autoplay_timeout__details')}}</p>
+									</div>
+
+								</div>
+
+							</div>
+
+						</template>
+
 
 						<div class="shortcode-setting--row" v-if="!shortcode_settings.carousel_enabled && themes_v2_filter().includes( shortcode_settings.gs_coach_theme )">
 

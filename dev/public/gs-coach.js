@@ -731,16 +731,21 @@ jQuery(function($) {
 				}
 			}
 			
+			var autoplay = options.carousel_autoplay !== 'off';
+			var autoplayHoverPause = options.carousel_autoplay_hover_pause !== 'off';
+			var loop = options.carousel_loop !== 'off';
+			var autoplaySpeed = parseInt( options.carousel_autoplay_speed, 10 ) || 1000;
+			var autoplayTimeout = parseInt( options.carousel_autoplay_timeout, 10 ) || 2500;
+
 			$(this).owlCarousel({
 				rtl: is_rtl,
-				autoplay: true,
-				autoplayHoverPause: true,
-				loop: true,
+				autoplay: autoplay,
+				autoplayHoverPause: autoplayHoverPause,
+				loop: loop,
 				margin: 30,
-				rewind: false,
-				autoplaySpeed: 1000,
-				autoplayTimeout: 2500,
-				navSpeed: 1000,
+				autoplaySpeed: autoplaySpeed,
+				autoplayTimeout: autoplayTimeout,
+				navSpeed: autoplaySpeed,
 				dots: $that.hasClass('carousel-has-dots'),
 				nav: $that.hasClass('carousel-has-navs'),
 				navText: navText,
