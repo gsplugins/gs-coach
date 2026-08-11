@@ -9,6 +9,7 @@
 
 ### NPM ###
 /node_modules
+/includes/integrations/divi/visual-builder/node_modules
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
