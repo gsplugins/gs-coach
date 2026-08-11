@@ -219,18 +219,6 @@ body {
         overflow: visible;
     }
 
-    .owl-item {
-        opacity: 0;
-        visibility: hidden;
-        transform: scale(0.9);
-        transition: opacity 500ms, visibility 500ms, transform 500ms;
-    }
-
-    .owl-item.active {
-        opacity: 1;
-        visibility: visible;
-        transform: scale(1);
-    }
 
 }
 

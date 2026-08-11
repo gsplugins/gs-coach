@@ -742,6 +742,7 @@ jQuery(function($) {
 				autoplay: autoplay,
 				autoplayHoverPause: autoplayHoverPause,
 				loop: loop,
+				rewind: false,
 				margin: 30,
 				autoplaySpeed: autoplaySpeed,
 				autoplayTimeout: autoplayTimeout,
