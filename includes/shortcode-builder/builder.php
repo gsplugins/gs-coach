@@ -820,6 +820,9 @@ if ( ! class_exists( 'Builder' ) ) {
                 'carousel_autoplay_timeout' => __('Autoplay Timeout', 'gscoach'),
                 'carousel_autoplay_timeout__details' => __('Delay between automatic slides in milliseconds', 'gscoach'),
 
+                'carousel_items_to_scroll' => __('Items to Scroll', 'gscoach'),
+                'carousel_items_to_scroll__details' => __('Number of coaches to move forward or backward on each slide', 'gscoach'),
+
                 'carousel_navs_enabled' => __('Enable Carousel Navs', 'gscoach'),
                 'carousel_navs_enabled__details' => __('Enable carousel navs for this theme, it may not available for certain theme', 'gscoach'),
 
@@ -2171,6 +2174,7 @@ if ( ! class_exists( 'Builder' ) ) {
                 'carousel_loop'                   => 'on',
                 'carousel_autoplay_speed'         => 1000,
                 'carousel_autoplay_timeout'       => 2500,
+                'carousel_items_to_scroll'        => 1,
                 'link_preview_image'              => 'off',
                 'carousel_navs_enabled'           => 'on',
                 'carousel_dots_enabled'           => 'on',

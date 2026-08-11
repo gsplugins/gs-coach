@@ -736,6 +736,7 @@ jQuery(function($) {
 			var loop = options.carousel_loop !== 'off';
 			var autoplaySpeed = parseInt( options.carousel_autoplay_speed, 10 ) || 1000;
 			var autoplayTimeout = parseInt( options.carousel_autoplay_timeout, 10 ) || 2500;
+			var itemsToScroll = parseInt( options.carousel_items_to_scroll, 10 ) || 1;
 
 			$(this).owlCarousel({
 				rtl: is_rtl,
@@ -744,6 +745,7 @@ jQuery(function($) {
 				loop: loop,
 				rewind: false,
 				margin: 30,
+				slideBy: itemsToScroll,
 				smartSpeed: autoplaySpeed,
 				autoplaySpeed: autoplaySpeed,
 				autoplayTimeout: autoplayTimeout,

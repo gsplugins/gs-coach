@@ -690,6 +690,7 @@ class Shortcode {
 			'carousel_loop' => $carousel_loop,
 			'carousel_autoplay_speed' => (int) $carousel_autoplay_speed,
 			'carousel_autoplay_timeout' => (int) $carousel_autoplay_timeout,
+			'carousel_items_to_scroll' => (int) $carousel_items_to_scroll,
 		];
 
 		if( 'ajax-pagination' === $pagination_type || 'normal-pagination' === $pagination_type ){

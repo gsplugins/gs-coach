@@ -217,6 +217,27 @@
 
 							</div>
 
+							<div class="shortcode-setting--row">
+
+								<div class="gs-roow row-20">
+
+									<div class="gs-col-xs-5">
+										<label class="m-t-10" for="carousel_items_to_scroll">{{translation('carousel_items_to_scroll')}}:</label>
+										<button class="gscoach-show--info"><i class="zmdi zmdi-help-outline"></i></button>
+									</div>
+
+									<div class="gs-col-xs-7">
+										<input type="number" class="bi-input-control" id="carousel_items_to_scroll" v-model="shortcode_settings.carousel_items_to_scroll" placeholder="1" min="1" step="1">
+									</div>
+
+									<div class="gs-col-xs-12 bi-text-help--area">
+										<p class="bi-text-help">{{translation('carousel_items_to_scroll__details')}}</p>
+									</div>
+
+								</div>
+
+							</div>
+
 						</template>
 
 
