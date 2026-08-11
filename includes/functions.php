@@ -89,7 +89,25 @@ function is_divi_active() {
 }
 
 function is_divi_editor() {
-    if (!empty($_POST['action']) && $_POST['action'] == 'et_pb_process_computed_property' && !empty($_POST['module_type']) && $_POST['module_type'] == 'gs_coaches') return true;
+    // Divi 4 computed property (legacy layouts during migration).
+    if (!empty($_POST['action']) && $_POST['action'] == 'et_pb_process_computed_property' && !empty($_POST['module_type']) && $_POST['module_type'] == 'gs_coaches') {
+        return true;
+    }
+
+    // Divi 5 Visual Builder / Theme Builder.
+    if (function_exists('et_core_is_fb_enabled') && et_core_is_fb_enabled() && function_exists('et_builder_d5_enabled') && et_builder_d5_enabled()) {
+        return true;
+    }
+
+    // Divi 5 REST preview for GS Coach module.
+    if (defined('REST_REQUEST') && REST_REQUEST) {
+        $rest_route = isset($GLOBALS['wp']->query_vars['rest_route']) ? (string) $GLOBALS['wp']->query_vars['rest_route'] : '';
+        if ($rest_route && false !== strpos($rest_route, '/gs-coach/v1/divi')) {
+            return true;
+        }
+    }
+
+    return false;
 }
 
 function gs_wp_kses($content) {

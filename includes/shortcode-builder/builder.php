@@ -54,7 +54,10 @@ if ( ! class_exists( 'Builder' ) ) {
          */
         public function is_divi_active() {
 
-            if ( 'Divi' === get_template() ) {
+            $template = get_template();
+
+            // Divi theme (including local Divi 5 copies named Divi_).
+            if ( 'Divi' === $template || 'Divi_' === $template ) {
                 return true;
             }
 
