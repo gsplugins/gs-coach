@@ -10,7 +10,7 @@ mkdir -p build/gs-coach #multiple folder creation
 
 echo -ne 'Cleanup and building files started........            (40%)\r'
 
-rsync -r --exclude '.git' --exclude '.svn' --exclude 'build' --exclude 'node_modules' --exclude 'dev' --exclude '.vscode' . build/gs-coach/
+rsync -r --exclude '.git' --exclude '.svn' --exclude 'build' --exclude 'node_modules' --exclude '**/node_modules' --exclude 'dev' --exclude '.vscode' . build/gs-coach/
 
 echo -ne 'Files copied............        (60%)\r'
 
@@ -32,11 +32,11 @@ rm -rf build/gs-coach/composer.json &&
 rm -rf build/gs-coach/composer.lock &&
 rm -rf build/gs-coach/task.txt &&
 
-rm -rf build/gs-coach/includes/integrations/assets/divi/divi-builder.js &&
-rm -rf build/gs-coach/includes/integrations/assets/divi/divi-frontend.js &&
 rm -rf build/gs-coach/includes/integrations/assets/elementor/elementor-preview.js &&
 rm -rf build/gs-coach/includes/integrations/assets/gutenberg/gutenberg-widget.js &&
 rm -rf build/gs-coach/includes/gs-common-pages/assets/gs-plugins-common-pages.scss &&
+rm -rf build/gs-coach/includes/integrations/divi/visual-builder/node_modules &&
+rm -rf build/gs-coach/includes/integrations/divi/visual-builder/package-lock.json &&
 
 find . -type f -name '*.LICENSE.txt' -ls -delete &&
 

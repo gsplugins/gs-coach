@@ -77,8 +77,6 @@ mix.sass('./dev/shortcode/app.scss', './assets/admin/css/shortcode.min.css');
 mix.sass('./dev/shortcode/preview.scss', './assets/css/preview.min.css');
 mix.js('./dev/shortcode/app.js', './assets/admin/js/shortcode.min.js').vue();
 
-// Divi 4 builder bundle removed — Divi 5 module builds via includes/integrations/divi/visual-builder
-
 // Gutenberg Widget
 mix.js('./includes/integrations/assets/gutenberg/gutenberg-widget.js', './includes/integrations/assets/gutenberg/gutenberg-widget.min.js');
 
