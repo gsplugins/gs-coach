@@ -76,17 +76,13 @@
         </div>
     }
 
-    const Icon = function() {
-        return <img src={gs_coach_block.plugin_icon} alt="" width="24" height="24" />;
-    }
-
     registerBlockType('gscoach/shortcodes', {
 
-        title: __( 'GS Coaches', 'gscoach' ),
-        description: __( 'Show Coaches by GS Coach Plugin', 'gscoach' ),
-        icon: Icon,
-        category: 'layout',
-        keywords: [ 'image', 'photo', 'pics' ],
+        title: __( 'GS Coach', 'gscoach' ),
+        description: __( 'Display your coaches using a GS Coach shortcode.', 'gscoach' ),
+        icon: 'groups',
+        category: 'widgets',
+        keywords: [ 'coach', 'coaches', 'team', 'shortcode' ],
         example: { attributes: {} },
         supports: {
             align: ['wide', 'full']
@@ -103,25 +99,6 @@
         },
         edit: withSelect( () => {} )( BlockDisplay )
 
-    });
-
-    registerBlockType('gscoach/single-coach-block', {
-        title: __( 'GS Single Coach', 'gscoach' ),
-        description: __( 'Show Single Coach by GS Coach Plugin', 'gscoach' ),
-        icon: Icon,
-        category: 'layout',
-        edit: () => {
-            return (
-                <div className='gs-coach-single--block'>
-                    <ServerSideRender
-                        block="gscoach/single-coach-block"
-                    />
-                </div>
-            );
-        },
-        save() {
-            return null; // Nothing to save here..
-        }
     });
 
 }( window.wp, window.React, jQuery ));

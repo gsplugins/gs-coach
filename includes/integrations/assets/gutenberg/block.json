@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "gscoach/shortcodes",
+	"title": "GS Coach",
+	"category": "widgets",
+	"description": "Display your coaches using a GS Coach shortcode.",
+	"keywords": [ "coach", "coaches", "team", "shortcode" ],
+	"textdomain": "gscoach",
+	"icon": "groups",
+	"supports": {
+		"align": [ "wide", "full" ]
+	},
+	"attributes": {
+		"shortcode": {
+			"type": "string",
+			"default": ""
+		},
+		"align": {
+			"type": "string",
+			"default": "wide"
+		}
+	},
+	"editorScript": "gs-coach-block"
+}

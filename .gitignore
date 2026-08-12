@@ -9,6 +9,7 @@
 
 ### NPM ###
 /node_modules
+/includes/integrations/divi/visual-builder/node_modules
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
@@ -131,5 +132,6 @@ mix-manifest.json
 *.LICENSE.txt
 dev/shortcode/components/input-select--old
 
-build/
-build/*
+# Root packaging output from ./build.sh only (not Divi VB build/)
+/build/
+/build/*

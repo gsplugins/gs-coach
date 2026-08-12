@@ -215,22 +215,10 @@ body {
         }
     }
 
-    .owl-stage-outer {
-        overflow: visible;
-    }
+    // .owl-stage-outer {
+    //     overflow: visible;
+    // }
 
-    .owl-item {
-        opacity: 0;
-        visibility: hidden;
-        transform: scale(0.9);
-        transition: opacity 500ms, visibility 500ms, transform 500ms;
-    }
-
-    .owl-item.active {
-        opacity: 1;
-        visibility: visible;
-        transform: scale(1);
-    }
 
 }
 
@@ -484,6 +472,37 @@ body {
                 left: 0;
                 z-index: 999;
             }
+        }
+    }
+}
+
+/* Archive template ribbon (default style) */
+.gs-archive-container {
+
+    .gs_ribon_wrapper {
+
+        .gs_coach_ribbon {
+            --f: 1.3em;
+            --r: .8em;
+            position: absolute;
+            left: 0;
+            top: 16px;
+            padding: 5px 14px;
+            background: #f77674;
+            font-size: 15px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            line-height: 1.8;
+            color: #fff;
+            text-transform: uppercase;
+            z-index: 999;
+        }
+
+        .gs-coach-ribbon-default {
+            --r: .8em;
+            padding-right: calc(var(--r) + .25em);
+            clip-path: polygon(-100vw 0, calc(100% - var(--r)) 0, 100% 50%, calc(100% - var(--r)) 100%, -100vw 100%);
+            width: fit-content;
         }
     }
 }

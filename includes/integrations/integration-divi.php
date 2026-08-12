@@ -1,190 +1,173 @@
 <?php
+/**
+ * Divi 5 Integration – GS Coach module.
+ *
+ * @package GSCOACH
+ */
+
 namespace GSCOACH;
 
-/**
- * Protect direct access
- */
-if ( ! defined( 'ABSPATH' ) ) exit;
-
-// Integration Class
-class Integration_Divi {
-
-    private static $_instance = null;
-    private $name;
-    private $plugin_dir_url;
-    protected $_bundle_dependencies = array();
-    
-    public static function get_instance() {
-
-        if ( is_null( self::$_instance ) ) {
-            self::$_instance = new self();
-        }
-
-        return self::$_instance;
-        
-    }
-
-    public function __construct() {
-
-        add_action( 'divi_extensions_init', array( $this, 'init' ) );
-        
-    }
-
-    public function init() {
-
-        $this->name = 'gs-coach-divi';
-        $this->plugin_dir_url = GSCOACH_PLUGIN_URI . '/includes/integrations/assets/divi';
-
-        add_action( 'et_builder_modules_loaded', 'GSCOACH\divi_widget_class' );
-        add_action( 'wp_enqueue_scripts', array( $this, 'wp_hook_enqueue_scripts' ) );
-        add_action( 'wp_head', array( $this, 'editor_style' ) );
-
-    }
-
-
-    public function editor_style() {
-
-        if ( ! et_core_is_fb_enabled() ) return;
-
-        $icon = GSCOACH_PLUGIN_URI . '/assets/img/icon.svg';
-
-        ob_start();
-
-        ?>
-        <style>
-
-            .et-db #et-boc .et-l .et-fb-modules-list ul > li.gs_coaches:before {
-                background: url('<?php echo esc_attr( $icon ); ?>') no-repeat center center;
-                background-size: contain;
-                content: "";
-                height: 28px;
-            }
-            
-            .et-db #et-boc .et-l .et-fb-modules-list ul > li.gs_coaches {
-                height: 67px;
-            }
-
-        </style>
-        <?php
-
-        echo ob_get_clean();
-
-    }
-
-    public function wp_hook_enqueue_scripts() {
-
-        if ( et_core_is_fb_enabled() ) {
-
-            // Load Styles
-            plugin()->scripts->wp_enqueue_style_all( 'public' );
-
-            // Load Scripts
-            plugin()->scripts->wp_enqueue_script_all( 'public' );
-
-            $bundle_url   = "{$this->plugin_dir_url}/divi-builder.min.js";
-            wp_enqueue_script( "{$this->name}-builder", $bundle_url, ['react-dom'], GSCOACH_VERSION, true );
-
-        }
-
-    }
-
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
 
-function divi_widget_class() {
-    // Divi Widget Class
-    class Divi_Widget extends \ET_Builder_Module {                
-        
-        public $slug       = 'gs_coaches';
-        public $vb_support = 'on';
-        
-        public function init() {                    
-            $this->name = esc_html__( 'GS Coaches', 'gscoach' );
-        }
-    
-        public function get_fields() {
-    
-            return array(
-                'shortcode'     => array(
-                    'label'           => esc_html__( 'Select Shortcode', 'gscoach' ),
-                    'type'            => 'select',
-                    'option_category' => 'basic_option',
-                    'description'     => esc_html__( 'Show Coaches by GS Coach Plugin', 'gscoach' ),
-                    'toggle_slug'     => 'main_content',
-                    'default'         => $this->get_default_item(),
-                    'options'         => $this->get_shortcode_list(),
-                    'computed_affects'   => array(
-                        '__shortcode',
-                    ),
-                ),
-                '__shortcode' => array(
-                    'type'                => 'computed',
-                    'computed_callback'   => array( 'GSCOACH\Divi_Widget', 'get_shortcode' ),
-                    'computed_depends_on' => array(
-                        'shortcode',
-                    ),
-                    'computed_minimum' => array(
-                        'shortcode',
-                    ),
-                )
-            );
-    
-        }
-    
-        static function get_shortcode( $args ) {
-    
-            $defaults = array(
-                'shortcode' => ''
-            );
-    
-            $args = wp_parse_args( $args, $defaults );
-    
-            return do_shortcode( sprintf( '[gscoach id="%s" /]', esc_attr($args['shortcode']) ) );
-    
-        }
-    
-        public function render( $unprocessed_props, $content, $render_slug ) {
-            
-            $shortcode_id = $this->props['shortcode'];
-    
-            $output = sprintf(
-                '<div id="%2$s" class="%3$s">
-                    %1$s
-                </div>',
-                self::get_shortcode([
-                    'shortcode' => $shortcode_id
-                ]),
-                $this->module_id(),
-                $this->module_classname( $render_slug )
-            );
-    
-            return $output;
-    
-        }
-    
-        protected function get_shortcode_list() {
-        
-            $shortcodes = get_shortcodes();
-    
-            if ( !empty($shortcodes) ) {
-                return wp_list_pluck( $shortcodes, 'shortcode_name', 'id' );
-            }
-            
-            return [];
-    
-        }
-    
-        protected function get_default_item() {
-    
-            $shortcodes = get_shortcodes();
-    
-            if ( !empty($shortcodes) ) {
-                return $shortcodes[0]['id'];
-            }
-    
-            return '';
-    
-        }
-    
-    }
-    new Divi_Widget();
+/**
+ * Boots the native Divi 5 Coaches module.
+ */
+class Integration_Divi {
+
+	/**
+	 * Singleton instance.
+	 *
+	 * @var Integration_Divi|null
+	 */
+	private static $_instance = null;
+
+	/**
+	 * Get singleton.
+	 *
+	 * @return Integration_Divi
+	 */
+	public static function get_instance() {
+		if ( is_null( self::$_instance ) ) {
+			self::$_instance = new self();
+		}
+
+		return self::$_instance;
+	}
+
+	/**
+	 * Constructor.
+	 */
+	public function __construct() {
+		// Divi 5 only — no legacy Divi 4 module registration.
+		add_action( 'divi_module_library_modules_dependency_tree', [ $this, 'register_module' ] );
+		add_action( 'divi_visual_builder_assets_before_enqueue_scripts', [ $this, 'enqueue_visual_builder_assets' ] );
+		add_action( 'rest_api_init', [ $this, 'register_rest_routes' ] );
+		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_public_assets_in_builder' ] );
+	}
+
+	/**
+	 * Whether Divi 5 builder APIs are available.
+	 *
+	 * @return bool
+	 */
+	public static function is_divi_5() {
+		return function_exists( 'et_builder_d5_enabled' ) && et_builder_d5_enabled();
+	}
+
+	/**
+	 * Register module into Divi 5 dependency tree.
+	 *
+	 * @param object $dependency_tree Divi dependency tree.
+	 * @return void
+	 */
+	public function register_module( $dependency_tree ) {
+		if ( ! interface_exists( '\ET\Builder\Framework\DependencyManagement\Interfaces\DependencyInterface' ) ) {
+			return;
+		}
+
+		require_once GSCOACH_PLUGIN_DIR . 'includes/integrations/divi/CoachesModule.php';
+
+		$dependency_tree->add_dependency( new \GSCOACH\Divi\CoachesModule() );
+	}
+
+	/**
+	 * Register REST routes for Visual Builder preview.
+	 *
+	 * @return void
+	 */
+	public function register_rest_routes() {
+		// CoachesModule implements Divi 5 DependencyInterface — skip when
+		// the framework is not loaded (e.g. Gutenberg page edit / Divi 4).
+		if ( ! interface_exists( '\ET\Builder\Framework\DependencyManagement\Interfaces\DependencyInterface' ) ) {
+			return;
+		}
+
+		require_once GSCOACH_PLUGIN_DIR . 'includes/integrations/divi/CoachesModule.php';
+		require_once GSCOACH_PLUGIN_DIR . 'includes/integrations/divi/CoachesController.php';
+
+		\GSCOACH\Divi\CoachesController::register_routes();
+	}
+
+	/**
+	 * Enqueue public CSS/JS inside Visual Builder so coach layouts preview correctly.
+	 *
+	 * @return void
+	 */
+	public function enqueue_public_assets_in_builder() {
+		if ( ! function_exists( 'et_core_is_fb_enabled' ) || ! et_core_is_fb_enabled() ) {
+			return;
+		}
+
+		if ( ! self::is_divi_5() ) {
+			return;
+		}
+
+		plugin()->scripts->wp_enqueue_style_all( 'public' );
+		plugin()->scripts->wp_enqueue_script_all( 'public' );
+	}
+
+	/**
+	 * Enqueue Divi 5 Visual Builder package.
+	 *
+	 * @return void
+	 */
+	public function enqueue_visual_builder_assets() {
+		if ( ! function_exists( 'et_core_is_fb_enabled' ) || ! et_core_is_fb_enabled() ) {
+			return;
+		}
+
+		if ( ! self::is_divi_5() ) {
+			return;
+		}
+
+		if ( ! class_exists( '\ET\Builder\VisualBuilder\Assets\PackageBuildManager' ) ) {
+			return;
+		}
+
+		require_once GSCOACH_PLUGIN_DIR . 'includes/integrations/divi/CoachesModule.php';
+		require_once GSCOACH_PLUGIN_DIR . 'includes/integrations/divi/CoachesController.php';
+
+		$script_path = GSCOACH_PLUGIN_DIR . 'includes/integrations/divi/visual-builder/build/gs-coach-divi.js';
+		$script_uri  = GSCOACH_PLUGIN_URI . '/includes/integrations/divi/visual-builder/build/gs-coach-divi.js';
+
+		if ( ! file_exists( $script_path ) ) {
+			return;
+		}
+
+		$shortcode_options = \GSCOACH\Divi\CoachesModule::get_shortcode_options();
+		$default_id        = (string) \GSCOACH\Divi\CoachesModule::get_default_shortcode_id();
+
+		\ET\Builder\VisualBuilder\Assets\PackageBuildManager::register_package_build(
+			[
+				'name'    => 'gs-coach-divi-vb',
+				'version' => GSCOACH_VERSION,
+				'script'  => [
+					'src'                => $script_uri,
+					'deps'               => [
+						'react',
+						'jquery',
+						'divi-module',
+						'divi-module-library',
+						'divi-vendor-wp-hooks',
+						'divi-rest',
+					],
+					'enqueue_top_window' => false,
+					'enqueue_app_window' => true,
+					'data_app_window'    => [
+						'shortcodeOptions' => $shortcode_options,
+						'defaultShortcode' => $default_id,
+						'iconUrl'          => GSCOACH_PLUGIN_URI . '/assets/img/icon.svg',
+						'restNamespace'    => \GSCOACH\Divi\CoachesController::NAMESPACE,
+						'i18n'             => [
+							'loading'     => __( 'Loading coaches…', 'gscoach' ),
+							'empty'       => __( 'Please select a GS Coach shortcode.', 'gscoach' ),
+							'noShortcode' => __( 'No shortcodes found. Create one in GS Coach first.', 'gscoach' ),
+						],
+					],
+				],
+			]
+		);
+	}
 }

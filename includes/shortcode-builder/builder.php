@@ -47,6 +47,24 @@ if ( ! class_exists( 'Builder' ) ) {
 
         }
 
+        /**
+         * Whether the Divi theme (or child) or Divi Builder plugin is active.
+         *
+         * @return bool
+         */
+        public function is_divi_active() {
+
+            $template = get_template();
+
+            // Divi theme (including local Divi 5 copies named Divi_).
+            if ( 'Divi' === $template || 'Divi_' === $template ) {
+                return true;
+            }
+
+            return defined( 'ET_BUILDER_PLUGIN_ACTIVE' ) && ET_BUILDER_PLUGIN_ACTIVE;
+
+        }
+
         public function hide_admin_bar_from_preview( $visibility ) {
 
             if ( $this->is_preview() ) return false;
@@ -127,8 +145,15 @@ if ( ! class_exists( 'Builder' ) ) {
                 $GLOBALS['wp_query'] = $wp_query;
                 $wp->register_globals();
 
+                $preview_template = GSCOACH_PLUGIN_DIR . 'includes/shortcode-builder/preview.php';
 
-                include GSCOACH_PLUGIN_DIR . 'includes/shortcode-builder/preview.php';
+                // Divi's et_builder_wc_template_include() requires a string; returning null
+                // from this filter fatals under PHP 8+. Hand the preview path through instead.
+                if ( $this->is_divi_active() ) {
+                    return $preview_template;
+                }
+
+                include $preview_template;
 
                 return;
 
@@ -804,6 +829,24 @@ if ( ! class_exists( 'Builder' ) ) {
 
                 'carousel_enabled' => __('Enable Carousel', 'gscoach'),
                 'carousel_enabled__details' => __('Enable carousel for this theme, it may not available for certain theme', 'gscoach'),
+
+                'carousel_autoplay' => __('Autoplay', 'gscoach'),
+                'carousel_autoplay__details' => __('Enable automatic sliding of carousel items', 'gscoach'),
+
+                'carousel_autoplay_hover_pause' => __('Pause on Hover', 'gscoach'),
+                'carousel_autoplay_hover_pause__details' => __('Pause autoplay when mouse hovers over the carousel', 'gscoach'),
+
+                'carousel_loop' => __('Infinite Loop', 'gscoach'),
+                'carousel_loop__details' => __('Enable infinite loop for the carousel', 'gscoach'),
+
+                'carousel_autoplay_speed' => __('Autoplay Speed', 'gscoach'),
+                'carousel_autoplay_speed__details' => __('Slide transition speed in milliseconds', 'gscoach'),
+
+                'carousel_autoplay_timeout' => __('Autoplay Timeout', 'gscoach'),
+                'carousel_autoplay_timeout__details' => __('Delay between automatic slides in milliseconds', 'gscoach'),
+
+                'carousel_items_to_scroll' => __('Items to Scroll', 'gscoach'),
+                'carousel_items_to_scroll__details' => __('Number of coaches to move forward or backward on each slide', 'gscoach'),
 
                 'carousel_navs_enabled' => __('Enable Carousel Navs', 'gscoach'),
                 'carousel_navs_enabled__details' => __('Enable carousel navs for this theme, it may not available for certain theme', 'gscoach'),
@@ -2151,6 +2194,12 @@ if ( ! class_exists( 'Builder' ) ) {
                 'per_load'                        => '3',
                 'load_button_text'                => 'Load More',
                 'carousel_enabled'                => 'off',
+                'carousel_autoplay'               => 'on',
+                'carousel_autoplay_hover_pause'   => 'on',
+                'carousel_loop'                   => 'on',
+                'carousel_autoplay_speed'         => 1000,
+                'carousel_autoplay_timeout'       => 2500,
+                'carousel_items_to_scroll'        => 1,
                 'link_preview_image'              => 'off',
                 'carousel_navs_enabled'           => 'on',
                 'carousel_dots_enabled'           => 'on',

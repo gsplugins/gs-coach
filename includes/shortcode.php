@@ -685,6 +685,12 @@ class Shortcode {
 			'multi_select_ellipsis' => $gs_coach_multi_select_ellipsis,
 			'next_txt' => $gs_coach_next_txt,
 			'prev_txt' => $gs_coach_prev_txt,
+			'carousel_autoplay' => $carousel_autoplay,
+			'carousel_autoplay_hover_pause' => $carousel_autoplay_hover_pause,
+			'carousel_loop' => $carousel_loop,
+			'carousel_autoplay_speed' => (int) $carousel_autoplay_speed,
+			'carousel_autoplay_timeout' => (int) $carousel_autoplay_timeout,
+			'carousel_items_to_scroll' => (int) $carousel_items_to_scroll,
 		];
 
 		if( 'ajax-pagination' === $pagination_type || 'normal-pagination' === $pagination_type ){

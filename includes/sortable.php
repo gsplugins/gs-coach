@@ -254,9 +254,9 @@ class Sortable {
 
 		<div class="gs-coach--sort-wrap <?php echo is_pro_active() ? 'sort--wrap-active' : ''; ?>">
 
-			<div style="display: flex; width: 100%; max-width: 1280px; gap: 40px; flex-wrap: wrap;">
+			<div class="gscoach-sort--columns">
 
-				<div class="gscoach-sort--left-area" style="flex: 1 0 auto; width: 670px;">
+				<div class="gscoach-sort--left-area">
 
 					<h3><?php esc_html_e('Step 1: Drag & Drop to rearrangees', 'gscoach'); ?><img src="<?php // bloginfo('url'); ?>/wp-admin/images/loading.gif" id="loading-animation" /></h3>
 
@@ -385,15 +385,15 @@ class Sortable {
 
 		<div class="gs-coach--sort-wrap <?php echo is_pro_active() ? 'sort--wrap-active' : ''; ?>">
 
-			<div style="display: flex; width: 100%; max-width: 1280px; gap: 40px; flex-wrap: wrap;">
+			<div class="gscoach-sort--columns">
 
-				<div class="gscoach-sort--left-area" style="flex: 1 0 auto; width: 570px;">
+				<div class="gscoach-sort--left-area">
 
-					<h3><?php esc_html_e('Filter Orders', 'gscoach'); ?><img src="<?php bloginfo('url'); ?>/wp-admin/images/loading.gif" id="loading-animation" /></h3>
+					<h3><?php esc_html_e('Step 1: Drag & Drop to rearrange filters', 'gscoach'); ?><img src="<?php bloginfo('url'); ?>/wp-admin/images/loading.gif" id="loading-animation" /></h3>
 
 					<?php if (!empty($filters)) : ?>
 
-						<ul id="sortable-list" style="max-width: 600px;">
+						<ul id="sortable-list">
 							<?php foreach ($filters as $filter => $filter_title) : ?>
 
 								<li id="<?php echo esc_attr($filter); ?>">
@@ -405,6 +405,28 @@ class Sortable {
 						</ul>
 
 					<?php endif; ?>
+
+				</div>
+
+				<div class="gscoach-sort--right-area">
+					
+					<h3><?php esc_html_e('Step 2: Apply Filter Order', 'gscoach'); ?></h3>
+
+					<div style="background: #fff; border-radius: 6px; padding: 30px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12); font-size: 1.3em; line-height: 1.6; margin-top: 30px">
+						
+						<ol style="list-style: numeric; padding-left: 20px; margin: 0">
+							<li>Create or Edit a Shortcode From <strong>GS Coach > Coach Shortcode</strong>.</li>
+							<li>Enable <strong>Filter</strong> from the shortcode settings.</li>
+							<li>Turn on the individual filters you want to display.</li>
+							<li>The filter order set here will apply automatically on the frontend.</li>
+						</ol>
+	
+						<ul style="list-style: circle; padding-left: 20px; margin-top: 20px">
+							<li>Follow <a href="https://docs.gsplugins.com/gs-coach/manage-gs-coach/sort-order/" target="_blank">Documentation</a> to learn more.</li>
+							<li><a href="https://www.gsplugins.com/contact/" target="_blank">Contact us</a> for support.</li>
+						</ul>
+
+					</div>
 
 				</div>
 
@@ -427,15 +449,15 @@ class Sortable {
 
 		<div class="gs-coach--sort-wrap <?php echo is_pro_active() ? 'sort--wrap-active' : ''; ?>">
 
-			<div style="display: flex; width: 100%; max-width: 1280px; gap: 40px; flex-wrap: wrap;">
+			<div class="gscoach-sort--columns">
 
-				<div class="gscoach-sort--left-area" style="flex: 1 0 auto; width: 570px;">
+				<div class="gscoach-sort--left-area">
 
-					<h3><?php esc_html_e('Meta field Orders', 'gscoach'); ?><img src="<?php bloginfo('url'); ?>/wp-admin/images/loading.gif" id="loading-animation" /></h3>
+					<h3><?php esc_html_e('Step 1: Drag & Drop to rearrange meta fields', 'gscoach'); ?><img src="<?php bloginfo('url'); ?>/wp-admin/images/loading.gif" id="loading-animation" /></h3>
 
 					<?php if (!empty($metas)) : ?>
 
-						<ul id="sortable-list" style="max-width: 600px;">
+						<ul id="sortable-list">
 							<?php foreach ($metas as $meta) : ?>
 
 								<li id="<?php echo esc_attr($meta['key']); ?>">
@@ -447,6 +469,28 @@ class Sortable {
 						</ul>
 
 					<?php endif; ?>
+
+				</div>
+
+				<div class="gscoach-sort--right-area">
+					
+					<h3><?php esc_html_e('Step 2: Apply Meta Fields Order', 'gscoach'); ?></h3>
+
+					<div style="background: #fff; border-radius: 6px; padding: 30px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12); font-size: 1.3em; line-height: 1.6; margin-top: 30px">
+						
+						<ol style="list-style: numeric; padding-left: 20px; margin: 0">
+							<li>Create or Edit a Shortcode From <strong>GS Coach > Coach Shortcode</strong>.</li>
+							<li>Use a theme/layout that shows coach meta details (popup, panel, drawer, or single).</li>
+							<li>Fill in the meta fields for each coach under the coach edit screen.</li>
+							<li>The meta fields order set here will apply automatically on the frontend.</li>
+						</ol>
+	
+						<ul style="list-style: circle; padding-left: 20px; margin-top: 20px">
+							<li>Follow <a href="https://docs.gsplugins.com/gs-coach/manage-gs-coach/sort-order/" target="_blank">Documentation</a> to learn more.</li>
+							<li><a href="https://www.gsplugins.com/contact/" target="_blank">Contact us</a> for support.</li>
+						</ul>
+
+					</div>
 
 				</div>
 

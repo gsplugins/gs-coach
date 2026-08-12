@@ -77,9 +77,6 @@ mix.sass('./dev/shortcode/app.scss', './assets/admin/css/shortcode.min.css');
 mix.sass('./dev/shortcode/preview.scss', './assets/css/preview.min.css');
 mix.js('./dev/shortcode/app.js', './assets/admin/js/shortcode.min.js').vue();
 
-// Divi Builder
-mix.js('./includes/integrations/assets/divi/divi-builder.js', './includes/integrations/assets/divi/divi-builder.min.js');
-
 // Gutenberg Widget
 mix.js('./includes/integrations/assets/gutenberg/gutenberg-widget.js', './includes/integrations/assets/gutenberg/gutenberg-widget.min.js');
 
