@@ -10,7 +10,7 @@ mkdir -p build/gs-coach #multiple folder creation
 
 echo -ne 'Cleanup and building files started........            (40%)\r'
 
-rsync -r --exclude '.git' --exclude '.svn' --exclude 'build' --exclude 'node_modules' --exclude '**/node_modules' --exclude 'dev' --exclude '.vscode' . build/gs-coach/
+rsync -r --exclude '.git' --exclude '.svn' --exclude '/build' --exclude 'node_modules' --exclude '**/node_modules' --exclude 'dev' --exclude '.vscode' . build/gs-coach/
 
 echo -ne 'Files copied............        (60%)\r'
 
