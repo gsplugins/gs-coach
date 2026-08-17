@@ -5,7 +5,7 @@ Tags: staff, coach, consultant, our team, team
 Requires at least: 4.3
 Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 3.0.1
+Stable tag: 3.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -348,6 +348,20 @@ Check [Sort Order »](https://docs.gsplugins.com/gs-coach/sort-order/) docs.
 16. Drag & Drop Custom Order for GS Coach
 
 == Changelog ==
+= Version 3.0.2 [17th Aug 2026] =
+* [Added]: Carousel slide controls (Autoplay, Pause on Hover, Infinite Loop, Speed, Timeout, and Items to Scroll).
+* [Added]: Ribbon styles for archive layouts.
+* [Added]: Featured image and profession columns in the coach admin list.
+* [Added]: Divi 5 module compatibility and build.
+* [Fixed]: Slider overflow issue.
+* [Fixed]: Divi DependencyInterface fatal error.
+* [Fixed]: Ribbon undefined error in archive layouts.
+* [Updated]: Block icon, title, and description.
+* [Updated]: Coach Filters & Meta Fields guide and admin UI.
+* [Updated]: Dummy images for a better onboarding experience.
+* [Updated]: Removed the Single Coach block temporarily.
+* [Updated]: Removed the video tutorials card from the admin dashboard.
+
 = Version 3.0.1 [21st Jul 2026] =
 * [Fixed]: The Block name.
 * [Updated]: Gutenberg Icon.
@@ -396,6 +410,20 @@ Check [Sort Order »](https://docs.gsplugins.com/gs-coach/sort-order/) docs.
 * Initial release
 
 == Upgrade Notice ==
+= Version 3.0.2 [17th Aug 2026] =
+* [Added]: Carousel slide controls (Autoplay, Pause on Hover, Infinite Loop, Speed, Timeout, and Items to Scroll).
+* [Added]: Ribbon styles for archive layouts.
+* [Added]: Featured image and profession columns in the coach admin list.
+* [Added]: Divi 5 module compatibility and build.
+* [Fixed]: Slider overflow issue.
+* [Fixed]: Divi DependencyInterface fatal error.
+* [Fixed]: Ribbon undefined error in archive layouts.
+* [Updated]: Block icon, title, and description.
+* [Updated]: Coach Filters & Meta Fields guide and admin UI.
+* [Updated]: Dummy images for a better onboarding experience.
+* [Updated]: Removed the Single Coach block temporarily.
+* [Updated]: Removed the video tutorials card from the admin dashboard.
+
 = Version 3.0.1 [21st Jul 2026] =
 * [Fixed]: The Block name.
 * [Updated]: Gutenberg Icon.
