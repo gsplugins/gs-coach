@@ -17,7 +17,7 @@ GS Coach – Team, Staff, and Consultant Showcase with Skills and Reviews.
 
 Built to work smoothly with most WordPress themes and popular page builders, *GS Coach* gives you full control over how your coaches appear and perform. Choose from multiple layouts, highlight key details, and present your coaches in a way that turns profile views into real client opportunities, all while maintaining fast performance across all devices.
 
-🎬 [ Live Demo](https://coach.gsplugins.com/)  ⬆️ [Upgrade to PRO](https://www.gsplugins.com/product/wordpress-coaches-plugin/)  📚 [Documentation](https://docs.gsplugins.com/gs-coach/)  🙋‍♂️ [Support](https://www.gsplugins.com/contact/) 
+🎬 [ Live Demo](https://coach.gsplugins.com/)  ⬆️ [Upgrade to PRO](https://www.gsplugins.com/product/wordpress-coaches-plugin/pricing/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin)  📚 [Documentation](https://docs.gsplugins.com/gs-coach/)  🙋‍♂️ [Support](https://www.gsplugins.com/contact/) 
 
 == Why do well-structured coach profiles make a difference? ==
 
