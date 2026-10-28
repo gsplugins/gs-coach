@@ -3301,7 +3301,7 @@ tr.is-last-cloned {
   color: #66717d;
 }
 .gs-coach-app-view-container .text_color_2_dark {
-  color: rgb(83.6669603524, 92.6898678414, 102.5330396476);
+  color: rgb(32.8105726872%, 36.3489677809%, 40.2090351559%);
 }
 .gs-coach-app-view-container .text_color_3 {
   color: #acb0c3;
@@ -3366,31 +3366,31 @@ tr.is-last-cloned {
   padding: 15px 24PX 14px;
 }
 .gs-coach-app-view-container .btn:hover {
-  background: rgb(45.864, 48.048, 63.336);
+  background: rgb(17.9858823529%, 18.8423529412%, 24.8376470588%);
 }
 .gs-coach-app-view-container .btn.btn-brand {
   background: #5E6BE5;
 }
 .gs-coach-app-view-container .btn.btn-brand:hover {
-  background: rgb(58.8727272727, 74.7090909091, 223.3272727273);
+  background: rgb(23.0873440285%, 29.2976827094%, 87.5793226381%);
 }
 .gs-coach-app-view-container .btn.btn-success {
   background: #64d07b;
 }
 .gs-coach-app-view-container .btn.btn-success:hover {
-  background: rgb(60.8663366337, 196.1336633663, 89.6732673267);
+  background: rgb(23.869151621%, 76.9151621044%, 35.165987187%);
 }
 .gs-coach-app-view-container .btn.btn-red {
   background: #ef583d;
 }
 .gs-coach-app-view-container .btn.btn-red:hover {
-  background: rgb(235.8914285714, 55.5542857143, 23.3085714286);
+  background: rgb(92.506442577%, 21.7859943978%, 9.1406162465%);
 }
 .gs-coach-app-view-container .btn.btn-default {
   background: #acb0c3;
 }
 .gs-coach-app-view-container .btn.btn-default:hover {
-  background: rgb(83.6669603524, 92.6898678414, 102.5330396476);
+  background: rgb(32.8105726872%, 36.3489677809%, 40.2090351559%);
 }
 .gs-coach-app-view-container .btn-close {
   background: transparent;
@@ -3515,7 +3515,7 @@ tr.is-last-cloned {
   border-bottom: none !important;
 }
 .gs-coach-app-view-container .color-success {
-  color: rgb(60.8663366337, 196.1336633663, 89.6732673267);
+  color: rgb(23.869151621%, 76.9151621044%, 35.165987187%);
 }
 .gs-coach-app-view-container .color-brand {
   color: #5E6BE5;
@@ -5471,7 +5471,7 @@ ul.gs-coach--tab-links li:nth-child(even) button {
   background-image: linear-gradient(180deg, rgb(255, 255, 255) 10%, rgb(227, 232, 236) 70%);
 }
 ul.gs-coach--tab-links li.is-active button {
-  color: rgb(58.8727272727, 74.7090909091, 223.3272727273);
+  color: rgb(23.0873440285%, 29.2976827094%, 87.5793226381%);
   border-color: #5E6BE5;
   background: #fff;
 }

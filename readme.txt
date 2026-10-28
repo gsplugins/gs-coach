@@ -5,7 +5,7 @@ Tags: staff, coach, consultant, our team, team
 Requires at least: 4.3
 Tested up to: 7.1
 Requires PHP: 5.6
-Stable tag: 3.0.2
+Stable tag: 3.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -348,6 +348,9 @@ Check [Sort Order »](https://docs.gsplugins.com/gs-coach/sort-order/) docs.
 16. Drag & Drop Custom Order for GS Coach
 
 == Changelog ==
+= Version 3.0.3 [28th Oct 2026] =
+* [Fixed]: Broken pricing links.
+
 = Version 3.0.2 [17th Aug 2026] =
 * [Added]: Carousel slide controls (Autoplay, Pause on Hover, Infinite Loop, Speed, Timeout, and Items to Scroll).
 * [Added]: Ribbon styles for archive layouts.
@@ -410,6 +413,9 @@ Check [Sort Order »](https://docs.gsplugins.com/gs-coach/sort-order/) docs.
 * Initial release
 
 == Upgrade Notice ==
+= Version 3.0.3 [28th Oct 2026] =
+* [Fixed]: Broken pricing links.
+
 = Version 3.0.2 [17th Aug 2026] =
 * [Added]: Carousel slide controls (Autoplay, Pause on Hover, Infinite Loop, Speed, Timeout, and Items to Scroll).
 * [Added]: Ribbon styles for archive layouts.

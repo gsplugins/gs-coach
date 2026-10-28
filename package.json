@@ -30,8 +30,8 @@
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.48.0",
     "sass-loader": "^12.4.0",
-    "vue-loader": "^17.4.2",
-    "vue-template-compiler": "^0.1.0",
+    "vue-loader": "^15.11.1",
+    "vue-template-compiler": "^2.7.16",
     "wp-pot": "^1.9.9"
   },
   "dependencies": {

@@ -70,9 +70,9 @@ function is_pro_compatible() {
  */
 function add_pro_link( $links ) {
     if ( ! is_pro_active() ) {
-        $links[] = '<a style="color: red; font-weight: bold;" class="gs-pro-link" href="https://www.gsplugins.com/product/wordpress-coaches-plugin" target="_blank">Go Pro!</a>';
+        $links[] = '<a style="color: red; font-weight: bold;" class="gs-pro-link" href="' . esc_url( pricing_url( 'plugin-action-link' ) ) . '" target="_blank">Go Pro!</a>';
     }
-    $links[] = '<a href="https://www.gsplugins.com/wordpress-plugins" target="_blank">GS Plugins</a>';
+    $links[] = '<a href="https://www.gsplugins.com/wordpress-plugins/" target="_blank">GS Plugins</a>';
     return $links;
 }
 
@@ -1197,4 +1197,26 @@ function is_display_pagination( $carousel_enabled, $filter_enabled, $filter_type
 
     return true;
     
+}
+
+if ( ! function_exists( __NAMESPACE__ . '\pricing_url' ) ) {
+	/**
+	 * Pricing page URL with UTM tags. Every "Go Pro" / "Upgrade to PRO" link uses this,
+	 * so the URL lives in one place and Google Analytics shows which placement sold.
+	 *
+	 * @param string $medium Where the link appears, e.g. 'plugin-action-link', 'sort-order'.
+	 * @return string
+	 */
+	function pricing_url( $medium = 'plugin' ) {
+		$url = add_query_arg(
+			array(
+				'utm_source'   => 'plugin',
+				'utm_medium'   => sanitize_key( $medium ),
+				'utm_campaign' => 'wordpress-coaches-plugin',
+			),
+			'https://www.gsplugins.com/product/wordpress-coaches-plugin/pricing/'
+		);
+
+		return apply_filters( 'gs_coach_pricing_url', $url, $medium );
+	}
 }

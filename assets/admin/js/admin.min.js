@@ -4,7 +4,7 @@ jQuery(function($) {
     let isProValid = (gsCoachAdminData.is_pro_valid !== '') && (gsCoachAdminData.is_pro_valid === '1');
 
     if ( ! isProActive || ! isProValid ) {
-        $('.gs-coach-pro-field').addClass('gs-coach-fields-disable').append('<div class="gs-coach-pro-field--inner"><div class="gs-coach-pro-field--content"><a href="https://www.gsplugins.com/product/wordpress-coaches-plugin/#pricing">Upgrade to PRO</a></div></div>');
+        $('.gs-coach-pro-field').addClass('gs-coach-fields-disable').append('<div class="gs-coach-pro-field--inner"><div class="gs-coach-pro-field--content"><a href="https://www.gsplugins.com/product/wordpress-coaches-plugin/pricing/?utm_source=plugin&utm_medium=admin-js&utm_campaign=wordpress-coaches-plugin">Upgrade to PRO</a></div></div>');
     }
 
     /*

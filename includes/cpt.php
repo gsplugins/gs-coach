@@ -565,7 +565,7 @@ class Cpt {
 
 	// Add Pro Guard
     function add_pro_guard() {
-		echo '<div class="gs-coach-disable--term-pages"><div class="gs-coach-pro-field--inner"><div class="gs-coach-pro-field--content"><a href="https://www.gsplugins.com/product/gs-coaches/#pricing">Upgrade to PRO</a></div></div></div>';
+		echo '<div class="gs-coach-disable--term-pages"><div class="gs-coach-pro-field--inner"><div class="gs-coach-pro-field--content"><a href="' . esc_url( pricing_url( 'taxonomy-page' ) ) . '">Upgrade to PRO</a></div></div></div>';
     }
 
 	// Remove Actions

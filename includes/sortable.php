@@ -200,7 +200,7 @@ class Sortable {
 
 		<div class="gs-coach-disable--sort-page">
 			<div class="gs-coach-disable--sort-inner">
-				<div class="gs-coach-disable--term-message"><a href="https://www.gsplugins.com/product/wordpress-coaches-plugin/#pricing">Upgrade to PRO</a></div>
+				<div class="gs-coach-disable--term-message"><a href="<?php echo esc_url( pricing_url( 'sort-order' ) ); ?>">Upgrade to PRO</a></div>
 			</div>
 		</div>
 

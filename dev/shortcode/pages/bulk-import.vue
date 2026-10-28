@@ -22,7 +22,7 @@
 						<input type="file" name="import_file" id="import_file" disabled />
 					</div>
 
-					<div class="pro-block"><div class="pro-block--content"><a href="https://www.gsplugins.com/product/wordpress-coaches-plugin/#pricing">Upgrade to PRO</a></div></div>
+					<div class="pro-block"><div class="pro-block--content"><a href="https://www.gsplugins.com/product/wordpress-coaches-plugin/pricing/?utm_source=plugin&utm_medium=shortcode-builder&utm_campaign=wordpress-coaches-plugin">Upgrade to PRO</a></div></div>
 
 				</form>
 
