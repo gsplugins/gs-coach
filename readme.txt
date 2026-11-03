@@ -1,353 +1,189 @@
-=== GS Coach – Professional Team Showcase for Coaches & Consultants ===
+=== GS Coach – Coach Profiles & Coach Directory for Coaches, Trainers and Consultants ===
 Contributors: gsplugins, itszaman, samdani
 Donate link: https://www.paypal.com/donate/?hosted_button_id=K7K8YF4U3SCNQ
-Tags: staff, coach, consultant, our team, team
-Requires at least: 4.3
+Tags: coach, coaches, trainers, consultants, mentors
+Requires at least: 6.0
 Tested up to: 7.1
-Requires PHP: 5.6
+Requires PHP: 7.4
 Stable tag: 3.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-GS Coach – Team, Staff, and Consultant Showcase with Skills and Reviews.
+Show coaches, trainers and consultants with photos, profession, experience and education in a grid or slider. No coding needed.
 
 == Description ==
 
-**GS Coach** is a flexible WordPress plugin that helps you showcase your coaches in clean, professional layouts that build trust and drive engagement. Create structured coach profiles without writing any code and make it easy for visitors to explore, connect, and take action.
-
-Built to work smoothly with most WordPress themes and popular page builders, *GS Coach* gives you full control over how your coaches appear and perform. Choose from multiple layouts, highlight key details, and present your coaches in a way that turns profile views into real client opportunities, all while maintaining fast performance across all devices.
-
-🎬 [ Live Demo](https://coach.gsplugins.com/)  ⬆️ [Upgrade to PRO](https://www.gsplugins.com/product/wordpress-coaches-plugin/pricing/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin)  📚 [Documentation](https://docs.gsplugins.com/gs-coach/)  🙋‍♂️ [Support](https://www.gsplugins.com/contact/) 
-
-== Why do well-structured coach profiles make a difference? ==
-
-As your coaching business grows, presenting your coaches clearly becomes more important. A structured profile layout helps visitors understand each coach’s expertise and choose the right one with confidence.
-
-* Help visitors explore coaches quickly and find the right fit.
-* Keep multiple coach profiles clean and well organized.
-* Highlight featured or top coaches effectively.
-* Improve consistency across desktop and mobile devices.
-* Reduce confusion compared to unstructured profile listings.
+**GS Coach** helps visitors choose the right coach. Add each coach once with their photo, bio, profession, experience, education and social links, then show your coaches anywhere as a grid, circle cards or slider. Every coach can have a profile page or open in a popup.
 
-== What makes GS Coach practical to use? ==
+Pick a design in the shortcode builder, see it in the live preview, and paste one shortcode or block.
 
-* **Quick setup, no learning curve**: GS Coach fits right into your existing WordPress workflow, so you can start creating coach profiles immediately. No complex setup, no coding, just simple controls that save time and effort.
-* **Flexible coach display options**: Showcase coaches anywhere on your site using layouts that adapt to different use cases. Whether you want to highlight top coaches or display full teams, everything stays clean and easy to manage.
-* **Designed for real user experience**: Coach profiles are structured for clarity and readability, helping visitors quickly understand expertise, compare options, and take action without confusion.
-* **Smarter organization, better results**: Organize coaches in a way that feels natural and simple to navigate. A clear structure reduces friction, keeps visitors engaged longer, and increases the chances of conversion.
+👉 [Live demo](https://coach.gsplugins.com/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=demo) · [Documentation](https://docs.gsplugins.com/gs-coach/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=docs) · [Pro features](https://www.gsplugins.com/product/wordpress-coaches-plugin/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=top-overview) · [Pricing](https://www.gsplugins.com/product/wordpress-coaches-plugin/pricing/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=top-link) · [Support](https://www.gsplugins.com/contact/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=support)
 
-*GS Coach* gives you a practical, scalable way to present your coaches, helping you build trust, improve engagement, and turn visitors into real clients.
+### Who it's for
 
-== Core Features of GS Coach ==
+* **Coaching businesses:** life, business, career and executive coaches on one page.
+* **Gyms and fitness studios:** personal trainers with their specialties.
+* **Consultancies and mentoring programs:** consultants and mentors with their background.
+* **Online course platforms:** instructors with links to their courses.
 
-GS Coach provides everything you need to create, organize, and display professional coach profiles in a clean, structured, and conversion-friendly way.
+### Why site owners choose GS Coach
 
-* Coach profile display for individuals and teams.
-* Multiple layout styles (Grid, Slider, List, Popup).
-* Category-based coach organization.
-* Filterable coach layouts for easy navigation.
-* Custom coach ordering and sorting options.
-* Featured coach highlight support.
-* Profile image and media support.
-* Video introduction integration (YouTube/Vimeo).
-* Skills and expertise showcase section.
-* Short and full description control.
-* Dedicated single coach profile pages.
-* Popup profile view for quick details.
-* Call-to-action button support (contact, book, etc.).
-* Social media links integration.
-* Fully responsive and mobile-friendly layouts.
-* Shortcode-based display anywhere.
-* Widget and page builder compatibility.
-* SEO-friendly and clean HTML structure.
-* Custom CSS support for styling control.
-* Lightweight and optimized performance.
+* **Made for coaches:** fields for profession, experience and education, with more in Pro.
+* **Set up in minutes:** a dedicated Coaches menu, a shortcode builder with live preview, and one-click demo data.
+* **Looks right on every screen:** set columns for desktop, tablet and mobile.
+* **Works with your builder:** Gutenberg block, Elementor, Divi (including Divi 5), WPBakery, Beaver Builder, Oxygen and the Newspaper theme.
 
-Plenty of extra features are available to adapt to your growing needs.
+### Free features
 
-== Who is GS Coach best suited for? ==
+* **9 designs** across grid, circle, grid popup and grid slider layouts.
+* **Shortcode builder with live preview:** create, edit, clone and delete coach shortcodes.
+* **Link each coach** to a profile page or a popup.
+* **Coach details:** name, bio, photo, profession, experience, education and social links.
+* **Carousel controls:** autoplay, pause on hover, loop, speed and items to scroll.
+* **Responsive columns** for desktop, tablet and mobile.
+* **Groups:** show one or several groups per shortcode, or exclude groups.
+* **Sorting** by name, date, ID or random.
+* **Pagination** for long coach lists.
+* **Unlimited coaches.**
+* **Export and import** coaches, plus one-click demo data.
+* **Custom profile slug**, editable front-end labels, custom CSS and template overrides.
+* **Translation ready.**
 
-GS Coach is ideal for anyone looking to showcase coaches professionally, build trust, and turn visitors into clients without complex setup or custom development.
+### Pro features
 
-* *Coaching businesses* and *consulting services* showcasing coach profiles.
-* *Life coaches*, *business coaches*, and *fitness trainers* building personal brands.
-* *Training platforms* and *online programs* featuring multiple *coaches* or *mentors*.
-* *Agencies* creating high-converting coach profile sections for clients.
-* *Website owners* who want SEO-friendly and structured coach displays.
+[GS Coach Pro](https://www.gsplugins.com/product/wordpress-coaches-plugin/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=pro-section) adds:
 
-*GS Coach* works best when trust, visibility, and conversions matter, helping visitors quickly find the right coach and take action with confidence.
+* **61 more designs,** including horizontal, list, flip, table, drawer, panel and filter layouts.
+* **Coach directory filters** with search, so visitors can find the right coach.
+* **Booking details:** schedule, availability, fee, course link, personal website and a custom page link, with button text you choose.
+* **Contact details:** address, city, country, phone and email.
+* **Client review and rating** on each coach.
+* **Skills bars,** certificates, a downloadable CV and **ribbons** such as "Top coach".
+* **Panel, drawer and custom URL links.**
+* **AJAX pagination,** a "Load more" button and infinite scroll.
+* **Drag-and-drop custom order** and a sidebar widget.
+* **Priority email support.**
 
-== Available fields to add Coach info ==
-**Coach Details**
+Plans start at $49 per year, with a 7-day money-back guarantee. [Compare Pro plans](https://www.gsplugins.com/product/wordpress-coaches-plugin/pricing/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=pro-plans).
 
-* **Title**: Enter the coach’s name or title.
-* **Media**: Upload profile image or media file.
-* **Description**: Provide a detailed coach bio or overview.
+### How it works
 
-**Coach’s Additional Info**
+1. Go to **GS Coach > Add New Coach**. Add the coach's name, bio and photo, then fill in their profession, experience and education, and choose a group.
+2. Go to **GS Coach > Shortcode**, create a shortcode and pick a design. The live preview updates as you change settings.
+3. Copy the shortcode, for example `[gscoach id=1]`, into any page or post, or use the GS Coach block or widget in your page builder.
 
-* **Profession**: Specify the coach’s profession or role.
-* **Experience**: Enter years or details of experience.
-* **Education**: Add educational background or qualifications.
-* **Ribbon**: Highlight special status or achievements.
-* **Address**: Enter the coach’s address.
-* **State/City**: Specify location details.
-* **Country**: Select the country.
-* **Contact**: Add phone or contact number.
-* **Email**: Enter the coach’s email address.
-* **Schedule**: Define available schedule or timing.
-* **Availability**: Set availability status.
-* **Personal Site**: Add a personal website link.
-* **Course Link**: Link to courses or programs.
-* **Fee**: Specify coaching fees or pricing.
-* **Review**: Add client feedback or comments.
-* **Rating**: Provide a rating score.
-* **Custom Page Link**: Link to a custom profile or landing page.
-* **Coach’s Social Link**: Add social media profile links.
-* **Coach’s Skill**: List key skills or areas of expertise.
-* **Coach’s Certificates**: Add certifications or achievements.
-* **Coach’s CV**: Upload or link to the coach’s CV.
-* **Excerpt**: Add a short summary for preview display.
+Each shortcode has three tabs:
 
-### General Settings
+* **General:** design, carousel, link type, image size and which details to show.
+* **Style:** columns per device and typography for names, professions and details.
+* **Query:** how many coaches to show, sorting, and which groups to include or exclude.
 
-Go to **GS Coach → Shortcode** to create or edit a shortcode. The **General Settings** tab allows you to control the basic layout, structure, and content display of your coach showcase.
+### Shortcode usage
 
-Set a **Shortcode Name** to identify your shortcode easily. Choose a **Theme Effect** and **View Type** to define how your coaches will appear on the frontend.
+`[gscoach id=1]`
 
-Control how coach items behave using the **Link Type** and **Link Target** options. Select appropriate **Image Sizes** to keep coach thumbnails consistent across your layout.
+In a theme file:
 
-You can enable or disable elements such as **Coach Title, Coach Subtitle**, and **Coach Details**, while **Title Limit** helps control the length of coach titles for cleaner layouts.
+`<?php echo do_shortcode( '[gscoach id=1]' ); ?>`
 
-The **Control Details** option allows you to decide which coach information should be displayed within each coach item.
+See [how to create a shortcode](https://docs.gsplugins.com/gs-coach/manage-gs-coach/create-new-shortcode/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=shortcode-docs) for every option.
 
-These settings help you configure how coaches are structured and displayed while keeping the setup simple and flexible.
+### Support
 
-*Carousel Note*: When the carousel is enabled, the filter and pagination are disabled.
+Free users get help in the [WordPress.org support forum](https://wordpress.org/support/plugin/gs-coach/). Pro users get priority email support through our [help desk](https://www.gsplugins.com/contact/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=support-section). We reply as soon as we can, excluding holidays.
 
-### Style Settings
+### More plugins from GS Plugins
 
-The **Style Settings** tab allows you to control the visual layout and typography of your coach's showcase.
-
-Adjust the number of coaches displayed per row using **Desktop Items, Tablet Items, Portrait Mobile Items**, and **Mobile Items** to ensure the layout adapts properly across different screen sizes.
-
-Typography options such as **Title Typography, Subtitle Typography**, and **Details Typography** lets you customize the appearance of coach titles, subtitles, and coach details for better readability and visual consistency.
-
-### Query Settings
-
-The **Query Settings** tab allows you to control which coaches are displayed and how they are organized in the showcase.
-
-Set the number of coaches to display using the **Coaches** option. Use **Order By** and **Order** to define how coaches are sorted, such as by date, title, or custom order.
-
-For filter navigation, **Filter Order By** and **Filter Order** help control how coach filters are arranged.
-
-You can also refine the results using **Exclude/Include** options for **Coach Category** and **Coach Tag**, allowing you to display only specific groups of coaches or hide selected ones from the layout.
-
-### Preferences
-
-Global Settings for *GS Coach*
-
-Navigate to **GS Coach > Coach Shortcode** and select *Preferences*.
-
-The **Preferences** section lets you manage the global settings of **GS Coach** from one place. You can customize coach profile URLs, archive page details, single profile layout, breadcrumbs, next/previous navigation, clickable phone and email links, search behavior, frontend labels, multilingual support, font loading, lazy loading, and custom styling.
-
-This section also allows you to rename many frontend text labels, such as address, email, profession, experience, education, location, schedule, availability, fee, review, rating, skills, social links, filter text, search text, and button text. These options help you make the coach showcase feel more natural for your website and audience.
-
-For advanced control, you can use the performance options to disable Google Fonts or lazy loading, enable multilingual support for translated websites, and add custom CSS to fine-tune the design.
-
-### Page Builder Support
-* Gutenberg.
-* Elementor.
-* WPBakery.
-* Divi Builders.
-* Beaver Builder.
-* Oxygen Builder.
-* UX Builder.
-* TagDiv.
-* Genesis.
-
-### Multilingual Support
-* WPML
-* Loco Translate 
-
-
-### GS Coach's shortcode usage
-
-Basic Usage - 
-`
-[gscoach id=1]
-`
-
-<strong>Shortcode PHP Usage</strong>
-`
-<?php echo do_shortcode( '[gscoach id=1]' ); ?>
-`
-
-### Documentation
-If you have any questions regarding the **GS Coach** plugin and how to work with it, We recommend referring to our comprehensive online documentation. It provides detailed information and instructions to assist you in navigating and utilizing the plugin effectively. You can find the [Documentation](https://docs.gsplugins.com/gs-coach/) here.
-
-### Quick Support & Bug Reporting
-If you encounter any problems or discover bugs, please post them in our [Support](https://www.gsplugins.com/contact/) channel. We aim to respond as soon as possible (excluding holidays). 
-
-***Pro users are requested to contact our support channel for dedicated assistance.***
-
-🙋‍♂️ Alternatively, you can reach out to us through our [Support](https://www.gsplugins.com/contact/) or [WordPress.org](https://wordpress.org/support/plugin/gs-coach/) support forum.
-
-### Development Team
-Crafted and Developed with Passion by [GS Plugins](https://www.gsplugins.com/)
-
-### Confused?
-
-🎬 [View live Demos &raquo;](https://coach.gsplugins.com/)
-📚 [Documentation &raquo;](https://docs.gsplugins.com/gs-coach/)
-
-
-### 🔥 More Essential Plugins You Want To Get From [GS Plugins](https://www.gsplugins.com/)
-
-**⭐ [Solid Testimonials](https://wordpress.org/plugins/gs-testimonial/)** - Showcase client reviews, recommendations, and quotes creatively across pages and widgets for maximum impact.
-
-**↔️ [Logo Slider](https://wordpress.org/plugins/gs-logo-slider/)** - Quick & easily manageable logo slideshow plugin to display partner, client, brand & sponsor's Logos in appealing views.
-
-**💼 [Filterable Portfolio](https://wordpress.org/plugins/gs-portfolio/)** - Showcase your work with clean, responsive layouts, including Grid, Slider, Filter, Masonry, and Popup.
-
-**👥 [Team Members](https://wordpress.org/plugins/gs-team-members/)** - Create attractive team sections highlighting members, roles, expertise, and professional strengths.
-
-**🎁 [Project Showcase](https://wordpress.org/plugins/gs-projects/)** - Display projects as a portfolio with complete details, including URL, client reviews & ratings, gallery & videos.
-
-**📚 [Books Showcase](https://wordpress.org/plugins/gs-books-showcase/)** - Display books with authors, dates, reviews, ratings, galleries, and helpful details with 35+ designs.
-
-**⊞ [Posts Grid](https://wordpress.org/plugins/posts-grid/)** - Display recent WordPress posts in elegant 50+ styles for faster browsing and seamless navigation.
-
-### 🎯 WooCommerce Plugins
-
-**🛒 [WooCommerce Products Slider](https://wordpress.org/plugins/gs-woocommerce-products-slider/)** - Display WooCommerce products in smooth sliders, helping shoppers browse items more easily.
-
-**🛍️ [WooCommerce Variation Swatches](https://wordpress.org/plugins/gs-woo-variation-swatches/)** - Replace product dropdowns with attractive swatches for easier and faster variation selection.
-
-**💎 [WooCommerce Brands](https://wordpress.org/plugins/gs-woo-brands/)** - Add brand taxonomy for organizing, displaying, and filtering WooCommerce products efficiently.
-
-### 📣 Social Plugins
-
-**📌 [Pinterest Portfolio](https://wordpress.org/plugins/gs-pinterest-portfolio/)** - Showcase Pinterest pins on WordPress, increasing engagement, visibility, and profile traffic.
-
-**▶️ [YouTube Gallery](https://wordpress.org/plugins/gs-youtube-gallery/)** - Feature YouTube channel or playlist videos in attractive galleries for easier visitor viewing.
-
-### 🏆 Branding Plugin
-
-**⚡ [PowerUp](https://wordpress.org/plugins/powerup/)** - Improve WordPress security and convenience with redirects, restrictions, admin controls and many more.
+* [GS Logo Slider](https://wordpress.org/plugins/gs-logo-slider/): client, partner and sponsor logos in sliders, carousels, tickers and grids.
+* [Solid Testimonials](https://wordpress.org/plugins/gs-testimonial/): customer reviews and quotes in sliders, grids and masonry layouts.
+* [GS Team Members](https://wordpress.org/plugins/gs-team-members/): team pages and staff directories with profiles and social links.
+* [GS Portfolio](https://wordpress.org/plugins/gs-portfolio/): show your work in grid, slider, list and filterable layouts.
+* [GS Projects Showcase](https://wordpress.org/plugins/gs-projects/): case studies with client, dates, value and project links.
+* [GS Books Showcase](https://wordpress.org/plugins/gs-books-showcase/): a book library with covers, ISBN and publication details.
+* [GS Posts Grid](https://wordpress.org/plugins/posts-grid/): blog posts in 50+ grid, list and slider styles.
+* [GS WooCommerce Products Slider](https://wordpress.org/plugins/gs-woocommerce-products-slider/): product sliders and carousels for your shop.
+* [GS Variation Swatches](https://wordpress.org/plugins/gs-woo-variation-swatches/): color, image and button swatches for WooCommerce variations.
+* [GS WooCommerce Brands](https://wordpress.org/plugins/gs-woo-brands/): add brands to products with logos, filters and sliders.
+* [GS Pinterest Portfolio](https://wordpress.org/plugins/gs-pinterest-portfolio/): embed Pinterest pins and boards.
+* [GS YouTube Gallery](https://wordpress.org/plugins/gs-youtube-gallery/): YouTube videos, playlists and channels in galleries.
+* [PowerUp](https://wordpress.org/plugins/powerup/): redirects, restrictions and admin tools for WordPress.
 
 == Installation ==
 
-Install GS Coach plugin as a regular WordPress plugin. Here is different ways to install GS Coach plugin :
+= From your WordPress dashboard =
+1. Go to **Plugins > Add New** and search for **GS Coach**.
+2. Click **Install Now**, then **Activate**.
+3. A **GS Coach** menu appears in your dashboard.
 
-* [Visual Installation & Usage Guide &raquo;](https://docs.gsplugins.com/gs-coach/)
+= By uploading the zip file =
+1. Download `gs-coach.zip`.
+2. Go to **Plugins > Add New > Upload Plugin**, choose the file and click **Install Now**.
+3. Activate the plugin.
 
-= Install by Search Plugin =
-- In your Admin, go to menu Plugins > Add New
-- Search GS Coach
-- Click to install
-- Activate the plugin
-- GS Coach post type will show below Posts / Pages
+= By FTP =
+1. Upload the `gs-coach` folder to `/wp-content/plugins/`.
+2. Activate the plugin from **Plugins** in your dashboard.
 
-= Install by Upload Plugin =
-- Download the latest version of GS Coach (.zip file)
-- In your Admin, go to menu Plugins > Add New
-- Select **Upload Plugin**
-- Click on **Choose File**
-- Select downloaded gs-coach-pro.zip & click on ***Install Now*** button
-- Activate the plugin
-- GS Coach post type will show below Posts / Pages
-
-= Install Plugin using FTP =
-- Upload gs-coach-pro folder inside the /wp-content/plugins/ directory
-- Go to WordPress dashboard > Plugins > Activate the GS Coach plugin
-- GS Coach post type will show below Posts / Pages
-
-* Put [gscoach id=1] shortcode or select other theme, where you need to display the coaches.
+Then add `[gscoach id=#]` where you want the coaches to show. See the [setup guide](https://docs.gsplugins.com/gs-coach/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=install-docs) for screenshots of each step.
 
 == Frequently Asked Questions ==
 
-= What does GS Coach help me do? =
-**GS Coach** helps you create structured coach profiles and display them in professional WordPress layouts. You can add profile information, organize coaches, and place coach showcases on pages or posts without building a custom directory from scratch.
+= How do I add a coach? =
+Go to **GS Coach > Add New Coach**. Add the name, bio and photo, fill in the coach's details and choose a group. Then publish. See [Add a new coach](https://docs.gsplugins.com/gs-coach/manage-gs-coach/add-new-coach/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=faq-add) for a step-by-step guide.
 
-= How do I add a new coach profile? =
-After installing and activating *GS Coach*, go to **GS Coach → Add New Coach**. Add the coach’s name, description, profile image, and any available details, then publish the profile.
+= How many coaches can I add? =
+As many as you need. There is no limit in the free version.
 
-You can check [Add New Coach section »](https://docs.gsplugins.com/gs-coach/manage-gs-coach/add-new-coach/) for a visual explanation.
+= What size should coach photos be? =
+Square photos of at least 400 × 400 pixels. Use the same size and framing for everyone so the cards line up.
 
-= What image size should I use for coach profile photos? =
-Use consistent square images for the cleanest grid and profile presentation. A 400 × 400 pixel image is the existing recommendation, although a larger optimized square image can appear sharper on high-density screens. Keep the same aspect ratio for all coaches and compress images before uploading.
+= How is GS Coach different from GS Team Members? =
+GS Coach is built for people clients choose between: it has fields for profession, experience and education, and Pro adds schedules, fees, course links and reviews. GS Team Members is better for showing your own staff.
 
-= How do I display coach profiles on a page or post? =
-Go to *GS Coach → Shortcode*, create or edit a showcase, and configure its layout and query settings. Copy the generated shortcode, such as it is, and paste it into a page, post, shortcode block, or compatible page-builder module.
+= Can visitors book or contact a coach? =
+Yes, with Pro. Add each coach's schedule, availability, fee, phone, email and a booking or course link with your own button text.
 
-Follow to [create a New Shortcode »](https://docs.gsplugins.com/gs-coach/manage-gs-coach/create-new-shortcode/) docs.
+= Can visitors filter or search coaches? =
+Yes, with Pro. Filter layouts add search and filters so visitors can find the right coach.
 
-= How do I use a GS Coach shortcode in a theme template file? =
+= Can I show reviews and ratings? =
+Yes, with Pro. Add a client review and rating to each coach.
 
-Place the generated shortcode inside WordPress’s **do_shortcode()** function in the relevant template file:
+= Does it work with Elementor, Divi and other page builders? =
+Yes. It has a Gutenberg block and native widgets or modules for Elementor, Divi (including Divi 5), WPBakery, Beaver Builder, Oxygen and the Newspaper theme. In any other builder, paste the shortcode. See the [page builder guides](https://docs.gsplugins.com/gs-coach/page-builder-support/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=faq-builders).
 
-`
-<?php echo do_shortcode( '[gscoach id=1]' ); ?>
-`
+= My shortcode shows no coaches. What should I check? =
+Make sure at least one coach is published, the shortcode ID is correct, and the Query tab isn't excluding the groups your coaches are in. Then clear any page cache.
 
-Use a child theme or another update-safe customization method so a theme update does not overwrite the change.
+= Why does a coach profile page show a 404 error? =
+WordPress needs to refresh its links. Go to **Settings > Permalinks** and click **Save** once.
 
-= Is there a limit to how many coach profiles I can add? =
-GS Coach does not impose a fixed limit on the number of coach profiles you can create. The number that can be displayed efficiently on one page depends on hosting resources, image optimization, layout choice, filters, and pagination settings.
+= How do I use the shortcode in a theme template? =
+Use `<?php echo do_shortcode( '[gscoach id=1]' ); ?>` and replace 1 with your shortcode's ID.
 
-= What coach details can I display? =
-You can build profiles with information such as profession, experience, education, location, contact details, availability, fees, skills, certificates, websites, course links, social links, descriptions, reviews, and ratings. Available fields may vary by version.
-
-= Can I organize or filter coaches by category or expertise? =
-Yes. **GS Coach** supports organizing coaches through Coach Groups and additional taxonomies. Depending on the selected layout and version, you can include or exclude selected terms and create filterable coach displays.
-
-= Can I customize coach layouts and styling? =
-Yes. GS Coach provides layout, column, image, content visibility, color, typography, filter, and other display controls. Additional layouts and advanced customization options are available in GS Coach PRO.
-
-= Is GS Coach responsive and mobile-friendly? =
-Yes. GS Coach includes responsive controls for desktop, tablet, and mobile layouts. You can choose different column counts for different screen sizes to keep coach profiles readable and simple to use.
-
-= Does GS Coach work with page builders? =
-GS Coach supports popular page builders, including Gutenberg, Elementor, WPBakery, Divi, Beaver Builder, Oxygen, UX Builder for Flatsome, and TagDiv. Use a dedicated GS Coach element where available or insert the generated shortcode into a compatible module.
-
-Check [Page Builder Support »](https://docs.gsplugins.com/gs-coach/page-builder-support/) docs.
-
-= Why is my GS Coach shortcode not showing any coach profiles? =
-Confirm that the shortcode exists, at least one coach profile is published, and the shortcode ID is correct. Check Query Settings for restrictive Include or Exclude rules, confirm selected taxonomy terms contain coaches, and clear WordPress, builder, CDN, and browser caches after making changes.
-
-= Why does a single coach page show a 404 error? =
-Go to **WordPress Settings → Permalinks** and click Save Changes to refresh WordPress rewrite rules. Then review the coach slug and archive settings, clear all caches, and make sure the coach slug does not conflict with an existing page or post type.
-
-= How do I sort coaches by date, ID, name, or direction? =
-Open Query Settings for the shortcode. Select Coach Name, ID, Date, or another available option under Order By, then choose ASC or DESC under Order. Save the shortcode to apply the new order.
-
-Check [Query Settings »](https://docs.gsplugins.com/gs-coach/manage-gs-coach/query-settings/) docs.
-
-= How do I arrange coaches in a custom drag-and-drop order? =
-Go to **GS Coach → Sort Order** and drag the coaches into the preferred sequence. Then edit the shortcode, open Query Settings, set Order By to Custom Order, and set Order to ASC. Save the shortcode and verify the frontend display.
-
-Check [Sort Order »](https://docs.gsplugins.com/gs-coach/sort-order/) docs.
+= What is the difference between the free and Pro versions? =
+The free version gives you 9 grid, circle and slider designs, profile pages and popups, the main coach details and unlimited coaches. Pro adds 61 more designs, a searchable coach directory, schedules, fees, booking and course links, contact details, reviews, skills, certificates, CVs and priority support. See the [Pro features and plans](https://www.gsplugins.com/product/wordpress-coaches-plugin/pricing/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=wordpress-coaches-plugin&utm_content=faq-pro).
 
 == Screenshots ==
-1. Grid View - Style 07: GS Coach
-2. Grid View - Style 14: GS Coach
-3. Circle View - Style 02: GS Coach
-4. Horizontal View - Style 03: GS Coach
-5. Slider View - Style 03: GS Coach
-6. Filter View - Style 04: GS Coach
-7. List View - Style 02: GS Coach
-8. Flip View - Style 03: GS Coach
-9. Drawer View - Style 03: GS Coach
-10. Panel View - Style 05: GS Coach
-11. All created Shortcodes for the GS Coach Plugin
-12. General Settings.
-13. Style Settings.
-14. Query Settings - GS Coach
-15. Preference [Global Settings]
-16. Drag & Drop Custom Order for GS Coach
+1. Grid design 7.
+2. Grid design 14.
+3. Circle design 2.
+4. Horizontal design 3.
+5. Slider design 3.
+6. Filter design 4.
+7. List design 2.
+8. Flip design 3.
+9. Drawer design 3.
+10. Panel design 5.
+11. List of saved shortcodes.
+12. General settings.
+13. Style settings.
+14. Query settings.
+15. Preferences.
+16. Drag-and-drop custom order.
 
 == Changelog ==
+
 = Version 3.0.3 [28th Oct 2026] =
 * [Fixed]: Broken pricing links.
 
@@ -382,97 +218,37 @@ Check [Sort Order »](https://docs.gsplugins.com/gs-coach/sort-order/) docs.
 * [Fixed]: Page Redirection on the Plugin Activation.
 * [Fixed]: Free Pro Conflicts.
 
-= version 1.0.8 [24th May 2021] =
+= Version 1.0.8 [24th May 2021] =
 * [Fixed]: PHP 7.3 Compatibility.
 * [Fixed]: Deprecated Function Warning.
 
-= version 1.0.7 [19th Dec 2020] =
-* [Updated]: AppSero Client.
-* [Updated]: With WordPress version 5.6 
-
-= Version 1.0.6 [13th Aug 20] =
-* [Updated]: With WordPress 5.5
-
-= version 1.0.5 [11th Jul 20] =
-* [Added]: Appsero client. 
-* [Added]: Review system. 
-
-= version 1.0.4 [28th Jun 20] =
-* [Updated]: With Bootstrap 4 grid CSS. 
-* [Updated]: With WordPress latest version.
-
-= version 1.0.3 [25th Nov 19] =
-* [Fixed]: Domain name with www & fixed all urls.
-* [Updated]: With WordPress latest version.
-
-= Version 1.0.2 [21st Oct 19] =
-* [Fixed]: Domain name changed & fixed all urls.
-* [Added]: New Contributors.
-
-= version 1.0.1 =
-* Initial release
-
-== Upgrade Notice ==
-= Version 3.0.3 [28th Oct 2026] =
-* [Fixed]: Broken pricing links.
-
-= Version 3.0.2 [17th Aug 2026] =
-* [Added]: Carousel slide controls (Autoplay, Pause on Hover, Infinite Loop, Speed, Timeout, and Items to Scroll).
-* [Added]: Ribbon styles for archive layouts.
-* [Added]: Featured image and profession columns in the coach admin list.
-* [Added]: Divi 5 module compatibility and build.
-* [Fixed]: Slider overflow issue.
-* [Fixed]: Divi DependencyInterface fatal error.
-* [Fixed]: Ribbon undefined error in archive layouts.
-* [Updated]: Block icon, title, and description.
-* [Updated]: Coach Filters & Meta Fields guide and admin UI.
-* [Updated]: Dummy images for a better onboarding experience.
-* [Updated]: Removed the Single Coach block temporarily.
-* [Updated]: Removed the video tutorials card from the admin dashboard.
-
-= Version 3.0.1 [21st Jul 2026] =
-* [Fixed]: The Block name.
-* [Updated]: Gutenberg Icon.
-
-= Version 3.0.0 [13th Apr 2026] =
-* [Updated]: Rewritten the plugin.
-
-= Version 1.1.1 [4th Nov 2024] =
-* [Updated]: Shortcode.
-* [Updated]: Security Issue.
-
-= Version 1.1.0 [16th Mar 2023] =
-* [Updated]: Free, Pro Plugins Pages & Help Page.
-* [Removed]: All Admin Notices From the Coach Post Type.
-* [Fixed]: Page Redirection on the Plugin Activation.
-* [Fixed]: Free Pro Conflicts.
-
-= version 1.0.8 [24th May 2021] =
-* [Fixed]: PHP 7.3 Compatibility.
-* [Fixed]: Deprecated Function Warning.
-
-= version 1.0.7 [19th Dec 2020] =
+= Version 1.0.7 [19th Dec 2020] =
 * [Updated]: AppSero Client.
 * [Updated]: With WordPress version 5.6
 
-= Version 1.0.6 [13th Aug 20] =
+= Version 1.0.6 [13th Aug 2020] =
 * [Updated]: With WordPress 5.5
 
-= version 1.0.5 [11th Jul 20] =
-* [Added]: Appsero client. 
+= Version 1.0.5 [11th Jul 2020] =
+* [Added]: Appsero client.
 * [Added]: Review system.
 
-= version 1.0.4 [28th Jun 20] =
-* [Updated]: With Bootstrap 4 grid CSS. 
+= Version 1.0.4 [28th Jun 2020] =
+* [Updated]: With Bootstrap 4 grid CSS.
 * [Updated]: With WordPress latest version.
 
-= version 1.0.3 [25th Nov 19] =
+= Version 1.0.3 [25th Nov 2019] =
 * [Fixed]: Domain name with www & fixed all urls.
 * [Updated]: With WordPress latest version.
 
-= Version 1.0.2 [21st Oct 19] =
+= Version 1.0.2 [21st Oct 2019] =
 * [Fixed]: Domain name changed & fixed all urls.
 * [Added]: New Contributors.
 
-= version 1.0.1 =
+= Version 1.0.1 =
 * Initial release
+
+== Upgrade Notice ==
+
+= 3.0.3 =
+Fixes broken pricing links.
